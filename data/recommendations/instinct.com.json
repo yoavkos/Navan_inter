@@ -3,26 +3,25 @@
   "current_tier": 3,
   "final": "yellow",
   "priority": "high",
-  "agreement": true,
+  "agreement": false,
   "note": {
     "headline": "🟡 Review needed - high priority",
-    "text": "Funding grew fast: $1 billion Series C at $10 billion valuation (citybiz.co), up from a $50 million seed (multiples.vc), while 14 employees (pitchbook.com) fit Tier 3. Check whether its travel will outgrow Tier 3.",
+    "text": "Funding jumped from a $50 million seed valuation (multiples.vc) to a $10 billion Series C valuation (baike.baidu.com) within months, though headcount of 14 (multiples.vc) is small. Evidence is mixed; check recent travel spend.",
     "numbers_checked": true,
     "unsupported_numbers": []
   },
   "rules": {
-    "color": "yellow",
-    "flags": [
-      "GROWTH_FUNDING"
-    ],
+    "color": "green",
+    "flags": [],
     "reasons": [
-      "Verified funding: $1 billion Series C at $10 billion valuation (baike.baidu.com); $250 million Series B at $2.5 billion valuation (multiples.vc); Seed round at $50 million valuation (multiples.vc)."
+      "No flags - research is consistent with Tier 3."
     ],
-    "notes": []
+    "notes": [
+      "Verified funding: $1 billion Series C at $10 billion valuation (baike.baidu.com); $250 million Series B at $2.5 billion valuation (multiples.vc); Seed round at $50 million valuation (multiples.vc)."
+    ]
   },
   "ai": {
-    "reason": "Declared GBV of $35,000 and 14 employees (consistent across citybiz.co, pitchbook.com, and multiples.vc) both fit Tier 3, but the verified funding path went from a $50M-valuation seed (April 2026) to a $250M Series B at $2.5B (August 2026) to a $1B Series C at $10B (September 2026, citybiz.co and baike.baidu.com). Industry labels conflict (Application Software vs. AI agent startup), and the GBV figure is customer-entered and unverified, so a person should judge whether the company's travel will outgrow Tier 3.",
-    "color": "yellow",
-    "priority": "high"
+    "reason": "Declared GBV is $35,000 and every source puts headcount at 14, both well below Tier 2 thresholds, so Tier 3 fits on size. However, funding moved from a $50M-valuation seed (April 2026) to a $2.5B Series B (August 2026) and then a $1B Series C at a $10B valuation (September 2026, citybiz.co and baike.baidu.com), which is dated, unusually fast growth that a person should review soon even though it doesn't by itself prove higher travel spend.",
+    "color": "orange"
   }
 }

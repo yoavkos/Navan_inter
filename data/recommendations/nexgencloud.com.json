@@ -2,11 +2,11 @@
   "company": "NexGen Cloud",
   "current_tier": 2,
   "final": "yellow",
-  "priority": "normal",
+  "priority": "high",
   "agreement": true,
   "note": {
-    "headline": "🟡 Review needed",
-    "text": "Declared $460,000 GBV and 280 estimated employees sit near the Tier 2 threshold, while tracxn.com lists 108 employees. Check employee count and Spain presence (nexgencloud.com) before confirming.",
+    "headline": "🟡 Review needed - high priority",
+    "text": "A recent $45M Series A (siliconcanals.com) and $34M GPU financing (nexgencloud.com) could push travel spend toward the $500K Tier 1 threshold. Check whether current travel spend is nearing $500K.",
     "numbers_checked": true,
     "unsupported_numbers": []
   },
@@ -23,8 +23,7 @@
     ]
   },
   "ai": {
-    "reason": "The declared $460K GBV places NexGen Cloud in Tier 2, which matches its current tier, but no verified source gives travel spend. The estimated 280 employees conflict with the tracxn figure of 108 (Mar 31, 2026), and the company site lists Spain while other sources list only the UK, so a person should check the data before confirming the tier. The June 25, 2026 $34M GPU financing facility shows growth but is not unusually fast change.",
-    "color": "yellow",
-    "priority": "normal"
+    "reason": "Declared GBV of $460K sits in the Tier 2 band and the 280 estimated employees also clear 150, but tracxn (Mar 31, 2026) lists 108 employees, so the headcount is contradictory. The company raised a $45M Series A (Apr 2025, reported by siliconangle and Yahoo Finance), reached $77.3M total funding, and on June 25, 2026 announced a $34M non-recourse GPU financing facility, a fast, recent capital expansion for a GPU cloud provider with UK and Spain operations that could push travel spend toward the $500K Tier 1 threshold. This warrants a prompt review, though the evidence does not yet show a higher tier from two independent sources.",
+    "color": "orange"
   }
 }

@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lead Tier Routing</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@400;600&display=swap">
+<style>
+* { margin: 0; }
+html, body { height: 100%; }
+body { background: #1b1f27; overflow: hidden; font-family: 'Inter', Arial, sans-serif; }
+#stage { position: absolute; top: 50%; left: 50%; width: 1920px; height: 1080px; transform-origin: center center; }
+#stage > section { position: absolute; inset: 0; width: 1920px; height: 1080px; display: none; }
+#stage > section.active { display: flex; }
+.hud { position: fixed; bottom: 14px; right: 18px; color: #9aa3b2; font: 14px Arial, sans-serif; user-select: none; }
+@page { size: 1920px 1080px; margin: 0; }
+@media print {
+  body { background: none; overflow: visible; }
+  #stage { position: static; transform: none !important; width: auto; height: auto; }
+  #stage > section { position: relative; display: flex !important; break-after: page; page-break-after: always; }
+  .hud { display: none; }
+}
+
+section {
+  background: #F7F7F4;
+  color: #14213D;
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  box-sizing: border-box;
+}
+section.dark { background: #14213D; color: #F7F7F4; }
+section.alt { background: #EEF1F5; }
+
+.eyebrow { font-size: 24px; font-weight: 600; letter-spacing: 3px; color: #2F6FED; }
+.dark .eyebrow { color: #8FB3FF; }
+.title { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 64px; font-weight: 600; line-height: 1.1; color: #14213D; }
+.dark .title { color: #F7F7F4; }
+.hero { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 120px; font-weight: 700; line-height: 1.05; color: #14213D; }
+.lead { font-size: 36px; line-height: 1.35; color: #4A5568; }
+.dark .lead { color: #BFCBE0; }
+.body { font-size: 30px; line-height: 1.4; color: #4A5568; }
+.small { font-size: 24px; line-height: 1.4; color: #6B7487; }
+.accent { color: #2F6FED; }
+.warm { color: #C2410C; }
+
+.row { display: flex; gap: 32px; }
+.col { display: flex; flex-direction: column; gap: 24px; }
+.grow { flex: 1; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+
+.card {
+  background: #FDFDFB;
+  border: 2px solid #DDE2EA;
+  border-radius: 16px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+  box-sizing: border-box;
+}
+.alt .card { background: #FBFBF8; }
+.card-title { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 36px; font-weight: 600; line-height: 1.15; color: #14213D; }
+.card-text { font-size: 26px; line-height: 1.4; color: #4A5568; }
+.card-num { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 28px; font-weight: 700; color: #2F6FED; }
+
+.pill { font-size: 24px; font-weight: 600; padding: 6px 18px; border-radius: 999px; display: inline-block; }
+.pill-green { background: #DCF2E3; color: #1E6B3E; }
+.pill-yellow { background: #FCEFC7; color: #7A5300; }
+.pill-red { background: #FADDDD; color: #8F2323; }
+
+.quote {
+  background: #FDFDFB;
+  border: 2px solid #DDE2EA;
+  border-radius: 16px;
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+.quote-text { font-size: 30px; line-height: 1.45; color: #14213D; }
+
+.data { font-size: 28px; color: #14213D; width: 100%; }
+
+.step {
+  background: #FDFDFB;
+  border: 2px solid #DDE2EA;
+  border-radius: 16px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 16px;
+  flex: 1;
+  box-sizing: border-box;
+}
+.step-code { border-top: 8px solid #6B7487; }
+.step-ai { border-top: 8px solid #2F6FED; }
+.step-rule { border-top: 8px solid #C2410C; }
+.step-num { font-size: 24px; font-weight: 600; letter-spacing: 2px; color: #2F6FED; }
+.step-title { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 40px; white-space: nowrap; font-weight: 600; line-height: 1.15; color: #14213D; }
+.step-kind { font-size: 24px; font-weight: 600; color: #6B7487; }
+.arrow { font-size: 36px; color: #8A94A6; align-self: center; }
+
+.flags { display: grid; grid-template-columns: 330px 1fr 1fr; gap: 26px 28px; align-items: center; }
+.flags-head { font-size: 24px; font-weight: 600; letter-spacing: 2px; color: #8A94A6; }
+.flag {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1E3A8A;
+  background: #E8EEFC;
+  border: 1px solid #C9D6F5;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: inline-block;
+}
+.flag-text { font-size: 26px; line-height: 1.35; color: #4A5568; }
+
+.lanes { display: flex; gap: 160px; justify-content: center; }
+.lane { display: flex; flex-direction: column; align-items: center; gap: 14px; width: 460px; }
+.lane-title { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 34px; font-weight: 600; color: #14213D; }
+.lbox { width: 100%; border-radius: 12px; padding: 14px 24px; font-size: 26px; text-align: center; box-sizing: border-box; }
+.lbox-code { background: #F1EFE8; border: 2px solid #5F5E5A; color: #444441; }
+.lbox-ai { background: #E1F5EE; border: 2px solid #0F6E56; color: #085041; }
+.lbox-out { background: #14213D; border: 2px solid #14213D; color: #F7F7F4; font-weight: 600; }
+.down { font-size: 28px; line-height: 1; color: #8A94A6; text-align: center; }
+.tag { font-size: 22px; font-weight: 600; letter-spacing: 1px; }
+
+.flowgrid {
+  display: grid;
+  grid-template-columns: 230px 200px 36px 200px 36px 200px 52px 250px 52px 250px;
+  grid-template-rows: 190px 190px;
+  row-gap: 48px;
+  align-items: center;
+}
+.rowlabel { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 32px; font-weight: 600; line-height: 1.15; color: #14213D; }
+.sq {
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.sq-in { background: #FDFDFB; border: 1px solid #C9CED8; }
+.sq-code { background: #F1EFE8; border: 1px solid #B9B6AC; }
+.sq-ai { background: #E1F5EE; border: 1px solid #7FC4AE; }
+.sq-out { background: #14213D; border: 1px solid #14213D; }
+.sq-kind { font-size: 22px; font-weight: 600; letter-spacing: 2px; color: #6B7487; }
+.sq-ai .sq-kind { color: #0F6E56; }
+.sq-out .sq-kind { color: #8FB3FF; }
+.sq-text { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 28px; font-weight: 600; line-height: 1.2; color: #14213D; }
+.sq-out .sq-text { color: #F7F7F4; }
+.chev { font-size: 36px; color: #A0A8B8; text-align: center; }
+
+.prompt-row { display: flex; gap: 40px; align-items: center; }
+.prompt-label { font-size: 22px; font-weight: 600; letter-spacing: 2px; color: #2F6FED; width: 200px; }
+.prompt {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 24px;
+  line-height: 1.45;
+  color: #E6ECF7;
+  background: #14213D;
+  border-radius: 12px;
+  padding: 22px 28px;
+  width: 860px;
+  box-sizing: border-box;
+}
+.prompt-why { font-size: 26px; line-height: 1.4; color: #4A5568; flex: 1; }
+
+.fact { background: #FDFDFB; border: 2px solid #DDE2EA; border-radius: 16px; padding: 32px 36px; display: flex; flex-direction: column; gap: 18px; box-sizing: border-box; }
+.fact-key { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 22px; font-weight: 600; color: #2F6FED; }
+.fact-val { font-size: 28px; line-height: 1.35; color: #14213D; }
+.fact-status { font-size: 24px; font-weight: 600; color: #1E6B3E; background: #DCF2E3; border-radius: 999px; padding: 6px 18px; }
+.json {
+  background: #0D1117;
+  border-radius: 16px;
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-sizing: border-box;
+}
+.jl { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 24px; line-height: 1.5; color: #8B949E; }
+.jin { padding-left: 36px; }
+
+.learn { background: #FDFDFB; border: 2px solid #DDE2EA; border-radius: 14px; padding: 20px 28px; display: flex; flex-direction: column; gap: 6px; }
+.learn-title { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 30px; font-weight: 600; color: #14213D; }
+.learn-text { font-size: 24px; line-height: 1.4; color: #4A5568; }
+
+.stat { display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.stat-num { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 96px; font-weight: 700; line-height: 1; color: #F7F7F4; }
+.stat-label { font-size: 28px; line-height: 1.35; color: #BFCBE0; }
+
+.dots { display: flex; gap: 12px; align-items: center; }
+.dot { width: 30px; height: 30px; border-radius: 50%; display: inline-block; flex: none; }
+.dot-green { background: #3FA66B; }
+.dot-yellow { background: #F2C230; }
+.dot-orange { background: #F08A24; }
+.dot-red { background: #D9443A; }
+.out-label { font-size: 24px; font-weight: 600; letter-spacing: 2px; color: #6B7487; }
+.rule-cell { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; }
+.rule-eq { display: flex; align-items: flex-end; gap: 14px; font-size: 26px; line-height: 30px; color: #4A5568; }
+.tgrid { display: grid; grid-template-columns: 240px 110px 110px 1fr; grid-template-rows: auto repeat(10, 1fr); flex: 1; min-height: 0; }
+.tgrid > * { padding: 7px 16px; white-space: nowrap; border-bottom: 1px solid #E6E9EF; border-left: 1px solid #E6E9EF; display: flex; align-items: center; font-size: 23px; line-height: 1.3; color: #4A5568; }
+.tgrid.t4 > *:nth-child(4n+1), .tgrid.t2 > *:nth-child(2n+1) { border-left: none; padding-left: 0; color: #14213D; }
+.tgrid.t4 > *:nth-last-child(-n+4), .tgrid.t2 > *:nth-last-child(-n+2) { border-bottom: none; }
+.tgrid.t4 > *:nth-child(4n+2), .tgrid.t4 > *:nth-child(4n+3) { justify-content: center; }
+.tgrid.compact > * { white-space: normal; }
+.tgrid.compact .th { font-size: 18px; letter-spacing: 1px; }
+.tgrid .th { font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #6B7487; }
+.term { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.term-label { font-size: 18px; line-height: 1; font-weight: 600; letter-spacing: 2px; color: #6B7487; }
+.rule-sep { width: 1px; align-self: stretch; background: #CFCBC0; }
+</style>
+</head>
+<body>
+<div id="stage">
+<section id="cover" class="dark" style="justify-content:center;">
+<p class="eyebrow">NAVAN GROWTH · HOME ASSIGNMENT</p>
+<h1 class="hero" style="color:#F7F7F4;">Lead Tier Routing</h1>
+<p class="lead" style="max-width:1300px;">AI-assisted tier assessment and routing recommendations</p>
+<p class="small" style="color:#8FA0BF;">Yoav Sternik · November 2026</p>
+</section>
+
+<section id="problem">
+<p class="eyebrow">THE PROBLEM</p>
+<h2 class="title">Tiering relies on estimates and partial data</h2>
+<div class="col" style="gap:20px; margin-top:8px;">
+<div class="card" style="flex-direction:row; align-items:center; gap:36px; padding:28px 40px; flex:none;"><p class="card-num" style="width:56px;">01</p><h3 class="card-title" style="width:460px;">Self-reported spend</h3><p class="card-text" style="flex:1;">The tier rests on travel spend the customer declares at signup.</p></div>
+<div class="card" style="flex-direction:row; align-items:center; gap:36px; padding:28px 40px; flex:none;"><p class="card-num" style="width:56px;">02</p><h3 class="card-title" style="width:460px;">Missing data</h3><p class="card-text" style="flex:1;">The tier depends on two inputs. One of them is missing for 20 of 43 companies.</p></div>
+<div class="card" style="flex-direction:row; align-items:center; gap:36px; padding:28px 40px; flex:none;"><p class="card-num" style="width:56px;">03</p><h3 class="card-title" style="width:460px;">No second look</h3><p class="card-text" style="flex:1;">Signup data is not re-checked against external research or actual travel.</p></div>
+</div>
+<p class="lead" style="margin-top:56px;">Every tier meets the rules on paper. The inputs behind it still need <b>verifying</b> and <b>updating</b>.</p>
+</section>
+
+<section id="what">
+<p class="eyebrow">SYSTEM WORKFLOW</p>
+<h2 class="title">General workflow</h2>
+<div class="row" style="gap:24px;">
+<div class="step"><p class="step-num">STEP 1</p><p class="step-title">Signup</p><p class="card-text">Tier from the rules and initial flagging</p></div>
+<div class="step"><p class="step-num">STEP 2</p><p class="step-title">Research</p><p class="card-text">The company’s site and independent sources</p></div>
+<div class="step"><p class="step-num">STEP 3</p><p class="step-title">Prove</p><p class="card-text">Keep only facts with a quote and a source</p></div>
+<div class="step"><p class="step-num">STEP 4</p><p class="step-title">Recommend</p><p class="card-text">One of three outcomes, with the evidence behind it</p></div>
+<div class="step"><p class="step-num">STEP 5</p><p class="step-title">Re-check</p><p class="card-text">After 30 days, using real booking data</p></div>
+</div>
+<div class="col" style="align-items:center; gap:12px;">
+<p class="pill pill-red" style="font-size:28px; padding:12px 0; width:760px; text-align:center; box-sizing:border-box;">🔴 Higher tier → consider moving up</p>
+<p class="pill pill-yellow" style="font-size:28px; padding:12px 0; width:760px; text-align:center; box-sizing:border-box;">🟡 Needs a look → review</p>
+<p class="pill pill-green" style="font-size:28px; padding:12px 0; width:760px; text-align:center; box-sizing:border-box;">🟢 Tier fits → no action</p>
+</div>
+<div class="col" style="gap:4px;">
+<p class="lead" style="font-weight:600; color:#14213D;">The system never changes a tier.</p>
+<p class="body">A person always decides.</p>
+</div>
+</section>
+
+<section id="principles" class="alt">
+<p class="eyebrow">PRINCIPLES</p>
+<h2 class="title">Design rules</h2>
+<div class="grid3">
+<div class="card"><h3 class="card-title">Recommendations, not decisions</h3><p class="card-text">A person makes every tier change.</p></div>
+<div class="card"><h3 class="card-title">Flags need evidence</h3><p class="card-text">Missing data triggers research, not a recommendation.</p></div>
+<div class="card"><h3 class="card-title">Explained and sourced</h3><p class="card-text">Every recommendation cites its sources, green included.</p></div>
+<div class="card"><h3 class="card-title">Rules for numbers, AI for context</h3><p class="card-text">Rules check the hard numbers; AI weighs what rules can’t see.</p></div>
+<div class="card"><h3 class="card-title">AI outputs are verified</h3><p class="card-text">Quotes, links and numbers are checked in code.</p></div>
+<div class="card"><h3 class="card-title">Every change is tested</h3><p class="card-text">A change is kept only if it improves the results.</p></div>
+</div>
+</section>
+
+<section id="flow" style="flex-direction:row; align-items:center; gap:80px; padding:40px 128px;">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2ODAiIGhlaWdodD0iOTgwIiB2aWV3Qm94PSIwIDAgNjgwIDk4MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFycm93IiB2aWV3Qm94PSIwIDAgMTAgMTAiIHJlZlg9IjgiIHJlZlk9IjUiIG1hcmtlcldpZHRoPSI2IiBtYXJrZXJIZWlnaHQ9IjYiIG9yaWVudD0iYXV0by1zdGFydC1yZXZlcnNlIj48cGF0aCBkPSJNMiAxTDggNUwyIDkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvbWFya2VyPjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjY4MCIgaGVpZ2h0PSI5ODAiIGZpbGw9IiNGRkZGRkYiLz4KPHJlY3QgeD0iMTkwIiB5PSIzMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI1NiIgcng9IjgiIGZpbGw9IiNGMUVGRTgiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIwLjUiLz4KPHRleHQgeD0iMzQwIiB5PSI1MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzQ0NDQ0MSI+TmV3IGxlYWQgc2lnbnMgdXA8L3RleHQ+Cjx0ZXh0IHg9IjM0MCIgeT0iNzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM1RjVFNUEiPkRlY2xhcmVkIEdCViwgZW1wbG95ZWVzLCBkb21haW48L3RleHQ+CjxyZWN0IHg9IjE5MCIgeT0iMTIwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0VFRURGRSIgc3Ryb2tlPSIjNTM0QUI3IiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIzNDAiIHk9IjE0MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzNDMzQ4OSI+VGllciBydWxlcyArIHNpZ251cCBmbGFnczwvdGV4dD4KPHRleHQgeD0iMzQwIiB5PSIxNjMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM1MzRBQjciPldoYXQgbmVlZHMgcmVzZWFyY2g8L3RleHQ+CjxyZWN0IHg9IjExMCIgeT0iMjEwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0UxRjVFRSIgc3Ryb2tlPSIjMEY2RTU2IiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIyMjAiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzA4NTA0MSI+V2Vic2l0ZSByZWFkZXI8L3RleHQ+Cjx0ZXh0IHg9IjIyMCIgeT0iMjUzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjMEY2RTU2Ij5Db21wYW55J3Mgb3duIHBhZ2VzPC90ZXh0Pgo8cmVjdCB4PSIzNTAiIHk9IjIxMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI1NiIgcng9IjgiIGZpbGw9IiNFMUY1RUUiIHN0cm9rZT0iIzBGNkU1NiIgc3Ryb2tlLXdpZHRoPSIwLjUiLz4KPHRleHQgeD0iNDYwIiB5PSIyMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI2MDAiIGZpbGw9IiMwODUwNDEiPlNlYXJjaCBhZ2VudDwvdGV4dD4KPHRleHQgeD0iNDYwIiB5PSIyNTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMwRjZFNTYiPkV4dGVybmFsIHNvdXJjZXM8L3RleHQ+CjxyZWN0IHg9IjE5MCIgeT0iMzAwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0UxRjVFRSIgc3Ryb2tlPSIjMEY2RTU2IiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIzNDAiIHk9IjMyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzA4NTA0MSI+VHJ1c3QgY2hlY2tzPC90ZXh0Pgo8dGV4dCB4PSIzNDAiIHk9IjM0MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzBGNkU1NiI+UmlnaHQgcGFnZSDCtyBxdW90ZSAoY29kZSkgwrcgdmVyaWZpZXI8L3RleHQ+CjxyZWN0IHg9IjE5MCIgeT0iMzkwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0YxRUZFOCIgc3Ryb2tlPSIjNUY1RTVBIiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIzNDAiIHk9IjQxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzQ0NDQ0MSI+RXZpZGVuY2UgY29uc29saWRhdGlvbjwvdGV4dD4KPHRleHQgeD0iMzQwIiB5PSI0MzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM1RjVFNUEiPjIgc291cmNlcyBhZ3JlZSDCtyBjb25mbGljdHM8L3RleHQ+CjxyZWN0IHg9IjExMCIgeT0iNDgwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0VFRURGRSIgc3Ryb2tlPSIjNTM0QUI3IiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIyMjAiIHk9IjUwMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzNDMzQ4OSI+RGVjaXNpb24gcnVsZXM8L3RleHQ+Cjx0ZXh0IHg9IjIyMCIgeT0iNTIzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNTM0QUI3Ij5GaXhlZCB0aHJlc2hvbGRzPC90ZXh0Pgo8cmVjdCB4PSIzNTAiIHk9IjQ4MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI1NiIgcng9IjgiIGZpbGw9IiNFMUY1RUUiIHN0cm9rZT0iIzBGNkU1NiIgc3Ryb2tlLXdpZHRoPSIwLjUiLz4KPHRleHQgeD0iNDYwIiB5PSI1MDMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI2MDAiIGZpbGw9IiMwODUwNDEiPkFJIHJldmlld2VyPC90ZXh0Pgo8dGV4dCB4PSI0NjAiIHk9IjUyMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzBGNkU1NiI+SnVkZ21lbnQgKyBwcmlvcml0eTwvdGV4dD4KPHJlY3QgeD0iMTkwIiB5PSI1NzAiIHdpZHRoPSIzMDAiIGhlaWdodD0iNTYiIHJ4PSI4IiBmaWxsPSIjRjFFRkU4IiBzdHJva2U9IiM1RjVFNUEiIHN0cm9rZS13aWR0aD0iMC41Ii8+Cjx0ZXh0IHg9IjM0MCIgeT0iNTkzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNjAwIiBmaWxsPSIjNDQ0NDQxIj5Db21iaW5lPC90ZXh0Pgo8dGV4dCB4PSIzNDAiIHk9IjYxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzVGNUU1QSI+UmVkIG9ubHkgaWYgYm90aCBzYXkgcmVkPC90ZXh0Pgo8cmVjdCB4PSIxOTAiIHk9IjY2MCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI1NiIgcng9IjgiIGZpbGw9IiNFMUY1RUUiIHN0cm9rZT0iIzBGNkU1NiIgc3Ryb2tlLXdpZHRoPSIwLjUiLz4KPHRleHQgeD0iMzQwIiB5PSI2ODMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSI2MDAiIGZpbGw9IiMwODUwNDEiPk5vdGUgZm9yIHRoZSBzYWxlcyB0ZWFtPC90ZXh0Pgo8dGV4dCB4PSIzNDAiIHk9IjcwMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzBGNkU1NiI+TnVtYmVycyBjaGVja2VkIGluIGNvZGU8L3RleHQ+CjxyZWN0IHg9IjE5MCIgeT0iNzUwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0YxRUZFOCIgc3Ryb2tlPSIjNUY1RTVBIiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIzNDAiIHk9Ijc3MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzQ0NDQ0MSI+U2FsZXMgdGVhbSBkZWNpZGVzPC90ZXh0Pgo8dGV4dCB4PSIzNDAiIHk9Ijc5MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzVGNUU1QSI+VGhlIHN5c3RlbSBvbmx5IHJlY29tbWVuZHM8L3RleHQ+CjxyZWN0IHg9IjE5MCIgeT0iODQwIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjU2IiByeD0iOCIgZmlsbD0iI0VFRURGRSIgc3Ryb2tlPSIjNTM0QUI3IiBzdHJva2Utd2lkdGg9IjAuNSIvPgo8dGV4dCB4PSIzNDAiIHk9Ijg2MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0iIzNDMzQ4OSI+RGF5LTMwIHJldmlldzwvdGV4dD4KPHRleHQgeD0iMzQwIiB5PSI4ODMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM1MzRBQjciPkFjdHVhbCBib29raW5ncyDCtyB0cmVuZDwvdGV4dD4KPHBhdGggZD0iTTM0MCA4NiBMMzQwIDExOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNUY1RTVBIiBzdHJva2Utd2lkdGg9IjEuNSIgbWFya2VyLWVuZD0idXJsKCNhcnJvdykiLz4KPHBhdGggZD0iTTM0MCAxNzYgTDM0MCAxOTIgTDIyMCAxOTIgTDIyMCAyMDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CjxwYXRoIGQ9Ik0zNDAgMTkyIEw0NjAgMTkyIEw0NjAgMjA4IiBmaWxsPSJub25lIiBzdHJva2U9IiM1RjVFNUEiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cGF0aCBkPSJNMjIwIDI2NiBMMjIwIDI4MiBMMzQwIDI4MiBMMzQwIDI5OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNUY1RTVBIiBzdHJva2Utd2lkdGg9IjEuNSIgbWFya2VyLWVuZD0idXJsKCNhcnJvdykiLz4KPHBhdGggZD0iTTQ2MCAyNjYgTDQ2MCAyODIgTDM0MCAyODIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KPHBhdGggZD0iTTM0MCAzNTYgTDM0MCAzODgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CjxwYXRoIGQ9Ik0zNDAgNDQ2IEwzNDAgNDYyIEwyMjAgNDYyIEwyMjAgNDc4IiBmaWxsPSJub25lIiBzdHJva2U9IiM1RjVFNUEiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cGF0aCBkPSJNMzQwIDQ2MiBMNDYwIDQ2MiBMNDYwIDQ3OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNUY1RTVBIiBzdHJva2Utd2lkdGg9IjEuNSIgbWFya2VyLWVuZD0idXJsKCNhcnJvdykiLz4KPHBhdGggZD0iTTIyMCA1MzYgTDIyMCA1NTIgTDM0MCA1NTIgTDM0MCA1NjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+CjxwYXRoIGQ9Ik00NjAgNTM2IEw0NjAgNTUyIEwzNDAgNTUyIiBmaWxsPSJub25lIiBzdHJva2U9IiM1RjVFNUEiIHN0cm9rZS13aWR0aD0iMS41Ii8+CjxwYXRoIGQ9Ik0zNDAgNjI2IEwzNDAgNjU4IiBmaWxsPSJub25lIiBzdHJva2U9IiM1RjVFNUEiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2Fycm93KSIvPgo8cGF0aCBkPSJNMzQwIDcxNiBMMzQwIDc0OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNUY1RTVBIiBzdHJva2Utd2lkdGg9IjEuNSIgbWFya2VyLWVuZD0idXJsKCNhcnJvdykiLz4KPHBhdGggZD0iTTM0MCA4MDYgTDM0MCA4MzgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVGNUU1QSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG1hcmtlci1lbmQ9InVybCgjYXJyb3cpIi8+Cjx0ZXh0IHg9IjM0MCIgeT0iOTI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjNUY1RTVBIj4mIzg2MzU7IE5ldyBldmlkZW5jZSBjYW4gY2xlYXIgb3IgcmFpc2UgYW4gZWFybGllciByZWNvbW1lbmRhdGlvbjwvdGV4dD4KPHRleHQgeD0iMzQwIiB5PSI5NTYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM1RjVFNUEiPkdyYXkgPSBmaXhlZCBzdGVwcyAmIzE4MzsgVGVhbCA9IEFJICYjMTgzOyBQdXJwbGUgPSBydWxlczwvdGV4dD4KPC9zdmc+" alt="Architecture: a new lead goes through tier rules and signup flags, a website agent and a search agent, trust checks, evidence consolidation, decision rules and an AI reviewer, a combine step, a note for the sales team, the sales team's decision, and a day-30 review that can clear or raise the earlier recommendation." style="width:694px; height:1000px; object-fit:contain;">
+<div class="col grow" style="gap:32px;">
+<p class="eyebrow">HOW IT WORKS</p>
+<h2 class="title">From signup to day 30</h2>
+<div class="col" style="gap:20px;">
+<div class="row" style="align-items:center; gap:20px;"><div style="width:32px; height:32px; border-radius:6px; background:#F1EFE8; border:2px solid #5F5E5A; box-sizing:border-box;"></div><p class="body"><b style="color:#14213D;">Fixed steps</b>: data, checks, people</p></div>
+<div class="row" style="align-items:center; gap:20px;"><div style="width:32px; height:32px; border-radius:6px; background:#E1F5EE; border:2px solid #0F6E56; box-sizing:border-box;"></div><p class="body"><b style="color:#14213D;">AI</b>: reading and judgment</p></div>
+<div class="row" style="align-items:center; gap:20px;"><div style="width:32px; height:32px; border-radius:6px; background:#EEEDFE; border:2px solid #534AB7; box-sizing:border-box;"></div><p class="body"><b style="color:#14213D;">Rules</b>: business thresholds</p></div>
+</div>
+<p class="body">The two agents and the two opinions run side by side. Everything else is one step after another.</p>
+</div>
+</section>
+
+<section id="signup">
+<p class="eyebrow">STEP 1 · SIGNUP</p>
+<h2 class="title">What is checked at signup</h2>
+<div class="row" style="gap:48px; align-items:flex-start;">
+<div class="flags" style="width:1000px;">
+<p class="flags-head">FLAG</p><p class="flags-head">MEANING</p><p class="flags-head">EXAMPLE</p>
+<div><p class="flag">MISSING_SIZE</p></div><p class="flag-text">No employee count</p><p class="flag-text">20 of 43 companies</p>
+<div><p class="flag">GBV_LOW_FOR_SIZE</p></div><p class="flag-text">Declared spend low for the company size</p><p class="flag-text">Dalkia: $475K<br>2,900 employees</p>
+<div><p class="flag">GBV_HIGH_FOR_SIZE</p></div><p class="flag-text">Declared spend high for the company size</p><p class="flag-text">Valarian: $510K<br>175 employees</p>
+<div><p class="flag">NEAR_THRESHOLD</p></div><p class="flag-text">Within 20% below the next tier</p><p class="flag-text">NexGen Cloud: $460K vs $500K</p>
+</div>
+<div class="card" style="flex:1; gap:16px;">
+<h3 class="card-title" style="font-size:32px;">Comparing spend to size</h3>
+<p class="card-text" style="font-size:24px;"><b>No reliable source</b> for annual travel cost per employee, so outside benchmarks were not used.</p>
+<p class="card-text" style="font-size:24px;"><b>Chosen:</b> the ratio in Navan’s rules. $100K ≈ 150 employees, so about <b>$667 per employee</b>. An assumption, but consistent with the tiers.</p>
+</div>
+</div>
+<div class="row" style="gap:64px; align-items:center;">
+<div class="row" style="gap:20px; align-items:center;"><p class="card-num" style="font-size:56px; color:#14213D;">30 of 43</p><p class="body">companies<br>get a flag</p></div>
+<div class="row" style="gap:20px; align-items:center;"><p class="card-num" style="font-size:56px; color:#14213D;">20</p><p class="body">only for missing data,<br>which triggers a search for it</p></div>
+</div>
+</section>
+
+<section id="research" style="gap:28px;">
+<p class="eyebrow">STEP 2 · RESEARCH</p>
+<h2 class="title">Two ways to research a company</h2>
+<div style="flex:1; display:flex; align-items:center; justify-content:center;">
+<div style="display:grid; grid-template-columns:460px 70px 480px 70px 460px; grid-template-rows:40px 130px 30px 130px 30px 130px; row-gap:6px; align-items:center;">
+<p class="rowlabel" style="grid-column:1; grid-row:1; text-align:center; font-size:32px;">Website reader</p>
+<div class="sq sq-in" style="grid-column:1; grid-row:2; padding:16px 22px; height:110px;"><p class="sq-kind" style="font-size:24px;">INPUT</p><p class="sq-text">Company domain</p></div>
+<p class="down" style="grid-column:1; grid-row:3;">↓</p>
+<div class="sq sq-code" style="grid-column:1; grid-row:4; padding:16px 22px; height:110px;"><p class="sq-kind" style="font-size:24px;">CODE</p><p class="sq-text">Find info pages</p></div>
+<p class="down" style="grid-column:1; grid-row:5;">↓</p>
+<div class="sq sq-code" style="grid-column:1; grid-row:6; padding:16px 22px; height:110px;"><p class="sq-kind" style="font-size:24px;">CODE</p><p class="sq-text">Download the pages</p></div>
+
+<p class="rowlabel" style="grid-column:5; grid-row:1; text-align:center; font-size:32px;">Search agent</p>
+<div class="sq sq-in" style="grid-column:5; grid-row:2; padding:16px 22px; height:110px;"><p class="sq-kind" style="font-size:24px;">INPUT</p><p class="sq-text">Company name and domain</p></div>
+<p class="down" style="grid-column:5; grid-row:3;">↓</p>
+<div class="sq sq-ai" style="grid-column:5; grid-row:4; padding:16px 22px; height:110px;"><p class="sq-kind" style="font-size:24px;">AI</p><p class="sq-text">Decide what to search</p></div>
+<p class="down" style="grid-column:5; grid-row:5;">↓</p>
+<div class="sq sq-code" style="grid-column:5; grid-row:6; padding:16px 22px; height:110px;"><p class="sq-kind" style="font-size:24px;">CODE</p><p class="sq-text">Keep only real links</p></div>
+
+<p class="chev" style="grid-column:2; grid-row:5;">↗</p>
+<div class="sq sq-ai" style="grid-column:3; grid-row:4; padding:16px 22px; height:130px;"><p class="sq-kind" style="font-size:24px;">AI</p><p class="sq-text">Reads the pages and extracts facts</p></div>
+<p class="chev" style="grid-column:4; grid-row:5;">↖</p>
+<p class="down" style="grid-column:3; grid-row:5;">↓</p>
+<div class="sq sq-out" style="grid-column:3; grid-row:6; padding:16px 22px; height:130px;"><p class="sq-kind" style="font-size:24px;">OUTPUT</p><p class="sq-text">Fact, quote, source and date</p></div>
+</div>
+</div>
+</section>
+
+<section id="research-prompts">
+<p class="eyebrow">STEP 2 · RESEARCH</p>
+<h2 class="title">AI: goals, prompts and learning process</h2>
+<div class="col" style="gap:28px;">
+<div class="prompt-row">
+<div class="col" style="gap:4px; width:200px;"><p class="prompt-label">SEARCH</p><p class="small">Correct company</p></div>
+<p class="prompt">Make sure each source is about this company, not another company with a similar name.</p>
+<p class="prompt-why">Generic names like Instinct can match other companies.</p>
+</div>
+<div class="prompt-row">
+<div class="col" style="gap:4px; width:200px;"><p class="prompt-label">EXTRACT</p><p class="small">No hallucinations</p></div>
+<p class="prompt">Use ONLY the text below. The quote must be copied EXACTLY. If a field is not clearly stated, do not return it. Never guess.</p>
+<p class="prompt-why">No outside knowledge<br>“Not found” is a valid answer</p>
+</div>
+<div class="prompt-row">
+<div class="col" style="gap:4px; width:200px;"><p class="prompt-label">DEFINITIONS</p><p class="small">Correct meaning</p></div>
+<p class="prompt">countries: where the company itself has offices or staff. Countries of customers do NOT count.</p>
+<p class="prompt-why">Added after the AI counted the countries of customers.</p>
+</div>
+</div>
+<p class="body">Each AI step gets a narrow task and a fixed answer form,<br>not an open question.</p>
+</section>
+
+<section id="research-output" class="alt">
+<p class="eyebrow">STEP 2 · RESEARCH</p>
+<h2 class="title">Example output, and what research revealed</h2>
+<div class="row" style="gap:48px; align-items:stretch;">
+<div class="json" style="width:800px; justify-content:center;">
+<p class="jl">{</p>
+<p class="jl jin"><span style="color:#79C0FF;">"company"</span>: <span style="color:#E6EDF3;">"Instinct"</span>,</p>
+<p class="jl jin"><span style="color:#79C0FF;">"field"</span>: <span style="color:#E6EDF3;">"funding"</span>,</p>
+<p class="jl jin"><span style="color:#79C0FF;">"value"</span>: <span style="color:#E6EDF3;">"$1 billion Series C at $10 billion valuation"</span>,</p>
+<p class="jl jin"><span style="color:#79C0FF;">"quote"</span>: <span style="color:#E6EDF3;">"has raised $1 billion in a Series C round, valuing the company at $10 billion."</span>,</p>
+<p class="jl jin"><span style="color:#79C0FF;">"source"</span>: <span style="color:#E6EDF3;">"citybiz.co"</span>,</p>
+<p class="jl jin"><span style="color:#79C0FF;">"date"</span>: <span style="color:#E6EDF3;">"September 28, 2026"</span>,</p>
+<p class="jl jin"><span style="color:#79C0FF;">"status"</span>: <span style="color:#7EE787;">"verified"</span></p>
+<p class="jl">}</p>
+</div>
+<div class="col" style="flex:1; gap:16px;">
+<div class="learn"><p class="learn-title">Instinct</p><p class="learn-text">File: $35K declared, Tier 3<br>Research: $1B raise at a $10B valuation, 14 employees</p></div>
+<div class="learn"><p class="learn-title">Attio</p><p class="learn-text">File: 24 employees<br>Research: 190–206 employees (3 sources)</p></div>
+<div class="learn"><p class="learn-title">Valarian</p><p class="learn-text">File: 175 employees<br>Research: 31–32 employees (2 sources)</p></div>
+<div class="learn"><p class="learn-title">IMU Bio</p><p class="learn-text">File: 155 employees<br>Research: 25 and 85, the sources disagree too</p></div>
+</div>
+</div>
+</section>
+
+<section id="prove">
+<p class="eyebrow">STEP 3 · PROVE</p>
+<h2 class="title">Verification: method, result and example</h2>
+<div class="row" style="flex:1; gap:64px; align-items:stretch; margin-top:24px;">
+<div class="col" style="width:1000px; justify-content:space-between;">
+<div class="row" style="gap:12px; align-items:stretch;">
+<div class="sq sq-ai" style="width:296px; height:auto; justify-content:flex-start; gap:14px;"><p class="sq-kind" style="font-size:24px;">AI</p><p class="sq-text" style="font-size:34px;">Is the page about this company?</p></div>
+<p class="chev" style="align-self:center;">→</p>
+<div class="sq sq-code" style="width:296px; height:auto; justify-content:flex-start; gap:14px;"><p class="sq-kind" style="font-size:24px;">CODE</p><p class="sq-text" style="font-size:34px;">Is the quote really on the page?</p></div>
+<p class="chev" style="align-self:center;">→</p>
+<div class="sq sq-ai" style="width:296px; height:auto; justify-content:flex-start; gap:14px;"><p class="sq-kind" style="font-size:24px;">AI</p><p class="sq-text" style="font-size:34px;">Does the quote support the fact?</p></div>
+</div>
+<div class="sq sq-in" style="height:auto; justify-content:flex-start; gap:12px;">
+<p class="sq-kind" style="font-size:24px;">EVIDENCE CONSOLIDATION</p>
+<p class="sq-text">A number is confirmed only when two sources agree</p>
+<p class="card-text">Instinct: 3 sources say 14 employees, confirmed<br>IMU Bio: 25 vs 85, not confirmed</p>
+</div>
+</div>
+<div class="col" style="flex:1; gap:24px; justify-content:space-between;">
+<div class="col" style="gap:8px;"><p class="card-num" style="font-size:96px; line-height:1; color:#14213D;">39</p><p class="card-text">of 458 extracted facts rejected before any decision</p></div>
+<div class="card" style="flex:none; gap:12px; padding:28px 32px;">
+<p class="pill pill-red" style="align-self:flex-start;">Rejected</p>
+<p class="card-title" style="font-size:30px;">NexGen Cloud: “$45 million”</p>
+<p class="card-text">The page showed only “$45 ...”, a cut-off headline. The AI filled in the number, and the verifier caught it.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="recommend-how">
+<p class="eyebrow">STEP 4 · RECOMMEND</p>
+<h2 class="title">Two judges, one recommendation</h2>
+<div class="col" style="flex:1; gap:28px; justify-content:space-between;">
+<div class="row" style="gap:28px; align-items:stretch;">
+<div class="sq" style="flex:1.7; height:auto; justify-content:flex-start; gap:18px; background:#EEEDFE; border:1px solid #AFA9EC; padding:28px 32px;">
+<p class="sq-kind" style="font-size:24px; color:#534AB7;">RULES</p>
+<p class="sq-text" style="font-size:34px;">Checks fixed thresholds</p>
+<div style="display:grid; grid-template-columns:auto 1fr; gap:12px 24px; align-items:center;">
+<p class="flag" style="font-size:20px;">SIZE_SUGGESTS_HIGHER_TIER</p><p class="flag-text" style="font-size:24px;">Verified size points to a higher tier</p>
+<p class="flag" style="font-size:20px;">SIZE_SUGGESTS_LOWER_TIER</p><p class="flag-text" style="font-size:24px;">Verified size points to a lower tier</p>
+<p class="flag" style="font-size:20px;">SOURCES_CONFLICT</p><p class="flag-text" style="font-size:24px;">Sources disagree across a tier threshold</p>
+<p class="flag" style="font-size:20px;">HAS_PARENT_COMPANY</p><p class="flag-text" style="font-size:24px;">Declared spend may cover one entity only</p>
+<p class="flag" style="font-size:20px;">MULTI_COUNTRY</p><p class="flag-text" style="font-size:24px;">3+ countries while in Tier 3</p>
+</div>
+<div class="row" style="gap:20px; align-items:center; margin-top:auto;"><p class="out-label">OUTPUT</p><div class="dots"><span class="dot dot-green"></span><span class="dot dot-yellow"></span><span class="dot dot-red"></span></div></div>
+</div>
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:18px; padding:28px 32px;">
+<p class="sq-kind" style="font-size:24px;">AI</p>
+<p class="sq-text" style="font-size:34px;">Weighs the full picture</p>
+<div class="col" style="gap:22px; margin-top:16px;">
+<p class="card-text" style="font-size:28px;">Growth pace and dates</p>
+<p class="card-text" style="font-size:28px;">Conflicting facts</p>
+<p class="card-text" style="font-size:28px;">Context the rules have no field for</p>
+</div>
+<div class="row" style="gap:20px; align-items:center; margin-top:auto;"><p class="out-label" style="color:#0F6E56;">OUTPUT</p><div class="dots"><span class="dot dot-green"></span><span class="dot dot-yellow"></span><span class="dot dot-orange"></span><span class="dot dot-red"></span></div></div>
+</div>
+</div>
+<div class="sq sq-code" style="height:auto; justify-content:flex-start; gap:20px; padding:28px 32px;">
+<p class="sq-kind" style="font-size:24px;">CODE · COMBINE</p>
+<div class="row" style="gap:28px; align-items:center;">
+<div class="rule-cell"><div class="rule-eq">
+<div class="term"><p class="term-label">RULES</p><span class="dot dot-red"></span></div>+
+<div class="term"><p class="term-label">AI</p><span class="dot dot-red"></span></div>→
+<div class="term"><p class="term-label">RESULT</p><span class="dot dot-red"></span></div>
+</div></div>
+<div class="rule-sep"></div>
+<div class="rule-cell"><div class="rule-eq">
+<div class="term"><p class="term-label">RULES</p><span class="dot dot-green"></span></div>+
+<div class="term"><p class="term-label">AI</p><div class="dots" style="gap:6px;"><span class="dot dot-green"></span><span style="font-size:20px;">/</span><span class="dot dot-yellow"></span></div></div>→
+<div class="term"><p class="term-label">RESULT</p><span class="dot dot-green"></span></div>
+</div></div>
+<div class="rule-sep"></div>
+<div class="rule-cell"><div class="rule-eq">
+<div class="term"><p class="term-label">AI</p><span class="dot dot-orange"></span></div>→
+<div class="term"><p class="term-label">RESULT</p><span class="dot dot-yellow"></span></div><b>high priority</b>
+</div></div>
+<div class="rule-sep"></div>
+<div class="rule-cell"><div class="rule-eq">Anything else →
+<div class="term"><p class="term-label">RESULT</p><span class="dot dot-yellow"></span></div>
+</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="recommend-output" class="alt">
+<p class="eyebrow">STEP 4 · RECOMMEND</p>
+<h2 class="title">Final recommendation and reasoning</h2>
+<div class="row" style="flex:1; gap:48px; align-items:stretch;">
+<div class="card" style="flex:1.1; gap:24px; padding:64px 44px 40px; justify-content:flex-start;">
+<p class="out-label">NOTE FOR THE SALES TEAM</p>
+<p class="small">Attio · Tier 3 · 24 employees on file</p>
+<div class="row" style="gap:16px; align-items:center;"><span class="dot dot-red" style="width:36px; height:36px;"></span><p class="card-title" style="font-size:44px;">Consider a higher tier</p></div>
+<p class="body" style="color:#14213D;">Headcount is 190+ (attio.com), 196 (pitchbook.com), and 206 employees (tracxn.com), well above the 24 on file, and the $52M Series B (prnewswire.com) signals growth. Check the employee count in the account record.</p>
+</div>
+<div class="col" style="flex:1; gap:16px; justify-content:space-between;">
+<div class="sq" style="height:auto; flex:1; justify-content:center; gap:10px; background:#EEEDFE; border:1px solid #AFA9EC;">
+<div class="row" style="gap:14px; align-items:center;"><span class="dot dot-red"></span><p class="sq-kind" style="color:#534AB7;">RULES</p></div>
+<div class="row" style="gap:10px; flex-wrap:wrap;"><p class="flag" style="font-size:20px;">SIZE_SUGGESTS_HIGHER_TIER</p><p class="flag" style="font-size:20px;">GBV_LOW_FOR_SIZE</p></div>
+<p class="card-text" style="font-size:24px;">About 193 verified employees means Tier 2</p>
+</div>
+<div class="sq sq-ai" style="height:auto; flex:1; justify-content:center; gap:10px;">
+<div class="row" style="gap:14px; align-items:center;"><span class="dot dot-red"></span><p class="sq-kind">AI</p></div>
+<p class="card-text" style="font-size:24px;">Three independent sources contradict the 24 on file. Recent funding points to continued growth.</p>
+</div>
+<div class="sq sq-code" style="height:auto; flex:1; justify-content:center; gap:10px;">
+<p class="sq-kind">COMBINE</p>
+<div class="rule-eq">
+<div class="term"><p class="term-label">RULES</p><span class="dot dot-red"></span></div>+
+<div class="term"><p class="term-label">AI</p><span class="dot dot-red"></span></div>→
+<div class="term"><p class="term-label">RESULT</p><span class="dot dot-red"></span></div>
+</div>
+</div>
+<div class="sq sq-code" style="height:auto; flex:1; justify-content:center; gap:10px;">
+<p class="sq-kind">NUMBER CHECK</p>
+<p class="card-text" style="font-size:24px;">5 numbers in the note, all found in verified facts ✓</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="recheck">
+<p class="eyebrow">STEP 5 · RE-CHECK</p>
+<h2 class="title">Re-check with real bookings</h2>
+<div class="row" style="flex:1; gap:56px; align-items:stretch;">
+<div class="col" style="width:560px; flex:none; gap:20px; justify-content:space-between;">
+<div class="sq sq-code" style="height:auto; flex:1; justify-content:flex-start; gap:12px;">
+<p class="sq-kind">1 · ESTIMATE</p>
+<p class="sq-text" style="font-size:32px;">Bookings × 12 × $300–700</p>
+<p class="card-text" style="font-size:24px;">A yearly spend range from one month of real travel</p>
+</div>
+<div class="sq sq-code" style="height:auto; flex:1; justify-content:flex-start; gap:12px;">
+<p class="sq-kind">2 · COMPARE</p>
+<p class="sq-text" style="font-size:32px;">Range vs. current tier</p>
+<div class="row" style="gap:12px; align-items:center;"><span class="dot dot-red"></span><p class="card-text" style="font-size:24px;">only if even the low estimate is a higher tier</p></div>
+</div>
+<div class="sq sq-code" style="height:auto; flex:1; justify-content:flex-start; gap:12px;">
+<p class="sq-kind">3 · TREND</p>
+<p class="sq-text" style="font-size:32px;">Bookings fell 20%+</p>
+<div class="row" style="gap:12px; align-items:center;"><span class="dot dot-yellow"></span><p class="card-text" style="font-size:24px;">customer success reaches out</p></div>
+</div>
+</div>
+<div class="card" style="gap:0; padding:20px 32px 12px; justify-content:flex-start; min-width:0; overflow:hidden;">
+<div class="tgrid t4">
+<p class="th">COMPANY</p><p class="th">BEFORE</p><p class="th">DAY 30</p><p class="th">WHY</p>
+<p>NexGen Cloud</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-red"></span></div><p>318 bookings, $1.1M+ a year: Tier 1</p>
+<p>Greyparrot</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-red"></span></div><p>151 bookings, $540K+ a year: Tier 1</p>
+<p>Puttshack</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-red"></span></div><p>140 bookings, $500K+ a year: Tier 1</p>
+<p>IMU Biosciences</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-green"></span></div><p>57 bookings fit Tier 2</p>
+<p>Valarian</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-green"></span></div><p>132 bookings fit Tier 1</p>
+<p>Callosum</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-green"></span></div><p>4 bookings fit Tier 3</p>
+<p>Balfour Beatty</p><div><span class="dot dot-green"></span></div><div><span class="dot dot-green"></span></div><p>240 bookings fit Tier 1</p>
+<p>Attio</p><div><span class="dot dot-red"></span></div><div><span class="dot dot-yellow"></span></div><p>May reach Tier 2, not confirmed yet</p>
+<p>Metaview</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-yellow"></span></div><p>Bookings fell 22%</p>
+<p>Bionical Solutions</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-yellow"></span></div><p>Bookings fell 35%</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="evaluation">
+<p class="eyebrow">EVALUATION</p>
+<h2 class="title">How we tested</h2>
+<p class="lead">There is no ground truth, so we checked in three ways.</p>
+<div class="grid3" style="flex:1; gap:28px;">
+<div class="card" style="gap:16px;">
+<p class="card-num">01 · INDEPENDENT RESEARCH</p>
+<p class="card-title">5 companies researched by hand</p>
+<p class="card-text">A web search per company, outside the system. We set the expected color, then compared it with the system.</p>
+</div>
+<div class="card" style="gap:16px;">
+<p class="card-num">02 · REALITY CHECK</p>
+<p class="card-title">Day-30 bookings for 10 companies</p>
+<p class="card-text">Real travel shows whether an earlier recommendation held up.</p>
+</div>
+<div class="card" style="gap:16px;">
+<p class="card-num">03 · CHECKS WITHOUT AN ANSWER KEY</p>
+<p class="card-title">All 43 companies, 3 runs each</p>
+<p class="card-text">Same color in every run?</p>
+<p class="card-text">Facts rejected by the checks?</p>
+<p class="card-text">Numbers in a note that are not in the verified facts?</p>
+</div>
+</div>
+</section>
+
+<section id="results-errors" class="alt">
+<p class="eyebrow">RESULTS</p>
+<h2 class="title">What we found</h2>
+<div class="row" style="flex:1; gap:28px; align-items:stretch;">
+<div class="card" style="flex:1; gap:18px; padding:28px 32px;">
+<p class="out-label">INDEPENDENT RESEARCH · 4 OF 5 MATCH</p>
+<div class="tgrid t4 compact" style="grid-template-columns:170px 150px 150px 1fr; grid-template-rows:auto repeat(5, 1fr); flex:1;">
+<p class="th">COMPANY</p><p class="th">RESEARCH</p><p class="th">SYSTEM</p><p class="th">WHY</p>
+<p>Attio</p><div><span class="dot dot-red"></span></div><div><span class="dot dot-red"></span></div><p>~175 employees, not 24</p>
+<p>Valarian</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-yellow"></span></div><p>~30 employees, not 175</p>
+<p>Instinct</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-yellow"></span></div><p>$1B raise at $10B</p>
+<p>Ageas Retail</p><div><span class="dot dot-yellow"></span></div><div><span class="dot dot-yellow"></span></div><p>Part of a larger group</p>
+<p>Recraft</p><div><span class="dot dot-green"></span></div><div><span class="dot dot-yellow"></span></div><p>Fits Tier 2</p>
+</div></div>
+<div class="col" style="flex:1; gap:24px;">
+<div class="row" style="gap:20px;">
+<div class="card" style="gap:6px; padding:22px 26px;"><p class="card-num" style="font-size:56px; line-height:1; color:#14213D;">93%</p><p class="card-text" style="font-size:22px;">same color in all 3 runs</p></div>
+<div class="card" style="gap:6px; padding:22px 26px;"><p class="card-num" style="font-size:56px; line-height:1; color:#14213D;">39</p><p class="card-text" style="font-size:22px;">of 458 facts rejected by the checks</p></div>
+<div class="card" style="gap:6px; padding:22px 26px;"><p class="card-num" style="font-size:56px; line-height:1; color:#14213D;">0</p><p class="card-text" style="font-size:22px;">unsupported numbers in notes</p></div>
+</div>
+<div class="card" style="gap:18px; padding:28px 32px;">
+<p class="out-label">WHERE IT STILL FAILS</p>
+<div class="tgrid t2" style="grid-template-columns:150px 1fr; grid-template-rows:none; flex:none;">
+<p><b>Recraft</b></p><p style="white-space:normal;">Flagged a company that fits its tier, and not the same in every run.</p>
+<p><b>Puttshack</b></p><p style="white-space:normal;">We expected green. Day-30 bookings point to Tier 1, so our own label was wrong.</p>
+<p><b>Instinct</b></p><p style="white-space:normal;">A note called a $50M valuation a "$50 million seed". Code checks that a number exists, not what it means.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="ai-usage">
+<p class="eyebrow">AI TOOLS</p>
+<h2 class="title">How AI was used</h2>
+<div class="col" style="flex:1; gap:28px; justify-content:center;">
+<div class="card" style="flex:none; gap:20px; padding:32px 36px;">
+<p class="out-label" style="font-size:30px;">DEVELOPMENT</p>
+<div class="tgrid t2" style="grid-template-columns:300px 1fr; grid-template-rows:none; flex:none;">
+<p style="font-size:32px; padding-top:12px; padding-bottom:12px;"><b>Claude Code</b></p><p style="font-size:32px;">Planning, writing the code and web research</p>
+<p style="font-size:32px; padding-top:12px; padding-bottom:12px;"><b>ChatGPT</b></p><p style="font-size:32px;">A second opinion on the plan at the start</p>
+</div>
+</div>
+<div class="card" style="flex:none; gap:22px; padding:32px 36px;">
+<div class="row" style="gap:24px; align-items:baseline;"><p class="out-label" style="font-size:30px;">INSIDE THE SYSTEM</p><p class="card-text" style="font-size:30px;">Claude Haiku 5.5, chosen for speed and low cost</p></div>
+<div class="row" style="gap:14px; align-items:stretch;">
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:8px; padding:16px 18px;"><p class="sq-kind" style="font-size:20px;">01</p><p class="sq-text" style="font-size:30px;">Chooses what to search for (agent)</p></div>
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:8px; padding:16px 18px;"><p class="sq-kind" style="font-size:20px;">02</p><p class="sq-text" style="font-size:30px;">Extracts facts with a quote</p></div>
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:8px; padding:16px 18px;"><p class="sq-kind" style="font-size:20px;">03</p><p class="sq-text" style="font-size:30px;">Checks the right company</p></div>
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:8px; padding:16px 18px;"><p class="sq-kind" style="font-size:20px;">04</p><p class="sq-text" style="font-size:30px;">Checks the quote supports the fact</p></div>
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:8px; padding:16px 18px;"><p class="sq-kind" style="font-size:20px;">05</p><p class="sq-text" style="font-size:30px;">Judges the full picture</p></div>
+<div class="sq sq-ai" style="flex:1; height:auto; justify-content:flex-start; gap:8px; padding:16px 18px;"><p class="sq-kind" style="font-size:20px;">06</p><p class="sq-text" style="font-size:30px;">Writes the note for the sales team</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="next-steps" class="alt">
+<p class="eyebrow">NEXT STEPS</p>
+<h2 class="title">What comes next</h2>
+<div class="grid3" style="flex:1; gap:28px;">
+<div class="card"><p class="card-num">01</p><p class="card-title">A large, verified dataset</p><p class="card-text">To measure results against the truth.</p></div>
+<div class="card"><p class="card-num">02</p><p class="card-title">More sources</p><p class="card-text">Official registries and company databases.</p></div>
+<div class="card"><p class="card-num">03</p><p class="card-title">Stronger and backup models</p><p class="card-text">For example, Claude Opus 5.5.<br>A backup if the main one is down.</p></div>
+<div class="card"><p class="card-num">04</p><p class="card-title">A re-check every 30 days</p><p class="card-text">Keep the history to see trends.</p></div>
+<div class="card"><p class="card-num">05</p><p class="card-title">A simple interface for sales</p><p class="card-text">Recommendation, evidence and sources in one screen.</p></div>
+<div class="card"><p class="card-num">06</p><p class="card-title">Check what numbers mean</p><p class="card-text">A raise is not a valuation.</p></div>
+</div>
+</section>
+
+<section id="end" class="dark" style="justify-content:center;">
+<h1 class="hero" style="color:#F7F7F4;">Thank you</h1>
+<p class="lead">Questions are welcome.</p>
+<p class="small" style="color:#8FA0BF;">Yoav Sternik · November 2026</p>
+</section>
+
+</div>
+<div class="hud"></div>
+<script>
+const slides = [...document.querySelectorAll('#stage > section')];
+const hud = document.querySelector('.hud');
+let current = Math.min(Math.max(parseInt(location.hash.slice(1) || '1', 10) - 1, 0), slides.length - 1);
+function fit() {
+  const scale = Math.min(innerWidth / 1920, innerHeight / 1080);
+  document.getElementById('stage').style.transform = `translate(-50%, -50%) scale(${scale})`;
+}
+function show(n) {
+  current = Math.min(Math.max(n, 0), slides.length - 1);
+  slides.forEach((s, i) => s.classList.toggle('active', i === current));
+  hud.textContent = `${current + 1} / ${slides.length}   ←  →  ·  F full screen`;
+  history.replaceState(null, '', '#' + (current + 1));
+}
+addEventListener('keydown', e => {
+  if (['ArrowRight', 'PageDown', ' ', 'Enter'].includes(e.key)) show(current + 1);
+  if (['ArrowLeft', 'PageUp', 'Backspace'].includes(e.key)) show(current - 1);
+  if (e.key === 'Home') show(0);
+  if (e.key === 'End') show(slides.length - 1);
+  if (e.key === 'f' || e.key === 'F') document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+});
+addEventListener('click', e => show(e.clientX > innerWidth / 3 ? current + 1 : current - 1));
+addEventListener('resize', fit);
+fit();
+show(current);
+</script>
+</body>
+</html>

@@ -2,11 +2,11 @@
   "company": "Valarian",
   "current_tier": 1,
   "final": "yellow",
-  "priority": "normal",
+  "priority": "high",
   "agreement": true,
   "note": {
-    "headline": "🟡 Review needed",
-    "text": "Declared spend of $510,000 (self-reported) sits just above the $500K Tier 1 cutoff, while signup headcount of 175 conflicts with 31 employees (techfundingnews.com). Confirm the spend figure before relying on it.",
+    "headline": "🟡 Review needed - high priority",
+    "text": "Tier 1 rests on a self-declared $510K GBV, just above the $500K threshold, and the 175-employee estimate conflicts with verified headcount of 31 (techfundingnews.com). Verify the GBV figure before the account stays at Tier 1.",
     "numbers_checked": true,
     "unsupported_numbers": []
   },
@@ -23,8 +23,7 @@
     ]
   },
   "ai": {
-    "reason": "Declared GBV of $510,000 meets the Tier 1 threshold of $500K+, so the current tier matches the spending data. However, the signup headcount of 175 conflicts with verified figures of 32 (pitchbook.com) and 31 (techfundingnews.com, July 14, 2026), and the GBV is self-declared and only just above the cutoff, so a person should confirm the spend figure before relying on it.",
-    "color": "yellow",
-    "priority": "normal"
+    "reason": "Tier 1 rests on the self-declared $510K GBV, just above the $500K threshold, and the signup's 175-employee estimate conflicts with verified headcounts of 32 (pitchbook.com) and 31 (techfundingnews.com, July 14, 2026). Funding also grew quickly, from a $7M seed to a $50M Series A and about $70M total, which the July 2026 sources date. The tier may be correct, but the GBV figure should be verified by a person before the account stays at Tier 1.",
+    "color": "orange"
   }
 }

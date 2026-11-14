@@ -6,7 +6,7 @@
   "agreement": true,
   "note": {
     "headline": "🟡 Review needed",
-    "text": "Dalkia is part of EDF Group, so the declared $475,000 GBV may cover only this entity, and it sits just under the $500K line. Check GBV scope and headcount, as around 5,300 (dalkia.co.uk) differs from the 2,900 estimate.",
+    "text": "Dalkia is part of EDF Group (dalkia.co.uk), so the declared $475,000 GBV may cover only this entity. Check whether group-wide revenue belongs in the figure.",
     "numbers_checked": true,
     "unsupported_numbers": []
   },
@@ -25,8 +25,7 @@
     "notes": []
   },
   "ai": {
-    "reason": "Declared annual GBV of $475,000 places Dalkia in Tier 2 ($100K-$500K), and both the estimated 2,900 employees and the website's roughly 5,300 employees exceed the 150-employee Tier 2 threshold. The company is just under the $500K Tier 1 line, and the employee count conflicts between the signup estimate and the website, so a person should confirm the GBV and headcount before settling the tier.",
-    "color": "yellow",
-    "priority": "normal"
+    "reason": "Declared GBV of $475,000 sits just under the Tier 1 threshold, and the signup headcount of 2,900 conflicts with the roughly 5,300 employees on dalkia.co.uk, though both figures still meet Tier 2 criteria. The company is a large UK facilities and energy services firm, part of EDF Group, and roughly $90 of travel per employee looks low, so the GBV figure is worth a glance, but nothing specific shows it belongs in a different tier.",
+    "color": "yellow"
   }
 }

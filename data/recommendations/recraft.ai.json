@@ -2,11 +2,11 @@
   "company": "Recraft",
   "current_tier": 2,
   "final": "green",
-  "priority": "high",
-  "agreement": true,
+  "priority": "normal",
+  "agreement": false,
   "note": {
-    "headline": "🟢 Tier fits - high priority",
-    "text": "Declared annual GBV of $168,000 sits inside the $100K-$500K Tier 2 range, and 49 employees (pitchbook.com) is under the 150-employee trigger. Funding grew to a $30M Series B (en.wikipedia.org); check the growth pace.",
+    "headline": "🟢 Tier fits",
+    "text": "Small team of 49 employees (pitchbook.com) and $44M total raised (pitchbook.com) support the current tier. The evidence is mixed: check whether the $30M Series B (en.wikipedia.org) is raising travel spend.",
     "numbers_checked": true,
     "unsupported_numbers": []
   },
@@ -17,12 +17,12 @@
       "No flags - research is consistent with Tier 2."
     ],
     "notes": [
-      "Verified funding: $30M Series B led by Accel (en.wikipedia.org); $12M Series A (venturebeat.com); $44M total raised (pitchbook.com)."
+      "Verified funding: $30M Series B led by Accel (en.wikipedia.org); $12M Series A (venturebeat.com); $44M total raised (pitchbook.com).",
+      "No employee data found - no reason to change the tier."
     ]
   },
   "ai": {
-    "reason": "Declared annual GBV of $168,000 falls within the Tier 2 range ($100K-$500K), and it is well below the $500K Tier 1 threshold. Research shows 49 employees (pitchbook.com), under the 150-employee Tier 2 trigger, so the current Tier 2 placement fits; funding rose from $12M Series A (January 18, 2024) to a $30M Series B (May 5, 2025), a fast-growth signal worth watching.",
-    "color": "green",
-    "priority": "high"
+    "reason": "The declared $168,000 GBV falls in the Tier 2 band ($100K-$500K), and PitchBook's 49-employee count is below the 150-employee threshold for Tier 2 by headcount, so the current tier matches the numbers. The $12M Series A (January 2024) and $30M Series B (May 2025) are a fast funding path that could mean growing travel spend, but the Series B is about 18 months old and no source shows travel spend above the Tier 2 band, so this is a minor concern to glance at rather than evidence the tier is wrong.",
+    "color": "yellow"
   }
 }
