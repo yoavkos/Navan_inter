@@ -24,16 +24,14 @@ The system never changes a tier. A person always decides.
 | [`process/system-spec.md`](process/system-spec.md) | **Start here.** The product spec: problem, design, evaluation, next steps |
 | [`process/ai-appendix.md`](process/ai-appendix.md) | AI tools used, the prompts, a representative output, and how prompts were refined |
 | [`process/independent-research.md`](process/independent-research.md) | 5 companies researched by hand, compared with the system |
-| [`process/system-spec-detailed.md`](process/system-spec-detailed.md) | Technical details |
-| [`process/work-log.md`](process/work-log.md) | The full decision trail, step by step (Hebrew) |
-| [`process/system-architecture-v2-en.svg`](process/system-architecture-v2-en.svg) | Architecture diagram |
+| [`process/architecture.svg`](process/architecture.svg) | Architecture diagram |
 
 ## Project structure
 
 ```
 src/        Python code. Files starting with ai_ call the model
 data/       Saved pages, extracted facts, recommendations and evaluation results
-process/    Spec, AI appendix, research, work log and diagrams
+process/    Spec, AI appendix, independent research and the diagram
 deck/       Source files of the presentation
 ```
 

@@ -1,6 +1,6 @@
 # Lead Tier Routing: Product Spec
 
-*A short spec for the Navan Growth assignment. Technical details are in `system-spec-detailed.md`, prompts and AI testing in `ai-appendix.md`, and the full decision trail in `work-log.md`.*
+*A short spec for the Navan Growth assignment. Prompts and AI details are in `ai-appendix.md`.*
 
 ---
 
@@ -35,7 +35,7 @@ For every new customer, the system works in five steps:
 
 **The system never changes a tier. A person always decides.**
 
-![Architecture](system-architecture-v2-en.svg)
+![Architecture](architecture.svg)
 
 ## 3. Principles
 
