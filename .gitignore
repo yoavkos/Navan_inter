@@ -6,6 +6,7 @@ __pycache__/
 # Assignment files (not ours to publish)
 *.csv
 *.pdf
+!deck/Lead-Tier-Routing.pdf
 
 # Full copies of web pages
 data/pages/
