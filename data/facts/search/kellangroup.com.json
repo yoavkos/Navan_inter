@@ -1,0 +1,22 @@
+[
+  {
+    "field": "employees",
+    "value": "15",
+    "quote": "Employees 15 \u25bc 1 on 2023",
+    "source_url": "https://governanceregister.com/company/02228050",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 15' with a change of 1 in 2023, which directly gives the company's employee count as 15, though the snippet is terse and lacks explicit context tying it to Kellan Group's own workforce beyond the page being about the company."
+  },
+  {
+    "field": "industry",
+    "value": "Temporary employment agency activities (SIC 78200)",
+    "quote": "Nature of business (SIC) 78200 Temporary employment agency activities",
+    "source_url": "https://governanceregister.com/company/02228050",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's nature of business as SIC 78200, Temporary employment agency activities, which directly states the claimed industry for the company itself."
+  }
+]

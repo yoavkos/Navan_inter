@@ -1,0 +1,122 @@
+[
+  {
+    "field": "funding",
+    "value": "$52M Series B",
+    "quote": "today announced it has raised $52 million in Series B funding",
+    "source_url": "https://www.prnewswire.com/news-releases/attio-raises-52m-series-b-to-scale-the-first-ai-native-crm-for-go-to-market-builders-302538357.html",
+    "source_date": "Aug 26, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company announced it raised $52 million in Series B funding, which directly matches the claimed $52M Series B funding round for Attio itself."
+  },
+  {
+    "field": "funding",
+    "value": "$116M total funding to date",
+    "quote": "Attio has raised $116 million to date.",
+    "source_url": "https://www.prnewswire.com/news-releases/attio-raises-52m-series-b-to-scale-the-first-ai-native-crm-for-go-to-market-builders-302538357.html",
+    "source_date": "Aug 26, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Attio has raised $116 million to date, which directly matches the claimed total funding of $116M about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "AI-native CRM",
+    "quote": "Attio is the AI-native CRM for the next era of companies.",
+    "source_url": "https://www.prnewswire.com/news-releases/attio-raises-52m-series-b-to-scale-the-first-ai-native-crm-for-go-to-market-builders-302538357.html",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Attio is the AI-native CRM, directly describing the company's own offering, which matches the claimed industry value."
+  },
+  {
+    "field": "funding",
+    "value": "$116M total funding to date",
+    "quote": "bringing Attio\u2019s total funding to $116 million",
+    "source_url": "https://tech.eu/2025/08/26/attio-raises-52m-series-b-to-scale-crm-platform/",
+    "source_date": "26 August 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that a funding round brought Attio's total funding to $116 million, which directly supports the claimed total funding of $116M about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "206",
+    "quote": "Employee Count 206 as on Oct 31, 2026",
+    "source_url": "https://tracxn.com/d/companies/attio/__zXaorGoGUFFCntq5i6GuYbFjA5y0l4NPgP5t1R3FhXg",
+    "source_date": "Oct 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employee Count 206 as on Oct 31, 2026' with no indication it refers to a different company, so it directly gives Attio's employee count as the claimed value of 206."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Office Unit 25.3 Third Floor, Ink Rooms, 25-37 Easton Street, London, United Kingdom, WC1X 0DS",
+    "source_url": "https://tracxn.com/d/companies/attio/__zXaorGoGUFFCntq5i6GuYbFjA5y0l4NPgP5t1R3FhXg",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives a London, United Kingdom office address for the company, which directly states that Attio has an office in the UK, so the countries field is supported."
+  },
+  {
+    "field": "funding",
+    "value": "$141M total funding",
+    "quote": "Attio has raised $141M in funding",
+    "source_url": "https://tracxn.com/d/companies/attio/__zXaorGoGUFFCntq5i6GuYbFjA5y0l4NPgP5t1R3FhXg",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Attio has raised $141M in funding, which directly matches the claimed total funding of $141M for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Cloud based platform offering CRM software to enterprises",
+    "quote": "It operates as a Cloud based platform offering CRM software to enterprises",
+    "source_url": "https://tracxn.com/d/companies/attio/__zXaorGoGUFFCntq5i6GuYbFjA5y0l4NPgP5t1R3FhXg",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company operates as a cloud based platform offering CRM software to enterprises, which directly describes what Attio itself sells and matches the claimed industry value."
+  },
+  {
+    "field": "employees",
+    "value": "196",
+    "quote": "Attio has 196 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/226657-45",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Attio has 196 total employees, matching the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Cloud-based CRM platform developer",
+    "quote": "Developer of a cloud-based CRM platform",
+    "source_url": "https://pitchbook.com/profiles/company/226657-45",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a developer of a cloud-based CRM platform, which directly describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office 42 St John's Square, 2nd Floor London EC1M 4EA England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/226657-45",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists a Corporate Office address in London, United Kingdom, which directly states the company itself has an office in the UK."
+  },
+  {
+    "field": "funding",
+    "value": "$124M total funding",
+    "quote": "Attio has raised $124M.",
+    "source_url": "https://pitchbook.com/profiles/company/226657-45",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Attio has raised $124M, which directly describes the company's own funding and matches the claimed total of $124M."
+  }
+]

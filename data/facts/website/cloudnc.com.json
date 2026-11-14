@@ -1,0 +1,62 @@
+[
+  {
+    "field": "industry",
+    "value": "AI for CNC machining and CAM programming",
+    "quote": "CloudNC is transforming global manufacturing with AI that accelerates CAM programming, maximizes factory output, and empowers machinists to deliver more.",
+    "source_url": "https://cloudnc.com/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that CloudNC uses AI that accelerates CAM programming and helps machinists and factories, which directly describes what the company itself sells, matching the claimed industry of AI for CNC machining and CAM programming."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "based in our headquarters in London and our factory in Chelmsford",
+    "source_url": "https://cloudnc.com/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states CloudNC is based in its headquarters in London and its factory in Chelmsford, both in the United Kingdom, so the company itself has offices/staff in the UK."
+  },
+  {
+    "field": "countries",
+    "value": "China",
+    "quote": "CloudNC opens Shanghai office to expand AI support for Chinese manufacturers",
+    "source_url": "https://cloudnc.com/newsroom",
+    "source_date": "May 7, 2026",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states CloudNC opened a Shanghai office, which means the company itself has an office in China, so the countries field value China is directly supported (the office is the company's own, not a customer's)."
+  },
+  {
+    "field": "funding",
+    "value": "$20m",
+    "quote": "CloudNC raises $20m to expand AI tools for precision machining",
+    "source_url": "https://cloudnc.com/newsroom",
+    "source_date": "September 9, 2026",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that CloudNC itself raises $20m, a funding round for the company, which matches the claimed funding value of $20m."
+  },
+  {
+    "field": "funding",
+    "value": "Backed by venture capital firms Nimble Ventures, Atomico and Episode 1 Ventures, with Autodesk and Lockheed Martin as strategic partners",
+    "quote": "The technology company is backed by leading venture capital firms Nimble Ventures, Atomico and Episode 1 Ventures, alongside Autodesk and Lockheed Martin as strategic partners.",
+    "source_url": "https://cloudnc.com/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the technology company (CloudNC, per the website context) is backed by venture capital firms Nimble Ventures, Atomico and Episode 1 Ventures, with Autodesk and Lockheed Martin as strategic partners, directly matching the claimed funding value about the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles across technology and go-to-market teams",
+    "quote": "We\u2019re always looking for curious, collaborative and progressive people to be part of our mission.",
+    "source_url": "https://cloudnc.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote says CloudNC is always looking for curious, collaborative and progressive people, which signals recruitment in general, but it does not state that there are open roles or specify technology and go-to-market teams as the claimed value requires."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Payment solutions for small businesses (card machines, online payments, EPOS)",
+    "quote": "Flexible payment solutions for small businesses",
+    "source_url": "https://retailmerchantservices.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company offers flexible payment solutions for small businesses, which matches the claimed industry of payment solutions for small businesses; it does not explicitly mention card machines, online payments, or EPOS, but the core value is directly stated about the company's offering."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Milton Keynes MK9 1NJ",
+    "source_url": "https://retailmerchantservices.co.uk/en/contact-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote gives a Milton Keynes postcode (MK9 1NJ), which is a UK address, and on the company's own website it most plausibly marks the company's office, though the quote does not explicitly say so."
+  },
+  {
+    "field": "hiring",
+    "value": "Recruiting people for a range of roles",
+    "quote": "We're always on the lookout for great people to join our team.",
+    "source_url": "https://retailmerchantservices.co.uk/en/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says the company is always looking for great people to join its team, which indicates ongoing recruitment about the company itself, though it does not explicitly mention a range of roles."
+  }
+]

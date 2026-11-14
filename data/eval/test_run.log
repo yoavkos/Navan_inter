@@ -1,0 +1,325 @@
+﻿=== save_website_pages ===
+Gradient Labs
+  saved 3 pages
+Basecamp Research
+  saved 4 pages
+Callosum
+  saved 1 pages
+FintechOS
+  saved 4 pages
+Healf
+  saved 4 pages
+Modo Energy
+  saved 2 pages
+Qargo
+  saved 4 pages
+Quantum Motion
+  FAILED (403 Client Error: Forbidden for url: https://quantummotion.com/)
+Shellworks
+  saved 2 pages
+Metaview
+  saved 3 pages
+Axle Energy
+  saved 3 pages
+Gaussion
+  saved 1 pages
+CloudNC
+  saved 5 pages
+HIVED
+  saved 3 pages
+Drinks Wholesale Group
+  saved 3 pages
+Bionical Solutions
+  saved 1 pages
+Retail Merchant Services
+  saved 3 pages
+Kellan Group
+  saved 5 pages
+Puttshack
+  saved 3 pages
+A.G. Barr
+  FAILED (HTTPSConnectionPool(host='agbarr.co.uk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))))
+Focusrite
+  saved 5 pages
+Castlebroom Engineering Limited
+  saved 1 pages
+Moorside Manufacturing Ltd
+  FAILED (HTTPSConnectionPool(host='moorsideengineering.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)'))))
+Ashley Engineering (Accrington) LLP
+  saved 2 pages
+Ackerman Engineering Ltd
+  saved 5 pages
+Metsol Engineering
+  saved 4 pages
+Creiform Ltd
+  saved 3 pages
+RevoNA Bio
+  saved 1 pages
+J.E.M. Precision Engineering Ltd
+  saved 2 pages
+Precision Engineers (Pontefract) Ltd
+  saved 1 pages
+Anthropic
+  saved 2 pages
+Port
+  saved 4 pages
+=== website_agent ===
+Gradient Labs
+  tokens: 25212 in, 1558 out
+  4 verified, 0 rejected
+Basecamp Research
+  tokens: 6057 in, 1292 out
+  3 verified, 2 rejected
+Callosum
+  tokens: 1707 in, 404 out
+  1 verified, 1 rejected
+FintechOS
+  tokens: 10035 in, 1433 out
+  4 verified, 1 rejected
+Healf
+  tokens: 18516 in, 723 out
+  1 verified, 0 rejected
+Modo Energy
+  tokens: 5061 in, 1313 out
+  3 verified, 1 rejected
+Qargo
+  tokens: 4422 in, 669 out
+  2 verified, 1 rejected
+Quantum Motion
+  no saved website pages
+Shellworks
+  tokens: 3910 in, 688 out
+  1 verified, 1 rejected
+Metaview
+  tokens: 10620 in, 824 out
+  4 verified, 0 rejected
+Axle Energy
+  tokens: 4758 in, 970 out
+  1 verified, 2 rejected
+Gaussion
+  tokens: 1974 in, 618 out
+  2 verified, 0 rejected
+CloudNC
+  tokens: 9088 in, 1804 out
+  5 verified, 1 rejected
+HIVED
+  tokens: 10703 in, 1266 out
+  2 verified, 2 rejected
+Drinks Wholesale Group
+  tokens: 2548 in, 695 out
+  1 verified, 0 rejected
+Bionical Solutions
+  tokens: 956 in, 47 out
+  0 verified, 0 rejected
+Retail Merchant Services
+  tokens: 7505 in, 779 out
+  3 verified, 0 rejected
+Kellan Group
+  tokens: 4300 in, 1104 out
+  3 verified, 0 rejected
+Puttshack
+  tokens: 5587 in, 1087 out
+  2 verified, 1 rejected
+A.G. Barr
+  no saved website pages
+Focusrite
+  tokens: 4228 in, 1247 out
+  3 verified, 0 rejected
+Castlebroom Engineering Limited
+  tokens: 2079 in, 716 out
+  1 verified, 0 rejected
+Moorside Manufacturing Ltd
+  no saved website pages
+Ashley Engineering (Accrington) LLP
+  tokens: 2187 in, 872 out
+  2 verified, 0 rejected
+Ackerman Engineering Ltd
+  tokens: 2708 in, 1123 out
+  4 verified, 0 rejected
+Metsol Engineering
+  tokens: 2288 in, 862 out
+  3 verified, 0 rejected
+Creiform Ltd
+  tokens: 2803 in, 691 out
+  1 verified, 1 rejected
+RevoNA Bio
+  tokens: 1001 in, 263 out
+  1 verified, 0 rejected
+J.E.M. Precision Engineering Ltd
+  tokens: 1681 in, 680 out
+  2 verified, 0 rejected
+Precision Engineers (Pontefract) Ltd
+  tokens: 1586 in, 907 out
+  2 verified, 0 rejected
+Anthropic
+  tokens: 6994 in, 851 out
+  2 verified, 0 rejected
+Port
+  tokens: 10855 in, 1367 out
+  5 verified, 0 rejected
+=== search_agent ===
+Gradient Labs
+  skipped https://seedtable.com/companies/gradient-labs (403 Client Error: Forbidden for url: https://seedtable.com/companies/gradient-labs)
+  tokens: 11467 in, 3507 out
+  4 pages, 10 verified, 1 rejected
+Basecamp Research
+  skipped https://www.fundingspotter.com/news/basecamp-research-2026 (403 Client Error: Forbidden for url: https://www.fundingspotter.com/news/basecamp-research-2026)
+  skipped https://www.forbes.com/sites/johncumbers/2022/12/13/biodiversity-makes-good-business-basecamp-research-just-raised-20-million-to-build-a-database-of-all-life/ (403 Client Error: Forbidden for url: https://www.forbes.com/sites/johncumbers/2022/12/13/biodiversity-makes-good-business-basecamp-research-just-raised-20-million-to-build-a-database-of-all-life/)
+  skipped https://www.crunchbase.com/organization/basecamp-research (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/basecamp-research)
+  tokens: 3880 in, 1078 out
+  1 pages, 5 verified, 0 rejected
+Callosum
+  skipped https://www.bloomberg.com/news/articles/2026-08-20/ai-startup-callosum-raises-100-million-to-make-ai-tasks-cheaper (403 Client Error: Forbidden for url: https://www.bloomberg.com/news/articles/2026-08-20/ai-startup-callosum-raises-100-million-to-make-ai-tasks-cheaper)
+  skipped https://dealroom.co/companies/callosum/ (403 Client Error: Forbidden for url: https://dealroom.co/companies/callosum/)
+  tokens: 11177 in, 2313 out
+  3 pages, 9 verified, 0 rejected
+FintechOS
+  skipped https://www.crunchbase.com/organization/fintechos (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/fintechos)
+  skipped https://app.dealroom.co/companies/fintechos (403 Client Error: Forbidden for url: https://app.dealroom.co/companies/fintechos)
+  tokens: 11187 in, 2655 out
+  3 pages, 12 verified, 0 rejected
+Healf
+  skipped https://www.crunchbase.com/organization/healf (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/healf)
+  tokens: 7200 in, 2619 out
+  4 pages, 12 verified, 1 rejected
+Modo Energy
+  skipped https://www.renewableenergyworld.com/energy-storage/battery/battery-storage-data-platform-modo-energy-raises-15-million-to-break-into-us-europe/ (403 Client Error: Forbidden for url: https://www.renewableenergyworld.com/energy-storage/battery/battery-storage-data-platform-modo-energy-raises-15-million-to-break-into-us-europe/)
+  skipped https://seedtable.com/companies/modo-energy/funding-rounds/series-b-2025-12 (403 Client Error: Forbidden for url: https://seedtable.com/companies/modo-energy/funding-rounds/series-b-2025-12)
+  skipped https://www.crunchbase.com/organization/modo-energy (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/modo-energy)
+  tokens: 8437 in, 1690 out
+  2 pages, 5 verified, 1 rejected
+Qargo
+  skipped https://dealroom.co/companies/qargo-tms/ (403 Client Error: Forbidden for url: https://dealroom.co/companies/qargo-tms/)
+  skipped https://www.tipranks.com/private-companies/qargo (403 Client Error: Forbidden for url: https://www.tipranks.com/private-companies/qargo)
+  dropped https://app.welcometothejungle.com/companies/Qargo (The page is a generic Welcome to the Jungle job-search landing page with no specific content about Qargo, though its URL references a Qargo company profile.)
+  tokens: 7472 in, 2454 out
+  2 pages, 11 verified, 0 rejected
+Quantum Motion
+  skipped https://www.hpcwire.com/off-the-wire/quantum-motion-raises-51m-investment-round-led-by-bosch-ventures/ (403 Client Error: Forbidden for url: https://www.hpcwire.com/off-the-wire/quantum-motion-raises-51m-investment-round-led-by-bosch-ventures/)
+  skipped https://www.fundingspotter.com/news/quantum-motion-technologies-2026 (403 Client Error: Forbidden for url: https://www.fundingspotter.com/news/quantum-motion-technologies-2026)
+  tokens: 7283 in, 2769 out
+  3 pages, 9 verified, 0 rejected
+Shellworks
+  skipped https://www.crunchbase.com/organization/shellworks (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/shellworks)
+  skipped https://app.dealroom.co/companies/shellworks (403 Client Error: Forbidden for url: https://app.dealroom.co/companies/shellworks)
+  tokens: 9476 in, 3540 out
+  3 pages, 15 verified, 0 rejected
+Metaview
+  skipped https://www.zoominfo.com/c/metaview-global-ltd/464356787 (403 Client Error: Forbidden for url: https://www.zoominfo.com/c/metaview-global-ltd/464356787)
+  tokens: 9616 in, 2820 out
+  4 pages, 11 verified, 2 rejected
+Axle Energy
+  skipped https://www.crunchbase.com/organization/axle-energy (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/axle-energy)
+  skipped https://dealroom.co/companies/axle-energy/ (403 Client Error: Forbidden for url: https://dealroom.co/companies/axle-energy/)
+  tokens: 10158 in, 3055 out
+  3 pages, 9 verified, 0 rejected
+Gaussion
+  skipped https://dealroom.co/companies/gaussion/ (403 Client Error: Forbidden for url: https://dealroom.co/companies/gaussion/)
+  tokens: 10578 in, 2175 out
+  4 pages, 8 verified, 1 rejected
+CloudNC
+  skipped https://www.machinery.co.uk/content/features/revolutionising-cnc-machining-with-ai (403 Client Error: Forbidden for url: https://www.machinery.co.uk/content/features/revolutionising-cnc-machining-with-ai)
+  skipped https://dealroom.co/companies/cloudnc-1/ (403 Client Error: Forbidden for url: https://dealroom.co/companies/cloudnc-1/)
+  tokens: 11331 in, 2252 out
+  3 pages, 11 verified, 0 rejected
+HIVED
+  skipped https://www.crunchbase.com/organization/hived (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/hived)
+  tokens: 15247 in, 3298 out
+  4 pages, 13 verified, 1 rejected
+Drinks Wholesale Group
+  skipped https://open.endole.co.uk/insight/company/01839722-drinks-wholesale-group-ltd (403 Client Error: Forbidden for url: https://open.endole.co.uk/insight/company/01839722-drinks-wholesale-group-ltd)
+  dropped https://www.companiesintheuk.co.uk/ltd/drinks-wholesale-group-holdings (The page is mainly about Drinks Wholesale Group Holdings Ltd (company 13781264), a separate parent holding company with a similar name, rather than Drinks Wholesale Group Ltd itself, though it describes that subsidiary's wholesale business.)
+  tokens: 5158 in, 1668 out
+  3 pages, 4 verified, 0 rejected
+Bionical Solutions
+  skipped https://hrtoday.in/bionical-solutions-appoints-gareth-williams-as-ceo-of-bionical-health-ltd/ (403 Client Error: Forbidden for url: https://hrtoday.in/bionical-solutions-appoints-gareth-williams-as-ceo-of-bionical-health-ltd/)
+  dropped https://uk.globaldatabase.com/company/bionical-solutions-limited (The page is about BIONICAL SOLUTIONS LIMITED, a UK company (reg. 04313379) whose listed website is bionicalsolutionsgroup.com, not bionical.com, so it is not clearly the same company as the one at bionical.com.)
+  tokens: 4062 in, 1645 out
+  2 pages, 5 verified, 0 rejected
+Retail Merchant Services
+  skipped https://www.crunchbase.com/organization/retail-merchant-services (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/retail-merchant-services)
+  tokens: 8166 in, 1705 out
+  4 pages, 6 verified, 1 rejected
+Kellan Group
+  skipped https://pitchbook.com/profiles/company/65577-70 (403 Client Error: Forbidden for url: https://pitchbook.com/profiles/company/65577-70)
+  skipped https://craft.co/kellan-group (403 Client Error: Forbidden for url: https://craft.co/kellan-group)
+  dropped https://www.ig.com/en/shares/markets-shares/kellan-group-plc (The page is an IG trading page for Kellan Group PLC shares (KLN.L) that focuses on CFD margins and trading features rather than the company's business, and it does not confirm a link to kellangroup.com.)
+  tokens: 13793 in, 1062 out
+  1 pages, 2 verified, 0 rejected
+Puttshack
+  skipped https://therealdeal.com/miami/2020/02/12/a-three-story-mini-golf-is-coming-to-brickell-city-centre/ (403 Client Error: Forbidden for url: https://therealdeal.com/miami/2020/02/12/a-three-story-mini-golf-is-coming-to-brickell-city-centre/)
+  skipped https://www.crunchbase.com/organization/puttshack (403 Client Error: Forbidden for url: https://www.crunchbase.com/organization/puttshack)
+  tokens: 10070 in, 2592 out
+  3 pages, 9 verified, 1 rejected
+A.G. Barr
+  skipped https://www.marketscreener.com/quote/stock/A-G-BARR-P-L-C-10759245/company/ (403 Client Error: Forbidden for url: https://www.marketscreener.com/quote/stock/A-G-BARR-P-L-C-10759245/company/)
+  dropped https://en.wikipedia.org/wiki/Rubicon_Drinks (The page is about Rubicon Drinks, a subsidiary brand of A.G. Barr, rather than A.G. Barr itself, so it is not mainly about the target company.)
+  tokens: 13262 in, 1913 out
+  3 pages, 6 verified, 0 rejected
+Focusrite
+  skipped https://seedtable.com/companies/focusrite-plc (403 Client Error: Forbidden for url: https://seedtable.com/companies/focusrite-plc)
+  skipped https://www.investing.com/news/company-news/dudderidge-family-trustees-acquire-3254-stake-in-focusrite-93CH-4422408 (403 Client Error: Forbidden for url: https://www.investing.com/news/company-news/dudderidge-family-trustees-acquire-3254-stake-in-focusrite-93CH-4422408)
+  tokens: 8334 in, 1597 out
+  3 pages, 5 verified, 1 rejected
+Castlebroom Engineering Limited
+  skipped https://companycheck.co.uk/company/01877409/CASTLEBROOM-ENGINEERING-LIMITED/companies-house-data (403 Client Error: Forbidden for url: https://companycheck.co.uk/company/01877409/CASTLEBROOM-ENGINEERING-LIMITED/companies-house-data)
+  skipped https://rocketreach.co/castlebroom-engineering-ltd-profile_b4693f3afc5ca72e (403 Client Error: Forbidden for url: https://rocketreach.co/castlebroom-engineering-ltd-profile_b4693f3afc5ca72e)
+  skipped https://www.yell.com/biz/castlebroom-engineering-ltd-ipswich-5855744/ (403 Client Error: Forbidden for url: https://www.yell.com/biz/castlebroom-engineering-ltd-ipswich-5855744/)
+  dropped https://capco.co.uk/contact-us/ (The page is mainly a contact page and product catalogue for Capco Test Equipment, which is named as a division of Castlebroom Engineering Ltd, and Castlebroom appears only in the footer and address block rather than being the page's subject.)
+  tokens: 1769 in, 348 out
+  1 pages, 1 verified, 0 rejected
+Moorside Manufacturing Ltd
+  skipped https://open.endole.co.uk/insight/company/04936087-moorside-manufacturing-ltd (403 Client Error: Forbidden for url: https://open.endole.co.uk/insight/company/04936087-moorside-manufacturing-ltd)
+  skipped https://us.kompass.com/c/moorside-manufacturing-ltd/gb07746950/ (403 Client Error: Forbidden for url: https://us.kompass.com/c/moorside-manufacturing-ltd/gb07746950/)
+  skipped https://www.zoominfo.com/c/moorside-manufacturing-ltd/431588160 (403 Client Error: Forbidden for url: https://www.zoominfo.com/c/moorside-manufacturing-ltd/431588160)
+  skipped https://www.192.com/atoz/business/manchester-m34/precision-engineers/moorside-manufacturing-ltd/b3c0155bacf7de51b3c364cb43fe1730bb5d4166/ml/ (403 Client Error: Forbidden for url: https://www.192.com/atoz/business/manchester-m34/precision-engineers/moorside-manufacturing-ltd/b3c0155bacf7de51b3c364cb43fe1730bb5d4166/ml/)
+  dropped https://tracxn.com/d/legal-entities/united-kingdom/moorside-manufacturing-ltd/__QF1vMpItwYQYfNQS4folyPYgW84OxnfRDMSQ9NVJY_A (The page is a Companies House-style legal entity profile for an exact-name match, Moorside Manufacturing Ltd (Manchester, CIN 4936087), but it never mentions the moorsideengineering.com website or its engineering business, so it cannot be clearly confirmed as the same company.)
+  no usable external pages
+Ashley Engineering (Accrington) LLP
+  skipped https://open.endole.co.uk/insight/company/OC344733-ashley-engineering-accrington-llp (403 Client Error: Forbidden for url: https://open.endole.co.uk/insight/company/OC344733-ashley-engineering-accrington-llp)
+  skipped https://rocketreach.co/ashley-engineering-accrington-llp-profile_b7a8f2cac53ba59b (403 Client Error: Forbidden for url: https://rocketreach.co/ashley-engineering-accrington-llp-profile_b7a8f2cac53ba59b)
+  skipped https://www.engnet.us/c/f.aspx/ASH035 (HTTPSConnectionPool(host='www.engnet.us', port=443): Max retries exceeded with url: /c/f.aspx/ASH035 (Caused by NameResolutionError("HTTPSConnection(host='www.engnet.us', port=443): Failed to resolve 'www.engnet.us' ([Errno 11002] getaddrinfo failed)")))
+  tokens: 2962 in, 538 out
+  2 pages, 0 verified, 0 rejected
+Ackerman Engineering Ltd
+  skipped https://endole.co.uk/company/01263820/ackerman-engineering-limited (403 Client Error: Forbidden for url: https://open.endole.co.uk/insight/company/01263820-ackerman-engineering-limited)
+  skipped https://www.zoominfo.com/c/ackerman-engineering-ltd/459884 (403 Client Error: Forbidden for url: https://www.zoominfo.com/c/ackerman-engineering-ltd/459884)
+  skipped https://bridport.cylex-uk.co.uk/company/ackerman-engineering-ltd-14087015.html (403 Client Error: Forbidden for url: https://bridport.cylex-uk.co.uk/company/ackerman-engineering-ltd-14087015.html)
+  tokens: 4930 in, 1461 out
+  2 pages, 6 verified, 0 rejected
+Metsol Engineering
+  skipped https://gb.kompass.com/c/metsol-engineering/gb92026855/ (403 Client Error: Forbidden for url: https://gb.kompass.com/c/metsol-engineering/gb92026855/)
+  skipped https://www.zoominfo.com/c/metsol-engineering/532096551 (403 Client Error: Forbidden for url: https://www.zoominfo.com/c/metsol-engineering/532096551)
+  skipped https://companycheck.co.uk/company/02649941/METSOL-ENGINEERING-LIMITED/companies-house-data (403 Client Error: Forbidden for url: https://companycheck.co.uk/company/02649941/METSOL-ENGINEERING-LIMITED/companies-house-data)
+  skipped https://companycheck.co.uk/company/02824022/METSOL-ENGINEERING-CNC-LIMITED (403 Client Error: Forbidden for url: https://companycheck.co.uk/company/02824022/METSOL-ENGINEERING-CNC-LIMITED)
+  dropped https://find-and-update.company-information.service.gov.uk/company/13160564 (The page is the Companies House overview for METSOL ENGINEERING CNC LIMITED (company number 13160564), a dissolved steel tube manufacturer, which is a different entity from the target Metsol Engineering (metsolengineering.co.uk) and the page does not reference that domain.)
+  no usable external pages
+Creiform Ltd
+  tokens: 5255 in, 1210 out
+  4 pages, 3 verified, 0 rejected
+RevoNA Bio
+  skipped https://www.dnb.com/business-directory/company-profiles/revona-bio-ltd.3d94c8e5b9de0591f7a750262af10ded (403 Client Error: Forbidden for url: https://www.dnb.com/business-directory/company-profiles/revona-bio-ltd.3d94c8e5b9de0591f7a750262af10ded)
+  skipped https://www.ukri.org/news/uk-biotech-start-ups-to-spark-innovations-to-improve-our-lives/ (503 Server Error: Service Temporarily Unavailable for url: https://www.ukri.org/news/uk-biotech-start-ups-to-spark-innovations-to-improve-our-lives/)
+  tokens: 5455 in, 2110 out
+  3 pages, 9 verified, 0 rejected
+J.E.M. Precision Engineering Ltd
+  skipped https://companycheck.co.uk/company/03782703/JEM-PRECISION-ENGINEERING-LIMITED/companies-house-data (403 Client Error: Forbidden for url: https://companycheck.co.uk/company/03782703/JEM-PRECISION-ENGINEERING-LIMITED/companies-house-data)
+  skipped https://www.dnb.com/business-directory/company-profiles.jem_precision_engineering_limited.f1387551a18aa417201536c173c1b6c7.html (403 Client Error: Forbidden for url: https://www.dnb.com/business-directory/company-profiles.jem_precision_engineering_limited.f1387551a18aa417201536c173c1b6c7.html)
+  skipped https://gb.kompass.com/c/j-e-m-precision-engineering-ltd/gb99086303/ (403 Client Error: Forbidden for url: https://gb.kompass.com/c/j-e-m-precision-engineering-ltd/gb99086303/)
+  dropped https://find-and-update.company-information.service.gov.uk/company/03782703 (This is a Companies House record for JEM PRECISION ENGINEERING LIMITED (03782703) in Taunton, which has a near-identical name, but the page contains nothing linking it to the domain jemprecisionengineeringltd.co.uk, so it cannot be clearly established as the same company.)
+  tokens: 2083 in, 821 out
+  1 pages, 3 verified, 0 rejected
+Precision Engineers (Pontefract) Ltd
+  skipped https://open.endole.co.uk/insight/company/00682262-precision-engineers-pontefract-limited (403 Client Error: Forbidden for url: https://open.endole.co.uk/insight/company/00682262-precision-engineers-pontefract-limited)
+  skipped https://gb.kompass.com/c/precision-engineers-pontefract-ltd/gb80152080/ (403 Client Error: Forbidden for url: https://gb.kompass.com/c/precision-engineers-pontefract-ltd/gb80152080/)
+  tokens: 6631 in, 1853 out
+  3 pages, 5 verified, 0 rejected
+Anthropic
+  skipped https://www.britannica.com/money/Anthropic-PBC (403 Client Error: Forbidden for url: https://www.britannica.com/money/Anthropic-PBC)
+  tokens: 45316 in, 3596 out
+  4 pages, 9 verified, 2 rejected
+Port
+  skipped https://app.dealroom.co/companies/port_ (403 Client Error: Forbidden for url: https://app.dealroom.co/companies/port_)
+  tokens: 12958 in, 2593 out
+  4 pages, 11 verified, 0 rejected
+DONE

@@ -1,0 +1,102 @@
+[
+  {
+    "field": "funding",
+    "value": "$45M Series A round",
+    "quote": "it has closed on a $45 million Series A round of funding",
+    "source_url": "https://siliconangle.com/2025/04/08/british-gpu-service-startup-nexgen-cloud-raises-45m/",
+    "source_date": "APRIL 08 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company closed a $45 million Series A round of funding, which matches the claimed $45M Series A round and refers to the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "GPU-as-a-Service cloud provider",
+    "quote": "establish a GPU-as-a-Service cloud after failing to get much traction",
+    "source_url": "https://siliconangle.com/2025/04/08/british-gpu-service-startup-nexgen-cloud-raises-45m/",
+    "source_date": "APRIL 08 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the company set out to establish a GPU-as-a-Service cloud, which directly describes what the company itself offers, though the subject is only implied and the sentence is a fragment."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "U.K.-based graphics processing unit cloud company NexGen Cloud Ltd.",
+    "source_url": "https://siliconangle.com/2025/04/08/british-gpu-service-startup-nexgen-cloud-raises-45m/",
+    "source_date": "APRIL 08 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote describes NexGen Cloud Ltd. as a U.K.-based company, which directly states the company itself is based in the United Kingdom, supporting the countries claim."
+  },
+  {
+    "field": "funding",
+    "value": "$45m Series A funding round",
+    "quote": "raised $45m (\u00a335m) in its Series A funding round",
+    "source_url": "https://finance.yahoo.com/news/nexgen-cloud-secures-45m-bolster-101353446.html",
+    "source_date": "April 9, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company raised $45m (\u00a335m) in its Series A funding round, which directly matches the claimed funding value and round."
+  },
+  {
+    "field": "industry",
+    "value": "GPU-as-a-Service provider",
+    "quote": "Now operating as a GPU-as-a-Service provider",
+    "source_url": "https://finance.yahoo.com/news/nexgen-cloud-secures-45m-bolster-101353446.html",
+    "source_date": "April 9, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that NexGen Cloud is now operating as a GPU-as-a-Service provider, which directly describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "employees",
+    "value": "108",
+    "quote": "Employee Count 108 as on Mar 31, 2026",
+    "source_url": "https://tracxn.com/d/companies/nexgen-cloud/__dIH9zB5hbDceRftOJGFi2Sjza23c97jD2VsmCsbxjZo",
+    "source_date": "Mar 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states 'Employee Count 108 as on Mar 31, 2026' without naming a different company, so it directly gives the company's own employee count as 108."
+  },
+  {
+    "field": "funding",
+    "value": "$77.3M total funding",
+    "quote": "NexGen Cloud has raised $77.3M in funding from Moore & Moore Investments Group",
+    "source_url": "https://tracxn.com/d/companies/nexgen-cloud/__dIH9zB5hbDceRftOJGFi2Sjza23c97jD2VsmCsbxjZo",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that NexGen Cloud itself has raised $77.3M in funding from Moore & Moore Investments Group, which directly matches the claimed total funding value for the company."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "NexGen Cloud is a series A company based in London (United Kingdom)",
+    "source_url": "https://tracxn.com/d/companies/nexgen-cloud/__dIH9zB5hbDceRftOJGFi2Sjza23c97jD2VsmCsbxjZo",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states NexGen Cloud is based in London (United Kingdom), which directly places the company itself in the United Kingdom, matching the countries field's claimed value."
+  },
+  {
+    "field": "industry",
+    "value": "Sustainable AI cloud solutions provider",
+    "quote": "a technology firm providing sustainable AI cloud solutions",
+    "source_url": "https://siliconcanals.com/nexgen-cloud-raises-e41-1m-funding/",
+    "source_date": "Published Apr 8, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote describes NexGen Cloud as a technology firm providing sustainable AI cloud solutions, which directly states the claimed industry about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$45M Series A round",
+    "quote": "has closed its Series A funding round, securing $45M (nearly \u20ac41.10M)",
+    "source_url": "https://siliconcanals.com/nexgen-cloud-raises-e41-1m-funding/",
+    "source_date": "Published Apr 8, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company closed its Series A funding round securing $45M, directly matching the claimed funding value for the company itself."
+  }
+]

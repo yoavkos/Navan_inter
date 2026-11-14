@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Upscale tech-infused mini golf, bar and dining",
+    "quote": "Experience tech-infused mini golf paired with a full-service bar and restaurant",
+    "source_url": "https://puttshack.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote describes Puttshack's offering as tech-infused mini golf paired with a full-service bar and restaurant, which directly supports the claimed industry of upscale tech-infused mini golf, bar and dining, though it does not use the word 'upscale'."
+  },
+  {
+    "field": "countries",
+    "value": "United States, United Kingdom",
+    "quote": "\ud83c\uddec\ud83c\udde7 United Kingdom view uk locations bank lakeside watford white city",
+    "source_url": "https://puttshack.com/locations/",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote lists United Kingdom locations (Bank, Lakeside, Watford, White City), which supports the United Kingdom part of the claim, but it says nothing about United States offices or staff, so the full claimed value is not supported."
+  },
+  {
+    "field": "hiring",
+    "value": "Actively recruiting for open roles",
+    "quote": "We\u2019ve got big plans and are always looking for the best people to join us.",
+    "source_url": "https://puttshack.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says the company is 'always looking for the best people to join us,' which indicates ongoing recruitment about the company itself, so it directly supports actively recruiting for open roles."
+  }
+]

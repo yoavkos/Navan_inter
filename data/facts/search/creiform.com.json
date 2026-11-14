@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Bespoke design and manufacture of products and sub-contract services",
+    "quote": "We provide Quality and Bespoke design & manufactured products and sub contract services on a one off or small batch basis",
+    "source_url": "https://www.madeinbritain.org/news/creiform-ltd-first-exhibition-success",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company provides bespoke design and manufactured products and sub-contract services on a one-off or small batch basis, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Engineering and manufacturing company specialising in bespoke design and manufacturing solutions",
+    "quote": "Creiform Limited is a UK-based engineering and manufacturing company specialising in bespoke design and manufacturing solutions",
+    "source_url": "https://www.manufacturershub.co.uk/manufacturers-and-suppliers-1/creiform-ltd",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Creiform Limited is an engineering and manufacturing company specialising in bespoke design and manufacturing solutions, directly describing what the company itself does, which matches the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "UK",
+    "quote": "Manvers Way, Wath upon Dearne, Manvers S63 5DA, UK",
+    "source_url": "https://www.manufacturershub.co.uk/manufacturers-and-suppliers-1/creiform-ltd",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives a street address in Wath upon Dearne with 'UK' as the country, and since it comes from the company's own page, it indicates the company's office location in the UK."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "field": "employees",
+    "value": "72",
+    "quote": "Basecamp Research has 72 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/455154-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Basecamp Research has 72 total employees, which directly matches the claimed employee count of 72 for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Discovery Tools (Healthcare)",
+    "quote": "Basecamp Research\u2019s primary industry is Discovery Tools (Healthcare).",
+    "source_url": "https://pitchbook.com/profiles/company/455154-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Basecamp Research's primary industry is Discovery Tools (Healthcare), which is a statement about the company itself and matches the claimed value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Basecamp Research is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/455154-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Basecamp Research is headquartered in London, United Kingdom, which directly places the company's own offices (its headquarters) in the UK, supporting the claimed country value."
+  },
+  {
+    "field": "funding",
+    "value": "Series C, $140M",
+    "quote": "6. Later Stage VC (Series C) 09-Sep-2026 $140M Completed Generating Revenue",
+    "source_url": "https://pitchbook.com/profiles/company/455154-67",
+    "source_date": "09-Sep-2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists a completed Series C round of $140M with no other company named, and it comes from the company's own page, so it directly states the claimed funding round for Basecamp Research, though the list format and future-dated entry add some ambiguity."
+  },
+  {
+    "field": "funding",
+    "value": "$224M raised in total",
+    "quote": "Basecamp Research has raised $224M.",
+    "source_url": "https://pitchbook.com/profiles/company/455154-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Basecamp Research has raised $224M, which directly reports the company's own total funding matching the claimed $224M raised in total."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "field": "industry",
+    "value": "Manufacture of other fabricated metal products not elsewhere classified",
+    "quote": "Nature of business (SIC) 25990 - Manufacture of other fabricated metal products not elsewhere classified",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/01263820",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's nature of business as SIC 25990, which is 'Manufacture of other fabricated metal products not elsewhere classified', directly stating the claimed industry for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Subcontract sheet metal fabricator",
+    "quote": "ACKERMAN ENGINEERING LIMITED is a subcontract sheet metal fabricator.",
+    "source_url": "https://uk.linkedin.com/company/ackerman-engineering-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Ackerman Engineering Limited is a subcontract sheet metal fabricator, which describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "employees",
+    "value": "11-50",
+    "quote": "Company size 11-50 employees",
+    "source_url": "https://uk.linkedin.com/company/ackerman-engineering-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company size is 11-50 employees, which directly gives the claimed employee count for Ackerman Engineering Ltd itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Bridport , DT6 3UX, GB",
+    "source_url": "https://uk.linkedin.com/company/ackerman-engineering-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives a postal address with the country code GB (United Kingdom) for Bridport, which, on the company's own page, indicates its office location in the UK."
+  },
+  {
+    "field": "hiring",
+    "value": "Hiring a CAD CAM Engineer in Bridport, England",
+    "quote": "We're #hiring a new CAD CAM Engineer in Bridport, England.",
+    "source_url": "https://uk.linkedin.com/company/ackerman-engineering-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company is hiring a new CAD CAM Engineer in Bridport, England, which directly matches the claimed hiring value about the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "Hiring a Contracts Engineer",
+    "quote": "We\u2019re Hiring a Contracts Engineer!",
+    "source_url": "https://uk.linkedin.com/company/ackerman-engineering-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is hiring and names the open role of Contracts Engineer, which directly supports the claimed hiring value about the company itself."
+  }
+]

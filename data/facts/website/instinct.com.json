@@ -1,0 +1,12 @@
+[
+  {
+    "field": "industry",
+    "value": "Personal assistant that users can text or call",
+    "quote": "Instinct is a personal assistant that understands what you're working on and what's important to you.",
+    "source_url": "https://instinct.com",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote says Instinct is a personal assistant, but it does not state that users can text or call it, which is part of the claimed value."
+  }
+]

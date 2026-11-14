@@ -1,0 +1,112 @@
+[
+  {
+    "field": "employees",
+    "value": "80",
+    "quote": "CloudNC has 80 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/155189-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that CloudNC has 80 total employees, which matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "51-200",
+    "quote": "Company size 51-200 employees",
+    "source_url": "https://uk.linkedin.com/company/cloudnc",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Company size 51-200 employees' with no indication it refers to a different company, so it directly supports the claimed employee range of 51-200 for CloudNC itself."
+  },
+  {
+    "field": "industry",
+    "value": "Construction and Engineering",
+    "quote": "CloudNC\u2019s primary industry is Construction and Engineering.",
+    "source_url": "https://pitchbook.com/profiles/company/155189-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that CloudNC's primary industry is Construction and Engineering, which is a statement about the company itself rather than its customers or market."
+  },
+  {
+    "field": "industry",
+    "value": "Software Development",
+    "quote": "Industry Software Development",
+    "source_url": "https://uk.linkedin.com/company/cloudnc",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states the industry as 'Software Development' without referring to customers or partners, so it directly supports the claimed industry value for CloudNC itself."
+  },
+  {
+    "field": "industry",
+    "value": "AI-driven CAM programming within the manufacturing sector",
+    "quote": "CloudNC specializes in AI-driven CAM programming within the manufacturing sector.",
+    "source_url": "https://www.cbinsights.com/company/cloudnc",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that CloudNC specializes in AI-driven CAM programming within the manufacturing sector, which directly describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office 1 Norton Folgate Spitalfields London E1 6DB England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/155189-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's Corporate Office address in London, England, United Kingdom, which directly states that the company itself has an office in the United Kingdom."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "based in our headquarters in London and our factory in Chelmsford",
+    "source_url": "https://uk.linkedin.com/company/cloudnc",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the company is based in its headquarters in London and its factory in Chelmsford, both in the UK, so it directly states the company itself has offices/staff in the United Kingdom."
+  },
+  {
+    "field": "funding",
+    "value": "$30M Series B1 round",
+    "quote": "Later Stage VC (Series B1) 08-Sep-2026 $30M Completed",
+    "source_url": "https://pitchbook.com/profiles/company/155189-98",
+    "source_date": "08-Sep-2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote from CloudNC's own page directly states a completed Later Stage VC (Series B1) round of $30M, matching the claimed funding value."
+  },
+  {
+    "field": "funding",
+    "value": "$112M total raised",
+    "quote": "CloudNC has raised $112M.",
+    "source_url": "https://pitchbook.com/profiles/company/155189-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that CloudNC has raised $112M, which directly describes money the company itself raised and matches the claimed total of $112M raised."
+  },
+  {
+    "field": "funding",
+    "value": "$82.62M total raised",
+    "quote": "Total Raised $82.62M",
+    "source_url": "https://www.cbinsights.com/company/cloudnc",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Total Raised $82.62M' with no qualifier, and the page is about CloudNC, so it directly gives the company's total funding matching the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "$20M last raised",
+    "quote": "Last Raised $20M | 2 mos ago",
+    "source_url": "https://www.cbinsights.com/company/cloudnc",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's last raise was $20M two months ago, which directly matches the claimed funding value of $20M last raised for CloudNC, though it does not name the company explicitly; the quote is from the company's own page, so it is treated as referring to CloudNC."
+  }
+]

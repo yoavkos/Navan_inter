@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Magnetic control technology for higher-performing batteries",
+    "quote": "Magnetic control for higher-performing batteries.",
+    "source_url": "https://gaussion.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Gaussion offers magnetic control for higher-performing batteries, which directly describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "funding",
+    "value": "Supported by leading investors and strategic partners",
+    "quote": "Supported by leading investors and strategic partners, the company is accelerating its magnetic battery-control technology towards commercial-scale deployment.",
+    "source_url": "https://gaussion.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the company itself is supported by leading investors and strategic partners, which directly matches the claimed funding value about the company rather than its customers or products."
+  }
+]

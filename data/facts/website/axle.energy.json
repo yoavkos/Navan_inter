@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Connects EVs, batteries and heat pumps to energy markets through a single unified API, and turns distributed assets into a coordinated virtual power plant",
+    "quote": "Connect EVs, batteries and heat pumps to energy markets through a single, unified API.",
+    "source_url": "https://axle.energy",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote states the company's unified API connects EVs, batteries and heat pumps to energy markets, but it says nothing about turning distributed assets into a coordinated virtual power plant, which is part of the claimed value."
+  },
+  {
+    "field": "hiring",
+    "value": "Recruiting; open roles listed on careers page",
+    "quote": "We\u2019re hiring",
+    "source_url": "https://axle.energy/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote \"We're hiring\" from the company's own website directly states that Axle Energy is recruiting, which matches the claimed value of open roles listed on a careers page; the quote itself does not mention a careers page explicitly, but the core claim of active recruiting is directly stated."
+  },
+  {
+    "field": "funding",
+    "value": "Backed by investors; amounts not disclosed",
+    "quote": "Proudly backed by the some of the best in the business",
+    "source_url": "https://axle.energy/about",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote says the company is 'backed by the some of the best in the business' but never mentions investors, funding rounds, or undisclosed amounts, so it does not directly state the claimed funding value."
+  }
+]

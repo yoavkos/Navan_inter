@@ -1,0 +1,32 @@
+[
+  {
+    "field": "employees",
+    "value": "8 employees",
+    "quote": "We employ 8 highly skilled employees",
+    "source_url": "https://metsolengineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Metsol Engineering employs 8 highly skilled employees, which directly gives the company's own headcount matching the claimed value of 8."
+  },
+  {
+    "field": "employees",
+    "value": "12 employees",
+    "quote": "has 12 experienced employees",
+    "source_url": "https://www.metsolengineering.co.uk/about-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company has 12 experienced employees, which directly matches the claimed employee count of 12 for Metsol Engineering itself."
+  },
+  {
+    "field": "industry",
+    "value": "Sub-contract machining for the Oil and Gas industry",
+    "quote": "one of the best sub-contract machining companies to the Oil and Gas industry in Europe",
+    "source_url": "https://metsolengineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote describes Metsol Engineering itself as one of the best sub-contract machining companies serving the Oil and Gas industry, which directly matches the claimed industry."
+  }
+]

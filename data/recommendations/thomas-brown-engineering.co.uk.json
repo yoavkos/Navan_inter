@@ -1,0 +1,26 @@
+{
+  "company": "Thomas Brown Engineering Ltd",
+  "current_tier": 3,
+  "final": "green",
+  "priority": "normal",
+  "agreement": true,
+  "note": {
+    "headline": "🟢 Tier fits",
+    "text": "Declared GBV of $12,000 is far below the $100K Tier 2 threshold, and employee counts of 18 (customer-entered) and 16 (tracxn.com) are well under 150. Nothing further to check.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "green",
+    "flags": [],
+    "reasons": [
+      "No flags - research is consistent with Tier 3."
+    ],
+    "notes": []
+  },
+  "ai": {
+    "reason": "The declared GBV of $12,000 is far below the $100K Tier 2 threshold, and both employee sources (18 entered by the customer, 16 on tracxn.com) are well under 150. The verified facts describe a small England-based sub-contract precision machining firm with no international presence or dated rapid growth, so Tier 3 self-serve fits the evidence. The minor 16-vs-18 employee discrepancy does not change the tier.",
+    "color": "green",
+    "priority": "normal"
+  }
+}

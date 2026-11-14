@@ -1,0 +1,92 @@
+[
+  {
+    "field": "employees",
+    "value": "10",
+    "quote": "Employees 10",
+    "source_url": "https://pitchbook.com/profiles/company/535586-05",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 10' without naming another company or context suggesting a different entity, so it directly gives the company's employee count as 10."
+  },
+  {
+    "field": "employees",
+    "value": "7",
+    "quote": "View all 7 employees",
+    "source_url": "https://www.linkedin.com/company/revona-bio",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says 'View all 7 employees' on a page about RevoNA Bio, which directly states the company has 7 employees itself."
+  },
+  {
+    "field": "industry",
+    "value": "Drug Discovery",
+    "quote": "Primary Industry Drug Discovery",
+    "source_url": "https://pitchbook.com/profiles/company/535586-05",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's primary industry as Drug Discovery, which directly states the claimed industry value about RevoNA Bio itself."
+  },
+  {
+    "field": "industry",
+    "value": "Biotechnology Research",
+    "quote": "Industry Biotechnology Research",
+    "source_url": "https://www.linkedin.com/company/revona-bio",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's industry as Biotechnology Research, directly matching the claimed value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "RNA-targeted drug discovery tools and datasets",
+    "quote": "RevoNA Bio is a pre-seed UK company developing tools and datasets for RNA-targeted drug discovery",
+    "source_url": "https://biobase.whitefordresearch.com/companies/revona",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states RevoNA Bio is developing tools and datasets for RNA-targeted drug discovery, which directly describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "RevoNA is headquartered in Walsall, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/535586-05",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states RevoNA is headquartered in Walsall, United Kingdom, which directly places the company's headquarters (its own offices) in the United Kingdom."
+  },
+  {
+    "field": "funding",
+    "value": "$3.21M raised",
+    "quote": "RevoNA has raised $3.21M.",
+    "source_url": "https://pitchbook.com/profiles/company/535586-05",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that RevoNA has raised $3.21M, which directly matches the claimed funding value and refers to the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "USD 335,000 total funding (as reported by PitchBook)",
+    "quote": "PitchBook reports total funding of USD 335,000",
+    "source_url": "https://biobase.whitefordresearch.com/companies/revona",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that PitchBook reports total funding of USD 335,000, which matches the claimed value and attributes it to the company's funding source, so it directly supports the funding fact about RevoNA Bio."
+  },
+  {
+    "field": "funding",
+    "value": "GBP 499,800 Innovate UK grant (funded value)",
+    "quote": "a funded value of GBP 499,800",
+    "source_url": "https://biobase.whitefordresearch.com/companies/revona",
+    "source_date": "November 2023-April 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states a funded value of GBP 499,800, which matches the claimed amount and the funding field, and it comes from a page about RevoNA Bio. It does not name Innovate UK, so the grant source is unconfirmed."
+  }
+]

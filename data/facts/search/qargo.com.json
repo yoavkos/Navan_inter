@@ -1,0 +1,112 @@
+[
+  {
+    "field": "employees",
+    "value": "130",
+    "quote": "Qargo has 130 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/507044-53",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Qargo has 130 total employees, matching the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Developer of cloud-based transport management software",
+    "quote": "Developer of a cloud-based transport management software designed to shape a more profitable and sustainable future by empowering to work efficiently.",
+    "source_url": "https://pitchbook.com/profiles/company/507044-53",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a developer of a cloud-based transport management software, which directly describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "industry",
+    "value": "Business/Productivity Software",
+    "quote": "Qargo\u2019s primary industry is Business/Productivity Software.",
+    "source_url": "https://pitchbook.com/profiles/company/507044-53",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Qargo's primary industry is Business/Productivity Software, which matches the claimed industry value for the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Qargo is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/507044-53",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Qargo is headquartered in London, United Kingdom, which directly places the company's headquarters (its own offices and staff) in the United Kingdom."
+  },
+  {
+    "field": "funding",
+    "value": "Series B, $33M",
+    "quote": "3. Later Stage VC (Series B) 11-Dec-2025 $33M Completed",
+    "source_url": "https://pitchbook.com/profiles/company/507044-53",
+    "source_date": "11-Dec-2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote is a funding-table entry from a page about Qargo listing a completed Later Stage VC (Series B) round of $33M, which matches the claimed funding value for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$52.9M total raised",
+    "quote": "Qargo has raised $52.9M.",
+    "source_url": "https://pitchbook.com/profiles/company/507044-53",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Qargo has raised $52.9M, which directly matches the claimed total funding raised by the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Cloud based transportation management software",
+    "quote": "It operates as a Cloud based transportation management software",
+    "source_url": "https://tracxn.com/d/companies/qargo/__mXNiBJDGAvPzON84K_OEpuEbuk8Fwj51hq_4HR5183s",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Qargo operates as a cloud based transportation management software, which directly describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "Belgium",
+    "quote": "Qargo is headquartered in Ghent, Belgium",
+    "source_url": "https://tracxn.com/d/companies/qargo/__mXNiBJDGAvPzON84K_OEpuEbuk8Fwj51hq_4HR5183s",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Qargo is headquartered in Ghent, Belgium, which directly places the company's own headquarters (and thus staff/offices) in Belgium."
+  },
+  {
+    "field": "employees",
+    "value": "224",
+    "quote": "As of Oct 31, 2026, the latest employee count at Qargo is 224.",
+    "source_url": "https://tracxn.com/d/companies/qargo/__mXNiBJDGAvPzON84K_OEpuEbuk8Fwj51hq_4HR5183s",
+    "source_date": "Oct 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that as of Oct 31, 2026, the latest employee count at Qargo is 224, which matches the claimed employee value for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$54M total funding",
+    "quote": "Qargo has raised $54M in funding from Sofina",
+    "source_url": "https://tracxn.com/d/companies/qargo/__mXNiBJDGAvPzON84K_OEpuEbuk8Fwj51hq_4HR5183s",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Qargo has raised $54M in funding from Sofina, which directly describes the company's own fundraising and matches the claimed total funding of $54M."
+  },
+  {
+    "field": "funding",
+    "value": "Series B, $ ***** (undisclosed)",
+    "quote": "Latest Funding Round Series B, Dec 11, 2025",
+    "source_url": "https://tracxn.com/d/companies/qargo/__mXNiBJDGAvPzON84K_OEpuEbuk8Fwj51hq_4HR5183s",
+    "source_date": "Dec 11, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Qargo's latest funding round was Series B, dated Dec 11, 2025, and it gives no amount, which matches the claimed undisclosed amount."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "field": "industry",
+    "value": "parcel delivery company designed for ecommerce",
+    "quote": "HIVED is the UK\u00e2s first parcel delivery company designed for ecommerce",
+    "source_url": "https://hived.space/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "quote not found in source page"
+  },
+  {
+    "field": "employees",
+    "value": "150+",
+    "quote": "150+ Employees",
+    "source_url": "https://hived.space/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote from the company's own website states \"150+ Employees\", which directly gives the company's headcount as at least 150, matching the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "$42m Series B",
+    "quote": "HIVED raised a $42m Series B",
+    "source_url": "https://hived.space/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "quote not found in source page"
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles listed on careers page",
+    "quote": "See open roles",
+    "source_url": "https://hived.space/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote 'See open roles' is a call-to-action on the company's own website pointing to listed job openings, which directly indicates the company is recruiting and lists open roles on its careers page."
+  }
+]

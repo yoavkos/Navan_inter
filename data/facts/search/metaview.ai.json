@@ -1,0 +1,132 @@
+[
+  {
+    "field": "funding",
+    "value": "$60 million Series C led by Insight Partners",
+    "quote": "Metaview, the Agentic Recruiting Platform, announced $60 million in Series C funding led by Insight Partners",
+    "source_url": "https://techrseries.com/recruitment-and-on-boarding/metaview-raises-60m-series-c-to-lead-the-shift-to-agentic-recruiting/",
+    "source_date": "Sep 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Metaview announced $60 million in Series C funding led by Insight Partners, which directly reports the company's own funding round matching the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "Total funding of $110 million",
+    "quote": "brings Metaview\u2019s total funding to $110 million",
+    "source_url": "https://techrseries.com/recruitment-and-on-boarding/metaview-raises-60m-series-c-to-lead-the-shift-to-agentic-recruiting/",
+    "source_date": "Sep 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that a new investment brings Metaview's total funding to $110 million, which directly describes the company's own total funding and matches the claimed value."
+  },
+  {
+    "field": "employees",
+    "value": "80 people",
+    "quote": "expand the team from 80 to 250 people by the end of next year",
+    "source_url": "https://techrseries.com/recruitment-and-on-boarding/metaview-raises-60m-series-c-to-lead-the-shift-to-agentic-recruiting/",
+    "source_date": "Sep 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the team will expand 'from 80 to 250 people,' which indicates the company's current team size is 80, though it is stated as a planned expansion rather than a direct headcount statement."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom, United States",
+    "quote": "with a New York office opening alongside existing hubs in London and San Francisco",
+    "source_url": "https://techrseries.com/recruitment-and-on-boarding/metaview-raises-60m-series-c-to-lead-the-shift-to-agentic-recruiting/",
+    "source_date": "Sep 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the company is opening a New York office alongside existing hubs in London and San Francisco, which directly states that the company itself has offices in the US and the UK."
+  },
+  {
+    "field": "industry",
+    "value": "AI-driven recruiting tools",
+    "quote": "Metaview develops AI-driven tools to streamline the recruitment process",
+    "source_url": "https://www.vestbee.com/insights/articles/metaview-secures-35-m",
+    "source_date": "June 26, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Metaview develops AI-driven tools to streamline the recruitment process, which directly describes what the company itself builds and sells, matching the claimed industry of AI-driven recruiting tools."
+  },
+  {
+    "field": "funding",
+    "value": "$35 million Series B led by GV",
+    "quote": "has raised $35 million in a Series B funding round led by GV (Google Ventures)",
+    "source_url": "https://www.vestbee.com/insights/articles/metaview-secures-35-m",
+    "source_date": "June 26, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company has raised $35 million in a Series B round led by GV, which directly matches the claimed funding value and lead investor about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$50 million raised across four funding rounds",
+    "quote": "has raised $50 million across four funding rounds",
+    "source_url": "https://www.vestbee.com/insights/articles/metaview-secures-35-m",
+    "source_date": "June 26, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Metaview 'has raised $50 million across four funding rounds', which directly matches the claimed funding value and refers to the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "22 total employees",
+    "quote": "22 Total Employees",
+    "source_url": "https://builtin.com/company/metaview",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states '22 Total Employees' without naming a different company, and the page is about Metaview, so it directly gives the company's own headcount of 22."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (HQ London)",
+    "quote": "HQ London, England",
+    "source_url": "https://builtin.com/company/metaview",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's headquarters is in London, England, which directly supports that the company has an office (HQ) in the United Kingdom, matching the claimed countries value."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles listed on Built In",
+    "quote": "Recently Posted Jobs at Metaview",
+    "source_url": "https://builtin.com/company/metaview",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote mentions 'Recently Posted Jobs at Metaview', which indicates job postings for the company, but it does not explicitly state that open roles are listed on Built In, so the specific claimed source is not directly confirmed by the quote."
+  },
+  {
+    "field": "industry",
+    "value": "Software Development",
+    "quote": "Industry Software Development",
+    "source_url": "https://uk.linkedin.com/company/metaview-technologies",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly labels the company's industry as Software Development, which directly matches the claimed industry value for Metaview itself."
+  },
+  {
+    "field": "employees",
+    "value": "51-200 employees",
+    "quote": "Company size 51-200 employees",
+    "source_url": "https://uk.linkedin.com/company/metaview-technologies",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Company size 51-200 employees' without naming a different company, so it directly gives the company's own headcount range matching the claimed 51-200 employees."
+  },
+  {
+    "field": "countries",
+    "value": "United States, United Kingdom",
+    "quote": "Elder Street 4 Elder Street London, England E1 6BT, GB",
+    "source_url": "https://uk.linkedin.com/company/metaview-technologies",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote gives a London, England (GB) address, which supports the United Kingdom, but it says nothing about a United States office or staff, so the claimed value is not fully supported."
+  }
+]

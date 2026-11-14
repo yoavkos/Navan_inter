@@ -1,0 +1,31 @@
+{
+  "company": "Greyparrot",
+  "current_tier": 2,
+  "final": "yellow",
+  "priority": "normal",
+  "agreement": true,
+  "note": {
+    "headline": "🟡 Review needed",
+    "text": "Declared GBV of $395,000 is below the $500K Tier 1 threshold, and no verified source shows spend at or above it. Recent Series B of $32.5M (pitchbook.com) makes it worth confirming current spend before tiering.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "yellow",
+    "flags": [
+      "GBV_HIGH_FOR_SIZE"
+    ],
+    "reasons": [
+      "Signup check: GBV_HIGH_FOR_SIZE (GBV $395,000, employees 56)."
+    ],
+    "notes": [
+      "Verified funding: $62.2M total raised (pitchbook.com); Series B, $32.5M (pitchbook.com); $11M Series A round, May 2022 (techcrunch.com).",
+      "Location text not recognized as a country: 'Europe'."
+    ]
+  },
+  "ai": {
+    "reason": "Declared GBV of $395,000 places Greyparrot in Tier 2 by spend, and no verified source shows spend at or above the $500K Tier 1 threshold. The sources conflict on headcount (42 declared, over 50 on greyparrot.ai, 63 on pitchbook.com) and on the Jul-2026 Series B amount ($27M on greyparrot.ai vs $32.5M on pitchbook.com, 28-Jul-2026), and the growth signals are not tied to a verified spend increase, so a person should review. Priority is normal because the 2022 Series A to 2026 Series B progression is not shown to be unusually fast.",
+    "color": "yellow",
+    "priority": "normal"
+  }
+}

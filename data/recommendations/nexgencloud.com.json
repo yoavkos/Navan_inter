@@ -1,0 +1,30 @@
+{
+  "company": "NexGen Cloud",
+  "current_tier": 2,
+  "final": "yellow",
+  "priority": "normal",
+  "agreement": true,
+  "note": {
+    "headline": "🟡 Review needed",
+    "text": "Declared $460,000 GBV and 280 estimated employees sit near the Tier 2 threshold, while tracxn.com lists 108 employees. Check employee count and Spain presence (nexgencloud.com) before confirming.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "yellow",
+    "flags": [
+      "NEAR_THRESHOLD"
+    ],
+    "reasons": [
+      "Signup check: NEAR_THRESHOLD (GBV $460,000, employees 280)."
+    ],
+    "notes": [
+      "Verified funding: $45M Series A round (siliconcanals.com); $45m Series A funding round (finance.yahoo.com); $77.3M total funding (tracxn.com)."
+    ]
+  },
+  "ai": {
+    "reason": "The declared $460K GBV places NexGen Cloud in Tier 2, which matches its current tier, but no verified source gives travel spend. The estimated 280 employees conflict with the tracxn figure of 108 (Mar 31, 2026), and the company site lists Spain while other sources list only the UK, so a person should check the data before confirming the tier. The June 25, 2026 $34M GPU financing facility shows growth but is not unusually fast change.",
+    "color": "yellow",
+    "priority": "normal"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "field": "industry",
+    "value": "AI-powered generative design platform for business",
+    "quote": "Recraft provides an AI-powered generative design platform for business.",
+    "source_url": "https://www.thesaasnews.com/news/recraft-raises-30-million-in-series-b/",
+    "source_date": "May 06, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Recraft provides an AI-powered generative design platform for business, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "16 Great Queen Street, Covent Garden London WC2B 5AH England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/539853-49",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives a London, England, United Kingdom street address, which, on a page about Recraft, reads as the company's own office location."
+  },
+  {
+    "field": "employees",
+    "value": "49",
+    "quote": "Recraft (Multimedia and Design Software) has 49 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/539853-49",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Recraft has 49 total employees, directly matching the claimed employee count for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$30M Series B led by Accel",
+    "quote": "On May 5, 2025, Recraft announced a $30 million Series B funding round led by Accel",
+    "source_url": "https://en.wikipedia.org/wiki/Recraft",
+    "source_date": "May 5, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Recraft announced a $30 million Series B funding round led by Accel, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$12M Series A",
+    "quote": "today announced it has raised $12 million in a series A round of funding.",
+    "source_url": "https://venturebeat.com/ai/ai-graphic-design-tool-recraft-gets-12m-to-launch-a-foundation-model",
+    "source_date": "January 18, 2024",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company announced it raised $12 million in a Series A round, which directly matches the claimed funding value of $12M Series A for Recraft itself."
+  },
+  {
+    "field": "funding",
+    "value": "$44M total raised",
+    "quote": "Recraft (Multimedia and Design Software) has raised $44M.",
+    "source_url": "https://pitchbook.com/profiles/company/539853-49",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Recraft has raised $44M, which directly describes the company's own funding and matches the claimed total of $44M raised."
+  }
+]

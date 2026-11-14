@@ -1,0 +1,112 @@
+[
+  {
+    "field": "industry",
+    "value": "Enterprise software",
+    "quote": "Industry Enterprise software",
+    "source_url": "https://en.wikipedia.org/wiki/Port_(company)",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states the company's industry as 'Enterprise software', which directly matches the claimed value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Internal developer portal provider",
+    "quote": "Port is the provider of an internal developer portal",
+    "source_url": "https://siliconangle.com/2025/12/11/port-nets-100m-turn-developer-portal-agentic-ai-hub/",
+    "source_date": "DECEMBER 11 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Port is the provider of an internal developer portal, which directly describes what the company itself sells and matches the claimed industry value."
+  },
+  {
+    "field": "industry",
+    "value": "Software Development Applications",
+    "quote": "Primary Industry Software Development Applications",
+    "source_url": "https://pitchbook.com/profiles/company/489602-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly labels the company's primary industry as 'Software Development Applications', which directly matches the claimed industry value for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$7 million seed round",
+    "quote": "In November 2022, Port announced a US$7 million seed funding round led by TLV Partners",
+    "source_url": "https://en.wikipedia.org/wiki/Port_(company)",
+    "source_date": "November 2022",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Port announced a US$7 million seed funding round led by TLV Partners, which directly matches the claimed $7 million seed round for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$18 million Series A round, total raised $23 million",
+    "quote": "In September 2023, the company announced an $18 million Series A funding round led by Team8, bringing its reported total funding to $23 million.",
+    "source_url": "https://en.wikipedia.org/wiki/Port_(company)",
+    "source_date": "September 2023",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company announced an $18 million Series A funding round led by Team8 and that its reported total funding reached $23 million, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$18 million Series A round, total raised $23 million",
+    "quote": "closed on an $18 million Series A funding round, bringing its total amount raised to $23 million",
+    "source_url": "https://siliconangle.com/2023/09/13/port-raises-18m-simplify-devops-processes-developer-teams/",
+    "source_date": "SEPTEMBER 13 2023",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company closed an $18 million Series A funding round and brought its total raised to $23 million, which directly matches the claimed funding value for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$35 million Series B round",
+    "quote": "In October 2024, Port raised $35 million in a Series B funding round led by Accel",
+    "source_url": "https://en.wikipedia.org/wiki/Port_(company)",
+    "source_date": "October 2024",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Port itself raised $35 million in a Series B funding round led by Accel in October 2024, directly matching the claimed funding value."
+  },
+  {
+    "field": "funding",
+    "value": "$100 million Series C round",
+    "quote": "In December 2025, Port announced a $100 million Series C funding round led by General Atlantic",
+    "source_url": "https://en.wikipedia.org/wiki/Port_(company)",
+    "source_date": "December 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Port announced a $100 million Series C funding round led by General Atlantic, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Total funding $158 million",
+    "quote": "the new capital brings the total funding raised to $158 million",
+    "source_url": "https://siliconangle.com/2025/12/11/port-nets-100m-turn-developer-portal-agentic-ai-hub/",
+    "source_date": "DECEMBER 11 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the new capital brings the total funding raised to $158 million, which directly describes the company's own funding total matching the claimed value."
+  },
+  {
+    "field": "employees",
+    "value": "145",
+    "quote": "Port.io has 145 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/489602-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Port.io has 145 total employees, which directly matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "Israel",
+    "quote": "Corporate Office 5 Beit Ovad Tel Aviv 6721503 Israel",
+    "source_url": "https://pitchbook.com/profiles/company/489602-98",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists a 'Corporate Office' address in Tel Aviv, Israel, which directly indicates the company itself has an office in Israel."
+  }
+]

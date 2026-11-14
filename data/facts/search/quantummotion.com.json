@@ -1,0 +1,92 @@
+[
+  {
+    "field": "industry",
+    "value": "Developer of silicon transistor-based quantum computers",
+    "quote": "a developer of silicon transistor-based quantum computers",
+    "source_url": "https://quantumcomputingreport.com/quantum-motion-secures-160m-series-c-to-scale-silicon-spin-qpus/",
+    "source_date": "May 7, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company is a developer of silicon transistor-based quantum computers, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Develops silicon-based quantum computers",
+    "quote": "Quantum Motion develops silicon-based quantum computers",
+    "source_url": "https://semiconductor.co.uk/uk-semiconductor-companies/quantum-motion",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Quantum Motion develops silicon-based quantum computers, directly matching the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "over 120",
+    "quote": "grown from approximately 30 employees in 2022 to over 120 in 2026",
+    "source_url": "https://quantumcomputingreport.com/quantum-motion-secures-160m-series-c-to-scale-silicon-spin-qpus/",
+    "source_date": "May 7, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has grown from approximately 30 employees in 2022 to over 120 in 2026, which directly describes the company's own headcount as over 120."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom, Spain, Australia",
+    "quote": "opening new laboratories and offices in Spain and Australia to complement its London headquarters",
+    "source_url": "https://quantumcomputingreport.com/quantum-motion-secures-160m-series-c-to-scale-silicon-spin-qpus/",
+    "source_date": "May 7, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is opening laboratories and offices in Spain and Australia and already has a London headquarters, which directly places its own offices and staff in the UK, Spain and Australia."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Registered office: 9 Sterling Way, London N7 9HJ",
+    "source_url": "https://semiconductor.co.uk/uk-semiconductor-companies/quantum-motion",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives the company's registered office as a London address, which places the company's office in the United Kingdom, so it directly supports the claimed country for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$160 million Series C",
+    "quote": "has closed a $160 million Series C funding round",
+    "source_url": "https://quantumcomputingreport.com/quantum-motion-secures-160m-series-c-to-scale-silicon-spin-qpus/",
+    "source_date": "May 7, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has closed a $160 million Series C funding round, which directly matches the claimed funding value and round type for Quantum Motion itself."
+  },
+  {
+    "field": "funding",
+    "value": "\u00a38 million Series A",
+    "quote": "an \u00a38 million Series A led by INKEF in May 2020",
+    "source_url": "https://semiconductor.co.uk/uk-semiconductor-companies/quantum-motion",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company received an \u00a38 million Series A led by INKEF in May 2020, which is a funding round the company itself raised and matches the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "\u00a342 million Series B",
+    "quote": "a \u00a342 million Series B led by Bosch Ventures in February 2023",
+    "source_url": "https://semiconductor.co.uk/uk-semiconductor-companies/quantum-motion",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's own \u00a342 million Series B round, led by Bosch Ventures in February 2023, which is a funding round for the company itself and matches the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "$160 million Series C",
+    "quote": "a $160 million Series C led by DCVC and Kembara in May 2026",
+    "source_url": "https://semiconductor.co.uk/uk-semiconductor-companies/quantum-motion",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company received a $160 million Series C led by DCVC and Kembara in May 2026, which is funding the company itself raised, matching the claimed value."
+  }
+]

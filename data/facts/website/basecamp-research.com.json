@@ -1,0 +1,52 @@
+[
+  {
+    "field": "funding",
+    "value": "$140M Series C financing",
+    "quote": "today announced a $140M Series C financing",
+    "source_url": "https://www.basecamp-research.com/news-research/basecamp-research-raises-140m-to-advance-ai-designed-therapeutics",
+    "source_date": "September 23, 2026",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company announced a $140M Series C financing, which directly matches the claimed funding value and round for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Series C led by S32",
+    "quote": "The oversubscribed round was led by S32",
+    "source_url": "https://www.basecamp-research.com/news-research/basecamp-research-raises-140m-to-advance-ai-designed-therapeutics",
+    "source_date": "September 23, 2026",
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote says an oversubscribed round was led by S32, which supports the lead investor, but it never mentions a Series C, so the full claimed value is not directly stated."
+  },
+  {
+    "field": "industry",
+    "value": "Trains frontier AI models for therapeutic design; develops AI-designed medicines",
+    "quote": "Basecamp Research trains frontier AI models for therapeutic design.",
+    "source_url": "https://basecamp-research.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote states that Basecamp Research trains frontier AI models for therapeutic design, which directly supports the claimed industry of training AI models for therapeutic design; however, the claim also says it develops AI-designed medicines, which the quote does not state, so the claimed value is only partially supported."
+  },
+  {
+    "field": "countries",
+    "value": "UK (London headquarters); US (Boston area offices and labs)",
+    "quote": "Headquartered in London, we have offices and labs in Boston.",
+    "source_url": "https://basecamp-research.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is headquartered in London and has offices and labs in Boston, which directly supports the claimed UK (London HQ) and US (Boston offices and labs) countries for the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "Recruiting across biology, machine learning and operations",
+    "quote": "We are building a team of experts across biology, machine learning and operations.",
+    "source_url": "https://basecamp-research.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says the company is building a team of experts across biology, machine learning and operations, which indicates it is recruiting for those areas about itself, matching the claimed hiring value."
+  }
+]

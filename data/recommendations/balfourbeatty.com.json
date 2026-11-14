@@ -1,0 +1,28 @@
+{
+  "company": "Balfour Beatty",
+  "current_tier": 1,
+  "final": "yellow",
+  "priority": "normal",
+  "agreement": false,
+  "note": {
+    "headline": "🟡 Review needed",
+    "text": "Declared annual spend of $620,000 clears the $500K+ Tier 1 bar, but headcount sources conflict: 26,000 (en.wikipedia.org) versus 20,000 (balfourbeatty.com). Evidence is mixed; confirm the self-reported spend before keeping the dedicated team.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "green",
+    "flags": [],
+    "reasons": [
+      "No flags - research is consistent with Tier 1."
+    ],
+    "notes": [
+      "Location text not recognized as a country: '1 other country'."
+    ]
+  },
+  "ai": {
+    "reason": "The declared annual GBV of $620,000 meets the Tier 1 threshold of $500K+, and the 26,000 employee estimate (Wikipedia, 2026) also supports at least Tier 2. The verified sources conflict on headcount: graphiq.ai reports about 27,000 (November 2026), while balfourbeatty.com lists 20,000 across the UK and US, and its UK and US figures sum to 19,400. Because the GBV is self-reported and the headcount sources disagree, a person should confirm the spend before keeping the dedicated Tier 1 team.",
+    "color": "yellow",
+    "priority": "normal"
+  }
+}

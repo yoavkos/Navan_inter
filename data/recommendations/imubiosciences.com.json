@@ -1,0 +1,32 @@
+{
+  "company": "IMU Biosciences",
+  "current_tier": 2,
+  "final": "yellow",
+  "priority": "normal",
+  "agreement": true,
+  "note": {
+    "headline": "🟡 Review needed",
+    "text": "Headcount is listed as 25 (pitchbook.com) and 85 (uk.linkedin.com), while the $48,000 spend is low for the 155-employee estimate. Check current headcount and tier before outreach.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "yellow",
+    "flags": [
+      "SOURCES_CONFLICT",
+      "GBV_LOW_FOR_SIZE"
+    ],
+    "reasons": [
+      "Sources disagree on employee count: 25 (pitchbook.com), 85 (uk.linkedin.com).",
+      "Signup check: GBV_LOW_FOR_SIZE (GBV $48,000, employees 155)."
+    ],
+    "notes": [
+      "Verified funding: Series A round of £39.4m led by IQ Capital and Molten Ventures (startupmag.co.uk); About £44.6m raised to date (startupmag.co.uk); Total raised $54.6M (pitchbook.com)."
+    ]
+  },
+  "ai": {
+    "reason": "The declared $48,000 GBV falls in Tier 3 and is the only spend figure, while the 155-employee signup estimate is the sole basis for Tier 2 and is contradicted by research sources listing 25 employees (pitchbook.com), 85 employees (uk.linkedin.com), and 11-50 employees (uk.linkedin.com). Funding figures also conflict (£39.4m Series A on 02/06/2026 vs. a $53M Series A close and $54.6M total raised), and there is no dated evidence of fast hiring or growth, so a person should verify headcount and the current tier.",
+    "color": "yellow",
+    "priority": "normal"
+  }
+}

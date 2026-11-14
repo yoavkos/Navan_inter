@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Manufacturer of pressure and gravity diecast components in aluminium and zinc",
+    "quote": "Manufacturers of Pressure & Gravity Diecasting\u2019s in Aluminium & Zinc.",
+    "source_url": "https://ashleyengineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is a manufacturer of pressure and gravity diecastings in aluminium and zinc, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "UK",
+    "quote": "Situated in the heart of Lancashire (UK)",
+    "source_url": "https://ashleyengineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is situated in Lancashire (UK), which directly places the company's own location in the UK, so the countries claim is supported."
+  }
+]

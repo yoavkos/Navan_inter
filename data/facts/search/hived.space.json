@@ -1,0 +1,142 @@
+[
+  {
+    "field": "funding",
+    "value": "$42 million in early-stage funding",
+    "quote": "London-based parcel delivery startup Hived Ltd. today said it has raised $42 million in early-stage funding",
+    "source_url": "https://siliconangle.com/2025/07/03/uk-based-ai-driven-parcel-delivery-startup-hived-raises-42m/",
+    "source_date": "JULY 03 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Hived Ltd., a London-based parcel delivery startup, said it has raised $42 million in early-stage funding, which directly matches the claimed funding value for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Parcel delivery for ecommerce",
+    "quote": "Purpose-built for ecommerce, Hived said it strives to replace legacy delivery logistics",
+    "source_url": "https://siliconangle.com/2025/07/03/uk-based-ai-driven-parcel-delivery-startup-hived-raises-42m/",
+    "source_date": "JULY 03 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says Hived is purpose-built for ecommerce and aims to replace legacy delivery logistics, which closely matches parcel delivery for ecommerce, though it never uses the word 'parcel'."
+  },
+  {
+    "field": "hiring",
+    "value": "Plans to hire more staff",
+    "quote": "hiring more staff and enhancing its HIVEDmind AI logistics platform",
+    "source_url": "https://siliconangle.com/2025/07/03/uk-based-ai-driven-parcel-delivery-startup-hived-raises-42m/",
+    "source_date": "JULY 03 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is hiring more staff and enhancing its HIVEDmind AI logistics platform, which directly indicates plans to hire more staff by the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "51-200",
+    "quote": "Company size 51-200 employees",
+    "source_url": "https://uk.linkedin.com/company/hived-space",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states the company size as 51-200 employees, which directly matches the claimed employee count for HIVED itself and is not about customers or partners."
+  },
+  {
+    "field": "industry",
+    "value": "AI-powered, all-electric parcel delivery for ecommerce",
+    "quote": "HIVED is the first customer-centric, AI-powered, and all-electric parcel delivery company designed for ecommerce.",
+    "source_url": "https://uk.linkedin.com/company/hived-space",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states HIVED is an AI-powered, all-electric parcel delivery company designed for ecommerce, directly describing what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (London)",
+    "quote": "Primary London, GB",
+    "source_url": "https://uk.linkedin.com/company/hived-space",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says 'Primary London, GB', which indicates the company's primary location is London in Great Britain, supporting that HIVED has an office in the United Kingdom (London), though it does not explicitly say the location is an office or staff presence."
+  },
+  {
+    "field": "hiring",
+    "value": "Recruiting for open roles",
+    "quote": "We\u2019re always on the lookout for great people to join the team.",
+    "source_url": "https://uk.linkedin.com/company/hived-space",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the company is always looking for great people to join the team, which indicates ongoing recruitment about the company itself, matching the claimed value of recruiting for open roles."
+  },
+  {
+    "field": "employees",
+    "value": "212",
+    "quote": "Employee Count 212 as on Sep 30, 2026",
+    "source_url": "https://tracxn.com/d/companies/hived/__srFONgwllYh0fPsg7nEU6a4HYgFjrsQ9k5mEFtA61qA",
+    "source_date": "Sep 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employee Count 212 as on Sep 30, 2026' with no indication it refers to another company, so it directly gives HIVED's employee count as 212."
+  },
+  {
+    "field": "industry",
+    "value": "Provider of parcel delivery service",
+    "quote": "It operates as a Provider of parcel delivery service",
+    "source_url": "https://tracxn.com/d/companies/hived/__srFONgwllYh0fPsg7nEU6a4HYgFjrsQ9k5mEFtA61qA",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that the company operates as a provider of parcel delivery service, which matches the claimed industry value for HIVED itself."
+  },
+  {
+    "field": "funding",
+    "value": "$56.8M total across 3 rounds",
+    "quote": "Hived has raised $56.8M in funding from investors like NordicNinja , Planet A and Pale Blue Dot",
+    "source_url": "https://tracxn.com/d/companies/hived/__srFONgwllYh0fPsg7nEU6a4HYgFjrsQ9k5mEFtA61qA",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote states Hived raised $56.8M in funding from named investors, which matches the amount, but it does not say anything about the number of rounds (3), so the claimed value is only partly supported."
+  },
+  {
+    "field": "industry",
+    "value": "Parcel delivery systems",
+    "quote": "Hived provides innovative technology that focuses on parcel delivery systems.",
+    "source_url": "https://www.eu-startups.com/directory/hived/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Hived provides technology focused on parcel delivery systems, which directly describes what the company itself does, matching the claimed industry."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (London)",
+    "quote": "Based in London, England",
+    "source_url": "https://www.eu-startups.com/directory/hived/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the company is based in London, England, which directly places the company itself in London and thus in the United Kingdom, matching the claimed countries value."
+  },
+  {
+    "field": "funding",
+    "value": "Total funding between \u20ac1 million and \u20ac2.5 million (directory figure)",
+    "quote": "Total Funding Between \u20ac1 million-\u20ac 2.5 million",
+    "source_url": "https://www.eu-startups.com/directory/hived/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's total funding is between \u20ac1 million and \u20ac2.5 million, which matches the claimed directory figure for HIVED's own funding."
+  },
+  {
+    "field": "funding",
+    "value": "\u20ac35.6 million",
+    "quote": "London-based delivery service HIVED raises \u20ac35.6 million to expand its all-electric, ecommerce-native network",
+    "source_url": "https://www.eu-startups.com/directory/hived/",
+    "source_date": "July 3, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that HIVED, a London-based delivery service, raises \u20ac35.6 million to expand its network, which directly reports a funding round raised by the company itself with the claimed value."
+  }
+]

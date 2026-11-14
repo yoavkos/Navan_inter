@@ -1,0 +1,42 @@
+[
+  {
+    "field": "industry",
+    "value": "AI-native customer operations for financial services",
+    "quote": "AI-native customer operations for financial services",
+    "source_url": "https://gradient-labs.ai",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly describes the company's own offering as AI-native customer operations for financial services, matching the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "over 40",
+    "quote": "Gradient Labs has grown to over 40 employees",
+    "source_url": "https://gradient-labs.ai/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that Gradient Labs has grown to over 40 employees, which is a statement about the company itself and matches the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "Series A round in 2025",
+    "quote": "secured a Series A round in 2025",
+    "source_url": "https://gradient-labs.ai/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company secured a Series A round in 2025, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "Recruiting; open roles listed on careers page",
+    "quote": "Join the team redefining what AI agents can achieve",
+    "source_url": "https://gradient-labs.ai/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote invites people to join the team, which implies recruiting, but it does not explicitly state open roles or point to a careers page, so it only loosely supports the claimed value."
+  }
+]

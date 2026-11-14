@@ -1,0 +1,28 @@
+{
+  "company": "Instinct",
+  "current_tier": 3,
+  "final": "yellow",
+  "priority": "high",
+  "agreement": true,
+  "note": {
+    "headline": "🟡 Review needed - high priority",
+    "text": "Funding grew fast: $1 billion Series C at $10 billion valuation (citybiz.co), up from a $50 million seed (multiples.vc), while 14 employees (pitchbook.com) fit Tier 3. Check whether its travel will outgrow Tier 3.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "yellow",
+    "flags": [
+      "GROWTH_FUNDING"
+    ],
+    "reasons": [
+      "Verified funding: $1 billion Series C at $10 billion valuation (baike.baidu.com); $250 million Series B at $2.5 billion valuation (multiples.vc); Seed round at $50 million valuation (multiples.vc)."
+    ],
+    "notes": []
+  },
+  "ai": {
+    "reason": "Declared GBV of $35,000 and 14 employees (consistent across citybiz.co, pitchbook.com, and multiples.vc) both fit Tier 3, but the verified funding path went from a $50M-valuation seed (April 2026) to a $250M Series B at $2.5B (August 2026) to a $1B Series C at $10B (September 2026, citybiz.co and baike.baidu.com). Industry labels conflict (Application Software vs. AI agent startup), and the GBV figure is customer-entered and unverified, so a person should judge whether the company's travel will outgrow Tier 3.",
+    "color": "yellow",
+    "priority": "high"
+  }
+}

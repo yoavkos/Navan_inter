@@ -1,0 +1,102 @@
+[
+  {
+    "field": "funding",
+    "value": "$150 million investment from BlackRock in 2022",
+    "quote": "In 2022, Puttshack received a $150 million investment from NYC-based investment firm BlackRock.",
+    "source_url": "https://www.nrn.com/emerging-chains/puttshack-is-using-technology-to-separate-itself-from-the-golf-based-restaurant-pack",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that in 2022 Puttshack received a $150 million investment from BlackRock, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "109",
+    "quote": "Puttshack has 109 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/268152-04",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Puttshack has 109 total employees, which matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Leisure Facilities",
+    "quote": "Puttshack\u2019s primary industry is Leisure Facilities.",
+    "source_url": "https://pitchbook.com/profiles/company/268152-04",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Puttshack's primary industry is Leisure Facilities, which is about the company itself and matches the claimed industry value."
+  },
+  {
+    "field": "funding",
+    "value": "$329M raised in total",
+    "quote": "Puttshack has raised $329M.",
+    "source_url": "https://pitchbook.com/profiles/company/268152-04",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Puttshack has raised $329M, which directly matches the claimed total funding of $329M raised by the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United States (corporate office in Chicago)",
+    "quote": "Corporate Office 303 West Erie Street Chicago, IL 60654 United States",
+    "source_url": "https://pitchbook.com/profiles/company/268152-04",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists a 'Corporate Office' address in Chicago, IL, United States, which directly states the company itself has a corporate office in the United States."
+  },
+  {
+    "field": "industry",
+    "value": "Provider of tech-infused mini golf entertainment and dining",
+    "quote": "Provider of tech-infused mini golf entertainment and dining.",
+    "source_url": "https://tracxn.com/d/companies/puttshack/__nQDKlnhLHJNTQdj2SPjbJTD2gyeZpzwH9fJkAAfl5aU",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a provider of tech-infused mini golf entertainment and dining, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$384M total funding in 8 rounds",
+    "quote": "Puttshack has raised $384M in funding",
+    "source_url": "https://tracxn.com/d/companies/puttshack/__nQDKlnhLHJNTQdj2SPjbJTD2gyeZpzwH9fJkAAfl5aU",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote states Puttshack has raised $384M in funding, which matches the claimed total amount, but it does not mention the 8 rounds, so the claimed value is only partially confirmed."
+  },
+  {
+    "field": "funding",
+    "value": "Latest funding round: Series D, Jul 2024",
+    "quote": "Latest Funding Round Series D, Jul 2024",
+    "source_url": "https://tracxn.com/d/companies/puttshack/__nQDKlnhLHJNTQdj2SPjbJTD2gyeZpzwH9fJkAAfl5aU",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Latest Funding Round Series D, Jul 2024' on the company's own page, which directly matches the claimed latest funding round of Series D in July 2024."
+  },
+  {
+    "field": "employees",
+    "value": "669",
+    "quote": "Employee Count 669 as on Oct 31, 2026",
+    "source_url": "https://tracxn.com/d/companies/puttshack/__nQDKlnhLHJNTQdj2SPjbJTD2gyeZpzwH9fJkAAfl5aU",
+    "source_date": "Oct 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employee Count 669 as on Oct 31, 2026' with no ambiguity about referring to another company, so it directly gives the employee count of Puttshack itself as 669."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (headquarters location London)",
+    "quote": "Location London, United Kingdom",
+    "source_url": "https://tracxn.com/d/companies/puttshack/__nQDKlnhLHJNTQdj2SPjbJTD2gyeZpzwH9fJkAAfl5aU",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's location as London, United Kingdom, which directly supports that the company has a headquarters/office in the United Kingdom, matching the claimed value."
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "company": "Attio",
+  "current_tier": 3,
+  "final": "red",
+  "priority": "normal",
+  "agreement": true,
+  "note": {
+    "headline": "🔴 Consider a higher tier",
+    "text": "Headcount is 190+ (attio.com), 196 (pitchbook.com), and 206 employees (tracxn.com), well above the 24 on file, and the $52M Series B (prnewswire.com) signals growth. Check the employee count in the account record.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "red",
+    "flags": [
+      "SIZE_SUGGESTS_HIGHER_TIER",
+      "GBV_LOW_FOR_SIZE"
+    ],
+    "reasons": [
+      "Confirmed ~193 employees [206 (tracxn.com), 196 (pitchbook.com), 190 (attio.com)] gives Tier 2 by the tier rules; file says Tier 3 (24 employees).",
+      "Signup check: GBV_LOW_FOR_SIZE (GBV $47,000, employees 193)."
+    ],
+    "notes": [
+      "Verified funding: $52M Series B (prnewswire.com); $116M total funding to date (tech.eu); $141M total funding (tracxn.com).",
+      "Location text not recognized as a country: 'Europe'."
+    ]
+  },
+  "ai": {
+    "reason": "Attio's signup estimate of 24 employees conflicts with three independent sources: attio.com lists 190+ team members, PitchBook shows 196, and Tracxn shows 206 (dated Oct 31, 2026). Headcount above 150 meets the Tier 2 criterion on its own, and the company's $52M Series B (Aug 26, 2025) and 24 open positions point to continued growth.",
+    "color": "red"
+  }
+}

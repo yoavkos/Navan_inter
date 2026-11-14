@@ -1,0 +1,42 @@
+[
+  {
+    "field": "industry",
+    "value": "Wholesale of wine, beer, spirits and other alcoholic beverages",
+    "quote": "46342 - Wholesale of wine, beer, spirits and other alcoholic beverages",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/01839722",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's industry classification as 'Wholesale of wine, beer, spirits and other alcoholic beverages' (code 46342), which directly matches the claimed industry value for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+    "quote": "47110 - Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/01839722",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote is a NACE/SIC-style industry code line stating exactly the claimed industry description, presented as the company's classification with no indication it refers to a different entity, so it directly supports the claimed industry value for Drinks Wholesale Group."
+  },
+  {
+    "field": "industry",
+    "value": "Drinks wholesaler",
+    "quote": "Drinks wholesaler Elbrook Cash and Carry will rebrand as Drinks Wholesale Group Ltd from 14 April.",
+    "source_url": "https://www.betterretailing.com/elbrook-cash-and-carry-to-rebrand-as-drinks-wholesale-group-ltd/",
+    "source_date": "14 April 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote describes Elbrook Cash and Carry, a drinks wholesaler, rebranding as Drinks Wholesale Group Ltd, which directly identifies the company itself as a drinks wholesaler under its new name."
+  },
+  {
+    "field": "industry",
+    "value": "Drinks wholesaler",
+    "quote": "Surrey-based drinks wholesaler Elbrook Cash & Carry has been rebranded as Drinks Wholesale Group.",
+    "source_url": "https://www.asiantrader.biz/elbrook-cash-carry-rebrands-drinks-wholesale-group-expansion",
+    "source_date": "Apr 25, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote describes the company as a Surrey-based drinks wholesaler (formerly Elbrook Cash & Carry, now rebranded as Drinks Wholesale Group), which directly states what the company itself does."
+  }
+]

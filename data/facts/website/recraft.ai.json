@@ -1,0 +1,62 @@
+[
+  {
+    "field": "funding",
+    "value": "$30M Series B",
+    "quote": "Recraft Raises $30M Series B to Bring Creative Quality and Brand Control to Generative AI Design",
+    "source_url": "https://www.recraft.ai/news",
+    "source_date": "May 5, 2025",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Recraft raised $30M in a Series B round, directly matching the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "New investors joined Series B",
+    "quote": "Recraft welcomes new investors to its Series B funding",
+    "source_url": "https://www.recraft.ai/news",
+    "source_date": "July 28, 2025",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Recraft welcomes new investors to its Series B funding, which directly indicates new investors joined the company's own Series B round."
+  },
+  {
+    "field": "funding",
+    "value": "$12 million Series A",
+    "quote": "Recraft secures $12 million Series A funding to advance the use of AI in professional design and branding",
+    "source_url": "https://www.recraft.ai/news",
+    "source_date": "January 18, 2024",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Recraft secured $12 million Series A funding, directly matching the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$12 million from Khosla Ventures and Nat Friedman",
+    "quote": "Generative AI startup Recraft just raised $12 million from Khosla Ventures and Nat Friedman with this 22-slide pitch deck",
+    "source_url": "https://www.recraft.ai/news",
+    "source_date": "January, 2024",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Recraft, a generative AI startup, just raised $12 million from Khosla Ventures and Nat Friedman, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "AI tool for professional designers, illustrators, and marketers",
+    "quote": "Recraft is an AI tool for professional designers, illustrators, and marketers.",
+    "source_url": "https://www.recraft.ai/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that Recraft is an AI tool for professional designers, illustrators, and marketers, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "headquartered in London, UK",
+    "source_url": "https://www.recraft.ai/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the company is headquartered in London, UK, which directly places the company's own office in the United Kingdom."
+  }
+]

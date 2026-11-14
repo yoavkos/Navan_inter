@@ -1,0 +1,41 @@
+{
+  "search_urls": [
+    "https://www.citybiz.co/article/910159/instinct-raises-1-billion-at-10-billion-valuation-with-14-employees/",
+    "https://www.crunchbase.com/organization/instinct-9264",
+    "https://pitchbook.com/profiles/company/1388308-78",
+    "https://baike.baidu.com/en/item/Instinct/6089139",
+    "https://seedtable.com/companies/instinct-ai/funding-rounds/series-c-2026-09"
+  ],
+  "entity_check": {
+    "url": "https://www.citybiz.co/article/910159/instinct-raises-1-billion-at-10-billion-valuation-with-14-employees/",
+    "reason": "The page is an article focused on Instinct, a San Francisco personal AI assistant startup, covering its $1 billion Series C funding, valuation, employee count, and product features, which matches the target company instinct.com.",
+    "about_company": true
+  },
+  "recommendation": {
+    "company": "Instinct",
+    "current_tier": 3,
+    "final": "yellow",
+    "priority": "high",
+    "agreement": false,
+    "note": {
+      "headline": "🟡 Review needed - high priority",
+      "text": "Funding grew unusually fast: $50 million seed valuation (multiples.vc) to $10 billion Series C valuation (baike.baidu.com) within months, though headcount of 14 (citybiz.co) fits Tier 3. Evidence is mixed; verify the funding timeline.",
+      "numbers_checked": true,
+      "unsupported_numbers": []
+    },
+    "rules": {
+      "color": "green",
+      "flags": [],
+      "reasons": [
+        "No flags - research is consistent with Tier 3."
+      ],
+      "notes": [
+        "Verified funding: $1 billion Series C at $10 billion valuation (baike.baidu.com); $250 million Series B at $2.5 billion valuation (multiples.vc); Seed round at $50 million valuation (multiples.vc)."
+      ]
+    },
+    "ai": {
+      "reason": "Declared GBV is $35,000 and three sources (citybiz.co Sept 28 2026, pitchbook.com, multiples.vc) agree on 14 employees, both below Tier 2 thresholds, so Tier 3 fits on spend and headcount. However, funding moved from a $50M seed valuation (April 2026) to a $250M Series B at $2.5B (August 2026) to a $1B Series C at $10B (September 2026), which is unusually fast dated growth that a person should review, even though the 14-employee count contradicts it.",
+      "color": "orange"
+    }
+  }
+}

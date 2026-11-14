@@ -1,0 +1,42 @@
+[
+  {
+    "field": "industry",
+    "value": "Agentic recruiting platform",
+    "quote": "Metaview is the agentic recruiting platform.",
+    "source_url": "https://metaview.ai/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that Metaview is the agentic recruiting platform, which describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "London, San Francisco and New York",
+    "quote": "The Metaview team London, San Francisco & New York",
+    "source_url": "https://metaview.ai/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the Metaview team is located in London, San Francisco and New York, which directly places the company's own staff in those cities and thus supports the countries claim (cities rather than country names, but they map to the UK and US offices as claimed)."
+  },
+  {
+    "field": "funding",
+    "value": "$110M raised",
+    "quote": "We've raised $110M to build AI coworkers",
+    "source_url": "https://metaview.ai/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company has raised $110M to build AI coworkers, directly stating the company's own funding amount matching the claimed $110M."
+  },
+  {
+    "field": "hiring",
+    "value": "39 open roles",
+    "quote": "39 open roles",
+    "source_url": "https://metaview.ai/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote reads '39 open roles' and, as a statement on the company's own website, it directly states the company is recruiting for 39 positions, matching the claimed hiring value."
+  }
+]

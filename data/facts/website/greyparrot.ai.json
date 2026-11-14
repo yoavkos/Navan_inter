@@ -1,0 +1,82 @@
+[
+  {
+    "field": "industry",
+    "value": "AI waste analytics",
+    "quote": "Greyparrot is the global leader in AI waste analytics.",
+    "source_url": "https://greyparrot.ai",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Greyparrot is the global leader in AI waste analytics, directly describing what the company itself does, which matches the claimed industry value."
+  },
+  {
+    "field": "employees",
+    "value": "over 50",
+    "quote": "We\u2019re a team of over 50 people from 23 nationalities, living and working across the UK and Europe.",
+    "source_url": "https://www.greyparrot.ai/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Greyparrot is a team of over 50 people, which directly describes the company's own staff size and matches the claimed value of over 50 employees."
+  },
+  {
+    "field": "countries",
+    "value": "UK and Europe",
+    "quote": "living and working across the UK and Europe",
+    "source_url": "https://www.greyparrot.ai/about-us",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says the people are 'living and working across the UK and Europe', which directly states that the company's staff work in the UK and Europe, matching the claimed countries value."
+  },
+  {
+    "field": "countries",
+    "value": "London, UK",
+    "quote": "Address Greyparrot AI, Ltd. The Biscuit Factory 100 Drummond Road, 401 Almond Studios London, SE16 4DG",
+    "source_url": "https://www.greyparrot.ai/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote gives the company's own address as London, SE16 4DG, which directly places its office in London, UK, so the claimed countries value is supported."
+  },
+  {
+    "field": "funding",
+    "value": "$2.2M investment and \u00a3500K grant",
+    "quote": "We secure $2.2M in investment and a \u00a3500K grant.",
+    "source_url": "https://www.greyparrot.ai/about-us",
+    "source_date": "May 2020",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the company secures $2.2M in investment and a \u00a3500K grant, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$11M Series A",
+    "quote": "Purpose-driven investors provide $11M in Series A funding.",
+    "source_url": "https://www.greyparrot.ai/about-us",
+    "source_date": "May 2022",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that purpose-driven investors provided $11M in Series A funding, which matches the claimed $11M Series A round for Greyparrot itself."
+  },
+  {
+    "field": "funding",
+    "value": "$27M Series B",
+    "quote": "We secure $27M in Series B funding.",
+    "source_url": "https://www.greyparrot.ai/about-us",
+    "source_date": "Jul 2026",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company secured $27M in Series B funding, which directly matches the claimed funding value and round about the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "open roles",
+    "quote": "We're on the lookout for mission-driven people who care about solving the waste crisis.",
+    "source_url": "https://www.greyparrot.ai/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says the company is on the lookout for mission-driven people, which signals it is recruiting, so it directly supports the claim of open roles for the company itself."
+  }
+]

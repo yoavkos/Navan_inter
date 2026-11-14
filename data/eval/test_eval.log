@@ -1,0 +1,78 @@
+﻿  Gradient Labs: expected green, got yellow/yellow/yellow
+  Basecamp Research: expected green, got yellow/yellow/yellow
+  Callosum: expected yellow, got yellow/yellow/yellow
+  FintechOS: expected green, got green/green/yellow
+  Healf: expected green, got yellow/yellow/yellow
+  Modo Energy: expected green, got yellow/yellow/yellow
+  Qargo: expected yellow, got yellow/yellow/yellow
+  Quantum Motion: expected yellow, got yellow/yellow/yellow
+  Shellworks: expected green, got yellow/yellow/yellow
+  Metaview: expected yellow, got yellow/yellow/yellow
+  Axle Energy: expected green, got yellow/yellow/yellow
+  Gaussion: expected green, got yellow/yellow/yellow
+  CloudNC: expected yellow, got yellow/yellow/yellow
+  HIVED: expected green, got yellow/yellow/yellow
+  Drinks Wholesale Group: expected green, got yellow/yellow/yellow
+  Bionical Solutions: expected yellow, got yellow/yellow/yellow
+  Retail Merchant Services: expected yellow, got yellow/yellow/yellow
+  Kellan Group: expected green, got yellow/yellow/yellow
+  Puttshack: expected green, got yellow/yellow/yellow
+  A.G. Barr: expected yellow, got yellow/yellow/yellow
+  Focusrite: expected yellow, got yellow/yellow/yellow
+  Castlebroom Engineering Limited: expected green, got yellow/yellow/yellow
+  Moorside Manufacturing Ltd: expected green, got green/green/green
+  Ashley Engineering (Accrington) LLP: expected green, got yellow/yellow/yellow
+  Ackerman Engineering Ltd: expected green, got green/green/green
+  Metsol Engineering: expected green, got yellow/green/green
+  Creiform Ltd: expected green, got yellow/yellow/yellow
+  RevoNA Bio: expected green, got yellow/yellow/yellow
+  J.E.M. Precision Engineering Ltd: expected green, got green/green/green
+  Precision Engineers (Pontefract) Ltd: expected green, got yellow/yellow/yellow
+  Anthropic: expected green, got yellow/yellow/yellow
+  Port: expected green, got yellow/yellow/yellow
+
+=== Results (majority of 3 runs) ===
+                             company expected    got                 runs  stable
+                       Gradient Labs    green yellow yellow/yellow/yellow    True
+                   Basecamp Research    green yellow yellow/yellow/yellow    True
+                            Callosum   yellow yellow yellow/yellow/yellow    True
+                           FintechOS    green  green   green/green/yellow   False
+                               Healf    green yellow yellow/yellow/yellow    True
+                         Modo Energy    green yellow yellow/yellow/yellow    True
+                               Qargo   yellow yellow yellow/yellow/yellow    True
+                      Quantum Motion   yellow yellow yellow/yellow/yellow    True
+                          Shellworks    green yellow yellow/yellow/yellow    True
+                            Metaview   yellow yellow yellow/yellow/yellow    True
+                         Axle Energy    green yellow yellow/yellow/yellow    True
+                            Gaussion    green yellow yellow/yellow/yellow    True
+                             CloudNC   yellow yellow yellow/yellow/yellow    True
+                               HIVED    green yellow yellow/yellow/yellow    True
+              Drinks Wholesale Group    green yellow yellow/yellow/yellow    True
+                  Bionical Solutions   yellow yellow yellow/yellow/yellow    True
+            Retail Merchant Services   yellow yellow yellow/yellow/yellow    True
+                        Kellan Group    green yellow yellow/yellow/yellow    True
+                           Puttshack    green yellow yellow/yellow/yellow    True
+                           A.G. Barr   yellow yellow yellow/yellow/yellow    True
+                           Focusrite   yellow yellow yellow/yellow/yellow    True
+     Castlebroom Engineering Limited    green yellow yellow/yellow/yellow    True
+          Moorside Manufacturing Ltd    green  green    green/green/green    True
+ Ashley Engineering (Accrington) LLP    green yellow yellow/yellow/yellow    True
+            Ackerman Engineering Ltd    green  green    green/green/green    True
+                  Metsol Engineering    green  green   yellow/green/green   False
+                        Creiform Ltd    green yellow yellow/yellow/yellow    True
+                          RevoNA Bio    green yellow yellow/yellow/yellow    True
+    J.E.M. Precision Engineering Ltd    green  green    green/green/green    True
+Precision Engineers (Pontefract) Ltd    green yellow yellow/yellow/yellow    True
+                           Anthropic    green yellow yellow/yellow/yellow    True
+                                Port    green yellow yellow/yellow/yellow    True
+
+=== Metrics ===
+Exact color match:        44%
+False positives (unneeded flags):  18 of 23 expected green
+False negatives (missed flags):    0 of 9 expected flagged
+Red precision:            0 of 0 reds correct
+Stable across runs:       94%
+Rules-AI agreement:       69%
+Priority correct:         89%
+Notes with only supported numbers: 100%
+Unsupported facts rejected by checks: 26 of 318 (8%)

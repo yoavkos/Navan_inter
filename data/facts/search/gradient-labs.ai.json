@@ -1,0 +1,112 @@
+[
+  {
+    "field": "industry",
+    "value": "Artificial intelligence",
+    "quote": "British artificial intelligence company Gradient Labs",
+    "source_url": "https://en.wikipedia.org/wiki/Gradient_Labs",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly describes Gradient Labs as a British artificial intelligence company, which directly states the company's industry as artificial intelligence."
+  },
+  {
+    "field": "funding",
+    "value": "2.8 million pounds seed funding led by LocalGlobe",
+    "quote": "In 2024, 2.8 million pounds in seed money was raised in a funding round led by Local Globe",
+    "source_url": "https://en.wikipedia.org/wiki/Gradient_Labs",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that 2.8 million pounds in seed money was raised in a round led by Local Globe, which matches the claimed amount, seed stage, and lead investor (the spelling difference is trivial), and the page is about this company."
+  },
+  {
+    "field": "funding",
+    "value": "Over 11 million euros Series A led by Redpoint Ventures",
+    "quote": "In 2025, the company raised over 11 million euros in a Series A round led by Redpoint Ventures",
+    "source_url": "https://en.wikipedia.org/wiki/Gradient_Labs",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company raised over 11 million euros in a Series A round led by Redpoint Ventures in 2025, directly matching the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$13M funding led by Octopus Ventures",
+    "quote": "In June 2026 the company announced a further $13M in funding led by UK based Octopus Ventures",
+    "source_url": "https://en.wikipedia.org/wiki/Gradient_Labs",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company announced a further $13M in funding led by Octopus Ventures in June 2026, which directly describes the company's own funding round and matches the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "$13 million Series A funding",
+    "quote": "AI agentic startup Gradient Labs has raised $13 million in Series A funding.",
+    "source_url": "https://tech.eu/2025/07/08/ex-monzo-founders-raise-13m-for-gradient-labs-to-rebuild-customer-support-in-regulated-markets/",
+    "source_date": "08 July 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Gradient Labs, described as an AI agentic startup, raised $13 million in Series A funding, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "11.08M euros Series A led by Redpoint Ventures",
+    "quote": "has raised \u20ac11.08M in a Series A funding round led by Redpoint Ventures",
+    "source_url": "https://siliconcanals.com/uks-gradient-labs-raises-11-08m/",
+    "source_date": "Jul 8, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has raised \u20ac11.08M in a Series A round led by Redpoint Ventures, which directly matches the claimed funding value and lead investor about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "AI-powered customer service platforms for regulated industries",
+    "quote": "Gradient Labs develops AI-powered customer service platforms purpose-built for regulated industries",
+    "source_url": "https://siliconcanals.com/uks-gradient-labs-raises-11-08m/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Gradient Labs itself develops AI-powered customer service platforms purpose-built for regulated industries, which directly matches the claimed industry value."
+  },
+  {
+    "field": "employees",
+    "value": "19",
+    "quote": "Total Offices: 2 19 Total Employees",
+    "source_url": "https://builtin.com/company/gradient-labs-0",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Total Employees' with the value 19 alongside 'Total Offices: 2', which directly gives the company's own employee count as 19 without referring to customers or partners."
+  },
+  {
+    "field": "countries",
+    "value": "England",
+    "quote": "HQ London, England",
+    "source_url": "https://builtin.com/company/gradient-labs-0",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's headquarters is in London, England, which directly places the company itself in England, so the countries value 'England' is supported."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles listed, including Founding Events Marketing Manager and Enterprise Account Executive",
+    "quote": "Recently Posted Jobs at Gradient Labs AI",
+    "source_url": "https://builtin.com/company/gradient-labs-0",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote shows a 'Recently Posted Jobs' heading for Gradient Labs AI, which supports that the company has open roles, but it does not name the Founding Events Marketing Manager or Enterprise Account Executive positions claimed."
+  },
+  {
+    "field": "industry",
+    "value": "Artificial intelligence, software, automation",
+    "quote": "Artificial Intelligence Software Automation",
+    "source_url": "https://builtin.com/company/gradient-labs-0",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote is a bare string of keywords 'Artificial Intelligence Software Automation' with no clear statement that it describes what the company itself does or sells, though it plausibly reflects the company's industry tags."
+  }
+]

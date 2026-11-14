@@ -1,0 +1,32 @@
+[
+  {
+    "field": "parent_company",
+    "value": "Dalkia Facilities Holdings Limited (holds 75% or more of shares and voting rights)",
+    "quote": "Dalkia Facilities Holdings Limited Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04956673/persons-with-significant-control",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote only shows that an entity named Dalkia Facilities Holdings Limited is listed as 'Active'; it does not state that this company is owned by it or that it holds 75% or more of shares and voting rights."
+  },
+  {
+    "field": "parent_company",
+    "value": "Edf Energy Services Limited (has significant influence or control)",
+    "quote": "Edf Energy Services Limited Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04956673/persons-with-significant-control",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote only lists the name 'Edf Energy Services Limited' with an 'Active' status and does not state that it owns or controls Dalkia Facilities, so the parent-company relationship is not directly stated."
+  },
+  {
+    "field": "industry",
+    "value": "Management of real estate on a fee or contract basis; Combined facilities support activities",
+    "quote": "Nature of business (SIC) 68320 - Management of real estate on a fee or contract basis 81100 - Combined facilities support activities",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/04956673",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's nature of business (SIC codes) as 68320 Management of real estate on a fee or contract basis and 81100 Combined facilities support activities, which directly matches the claimed industry values for the company itself."
+  }
+]

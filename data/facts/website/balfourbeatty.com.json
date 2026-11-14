@@ -1,0 +1,82 @@
+[
+  {
+    "field": "industry",
+    "value": "International infrastructure group",
+    "quote": "Balfour Beatty is a leading international infrastructure group.",
+    "source_url": "https://www.balfourbeatty.com/about-us/understanding-balfour-beatty/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that Balfour Beatty is a leading international infrastructure group, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "20,000 employees across the UK and US",
+    "quote": "With 20,000 employees across the UK and US",
+    "source_url": "https://www.balfourbeatty.com/about-us/understanding-balfour-beatty/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company has 20,000 employees across the UK and US, which directly matches the claimed value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "13,700 employees in the UK",
+    "quote": "13,700 employees in the UK",
+    "source_url": "https://www.balfourbeatty.com/about-us/understanding-balfour-beatty/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states '13,700 employees in the UK' without explicitly naming the company, but as a company-website statement it refers to Balfour Beatty's own UK workforce, directly matching the claimed employee figure."
+  },
+  {
+    "field": "employees",
+    "value": "5,700 employees in the US",
+    "quote": "5,700 employees in the US",
+    "source_url": "https://www.balfourbeatty.com/about-us/understanding-balfour-beatty/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states '5,700 employees in the US' and does not name the company explicitly, but as a company-website statement it is presented as Balfour Beatty's own workforce figure for the US, so it directly supports the claimed value."
+  },
+  {
+    "field": "countries",
+    "value": "UK, US",
+    "quote": "With 20,000 employees across the UK and US",
+    "source_url": "https://www.balfourbeatty.com/about-us/understanding-balfour-beatty/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Balfour Beatty has 20,000 employees across the UK and US, which directly places the company's own staff in both countries, matching the claimed countries UK and US."
+  },
+  {
+    "field": "countries",
+    "value": "Hong Kong",
+    "quote": "Hear from our colleagues across the UK, US and Hong Kong",
+    "source_url": "https://balfourbeatty.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says colleagues (the company's own staff) are located across the UK, US and Hong Kong, which directly indicates the company has staff in Hong Kong."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles available",
+    "quote": "Take a look at our open roles and discover your next career move.",
+    "source_url": "https://balfourbeatty.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote invites visitors to look at the company's open roles and find a career move, which directly indicates that Balfour Beatty is currently recruiting with open positions."
+  },
+  {
+    "field": "hiring",
+    "value": "Growing UK workforce by 2,000 people over the next two years",
+    "quote": "We\u2019re set to grow our UK workforce by 2,000 people over the next two years",
+    "source_url": "https://balfourbeatty.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Balfour Beatty is set to grow its UK workforce by 2,000 people over the next two years, which directly describes the company itself and matches the claimed hiring value."
+  }
+]

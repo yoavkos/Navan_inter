@@ -1,0 +1,52 @@
+[
+  {
+    "field": "employees",
+    "value": "100",
+    "quote": "Employees 100",
+    "source_url": "https://pitchbook.com/profiles/company/125238-61",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 100' with no qualifier, and as an external page about Bionical Solutions it directly gives the company's employee count as 100."
+  },
+  {
+    "field": "industry",
+    "value": "Provider of healthcare outsourcing services intended for pharmaceutical, biotech and healthcare companies",
+    "quote": "Provider of healthcare outsourcing services intended for pharmaceutical, biotech and healthcare companies.",
+    "source_url": "https://pitchbook.com/profiles/company/125238-61",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company is a provider of healthcare outsourcing services intended for pharmaceutical, biotech and healthcare companies, which directly describes what the company itself does or sells, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office The Piazza, Mercia Marina Findern Lane Willington DE65 6DW England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/125238-61",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's Corporate Office address in Willington, England, United Kingdom, which directly states the company itself has an office in the UK."
+  },
+  {
+    "field": "funding",
+    "value": "Investment by Fullbrook Thorpe Investments",
+    "quote": "Fullbrook Thorpe Investments has invested in Bionical Solutions.",
+    "source_url": "https://pitchbook.com/profiles/company/125238-61",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Fullbrook Thorpe Investments has invested in Bionical Solutions, which directly supports the claimed funding value of an investment by Fullbrook Thorpe Investments in the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Technology enabled engagement and healthcare services to global pharmaceutical, biotech, healthcare companies and the NHS",
+    "quote": "Bionical Solutions, a leading provider of technology enabled engagement and healthcare services to global pharmaceutical, biotech, healthcare companies and the NHS, today announced the appointment of Andrew Seward as Chief Technology Officer for the Digital business.",
+    "source_url": "https://www.prnewswire.com/news-releases/bionical-solutions-appoints-chief-technology-officer-to-create-innovative-data-products-and-software-for-the-digital-business-302074796.html",
+    "source_date": "Feb 29, 2024",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly describes Bionical Solutions itself as 'a leading provider of technology enabled engagement and healthcare services to global pharmaceutical, biotech, healthcare companies and the NHS', which matches the claimed industry value."
+  }
+]

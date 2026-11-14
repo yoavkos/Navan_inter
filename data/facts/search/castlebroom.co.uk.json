@@ -1,0 +1,12 @@
+[
+  {
+    "field": "industry",
+    "value": "Manufacture of other fabricated metal products not elsewhere classified (SIC 25990)",
+    "quote": "25990 - Manufacture of other fabricated metal products not elsewhere classified",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/01877409",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists SIC code 25990 with its description 'Manufacture of other fabricated metal products not elsewhere classified', which matches the claimed industry value, and the page is about the company itself, though the quote does not explicitly name Castlebroom as the subject."
+  }
+]

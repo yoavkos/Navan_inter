@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Sub-contract precision machining (CNC turning and CNC milling)",
+    "quote": "We are a sub-contract, precision machining company based in Huddersfield, West Yorkshire",
+    "source_url": "https://thomas-brown-engineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is a sub-contract precision machining company, which matches the claimed industry; the parenthetical detail about CNC turning and milling is not explicitly stated in the quote but the core value is directly supported."
+  },
+  {
+    "field": "countries",
+    "value": "England",
+    "quote": "Thomas Brown Engineering Ltd, Crosland Moor Mills, Oldfield Street, Crosland Moor, Huddersfield, England, HD4 5AJ",
+    "source_url": "https://thomas-brown-engineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote gives the company's own registered address, which lists Huddersfield, England as its location, so England is directly stated as where the company itself is based."
+  }
+]

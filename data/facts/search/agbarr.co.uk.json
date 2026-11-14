@@ -1,0 +1,62 @@
+[
+  {
+    "field": "employees",
+    "value": "981",
+    "quote": "Number of employees 981 (2025)",
+    "source_url": "https://en.wikipedia.org/wiki/A.G._Barr",
+    "source_date": "2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states the number of employees of A.G. Barr as 981 in 2025, which directly matches the claimed value for the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "991",
+    "quote": "Employees 991",
+    "source_url": "https://pitchbook.com/profiles/company/59364-28",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 991' on the company's own page, which directly gives the company's employee count matching the claimed value of 991."
+  },
+  {
+    "field": "industry",
+    "value": "Soft drinks and energy drinks manufacturer",
+    "quote": "is a soft drink and energy drink manufacturer based in Cumbernauld , Scotland.",
+    "source_url": "https://en.wikipedia.org/wiki/A.G._Barr",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that A.G. Barr is a soft drink and energy drink manufacturer based in Cumbernauld, Scotland, directly describing what the company itself does, which matches the claimed industry."
+  },
+  {
+    "field": "industry",
+    "value": "Beverages",
+    "quote": "Primary Industry Beverages",
+    "source_url": "https://pitchbook.com/profiles/company/59364-28",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states the company's primary industry is Beverages, which directly matches the claimed industry value for A.G. Barr, a soft drinks company."
+  },
+  {
+    "field": "industry",
+    "value": "Soft drinks manufacturer",
+    "quote": "A.G. Barr plc, commonly known as Barr's, is a Scottish soft drink manufacturer, based in Cumbernauld, North Lanarkshire, Scotland.",
+    "source_url": "https://www.gracesguide.co.uk/A._G._Barr",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that A.G. Barr plc is a Scottish soft drink manufacturer, directly matching the claimed industry about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office Westfield House 4 Mollins Road Cumbernauld G68 9HD Scotland, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/59364-28",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives the company's Corporate Office address as being in Scotland, United Kingdom, which directly states the company itself has an office in the United Kingdom."
+  }
+]

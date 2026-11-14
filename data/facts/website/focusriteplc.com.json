@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Audio technology group",
+    "quote": "We are not your average audio technology group",
+    "source_url": "https://focusriteplc.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says Focusrite is 'not your average audio technology group', which directly refers to the company itself and explicitly identifies it as an audio technology group, supporting the claimed industry."
+  },
+  {
+    "field": "industry",
+    "value": "Professional sound reproduction systems and services",
+    "quote": "We provide professional sound reproduction systems and services that deliver music and other content to audiences",
+    "source_url": "https://focusriteplc.com/about-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the company provides professional sound reproduction systems and services, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "Current job openings listed on careers page",
+    "quote": "Current openings",
+    "source_url": "https://focusriteplc.com/careers/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote 'Current openings' is a heading suggesting job vacancies are listed, which directly indicates the company's current job openings on a careers page, so it supports the claimed value."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "field": "industry",
+    "value": "music and audio products group",
+    "quote": "Focusrite PLC is an English music and audio products group based in High Wycombe , England",
+    "source_url": "https://en.wikipedia.org/wiki/Focusrite",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Focusrite PLC is an English music and audio products group based in High Wycombe, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "271",
+    "quote": "View all 271 employees",
+    "source_url": "https://www.linkedin.com/company/focusrite",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says 'View all 271 employees' on a company page about Focusrite, which directly states the company's employee count as 271."
+  },
+  {
+    "field": "employees",
+    "value": "201-500",
+    "quote": "Company size 201-500 employees",
+    "source_url": "https://www.linkedin.com/company/focusrite",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company size as 201-500 employees, which directly matches the claimed employee range for Focusrite itself, and the quote is from the company's own page."
+  },
+  {
+    "field": "countries",
+    "value": "GB",
+    "quote": "Windsor House Turnpike Road High Wycombe, HP12 3FX, GB",
+    "source_url": "https://www.linkedin.com/company/focusrite",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives the company's postal address (Windsor House, Turnpike Road, High Wycombe) ending in the country code GB, which indicates an office location for the company itself on its own site."
+  },
+  {
+    "field": "countries",
+    "value": "US",
+    "quote": "840 Apollo St El Segundo, CA 90245, US",
+    "source_url": "https://www.linkedin.com/company/focusrite",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives a US postal address (El Segundo, CA, US) that appears to be an office location for the company, which directly states the company has a presence in the United States, though it does not explicitly say the address is an office or staff location."
+  },
+  {
+    "field": "hiring",
+    "value": "open roles listed on LinkedIn page",
+    "quote": "See jobs",
+    "source_url": "https://www.linkedin.com/company/focusrite",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote 'See jobs' is a bare link label that suggests job listings exist, but it does not state that open roles are listed on LinkedIn, so it does not directly support the specific claimed value."
+  }
+]

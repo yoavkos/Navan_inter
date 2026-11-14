@@ -1,0 +1,62 @@
+[
+  {
+    "field": "employees",
+    "value": "26,000",
+    "quote": "Number of employees 26,000 (2026)",
+    "source_url": "https://en.wikipedia.org/wiki/Balfour_Beatty",
+    "source_date": "2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has 26,000 employees (2026), which directly matches the claimed employee count for Balfour Beatty itself."
+  },
+  {
+    "field": "industry",
+    "value": "International infrastructure group with capabilities in construction services, support services and infrastructure investments",
+    "quote": "is an international infrastructure group based in the United Kingdom with capabilities in construction services, support services and infrastructure investments",
+    "source_url": "https://en.wikipedia.org/wiki/Balfour_Beatty",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Balfour Beatty is an international infrastructure group with capabilities in construction services, support services and infrastructure investments, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "UK, US and Hong Kong",
+    "quote": "the company is active across the UK, US and Hong Kong",
+    "source_url": "https://en.wikipedia.org/wiki/Balfour_Beatty",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the company is active across exactly the UK, US and Hong Kong, which matches the claimed list, though 'active' is looser than explicitly stating offices or staff."
+  },
+  {
+    "field": "employees",
+    "value": "Approximately 27,000",
+    "quote": "About 27,000, as of November 2026 (GraphIQ.ai estimate)",
+    "source_url": "https://graphiq.ai/dossier/balfour-beatty",
+    "source_date": "November 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives an estimate of about 27,000 for the company, which matches the claimed approximate employee count of 27,000, though it is a third-party GraphIQ.ai estimate and does not explicitly name employees."
+  },
+  {
+    "field": "industry",
+    "value": "International engineering and construction group",
+    "quote": "Balfour Beatty plc operates an international engineering and construction group.",
+    "source_url": "https://graphiq.ai/dossier/balfour-beatty",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Balfour Beatty plc operates an international engineering and construction group, directly describing the company's own business as the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom, Australia, Brazil, Canada, France, Hungary, India, Malaysia and 1 other country",
+    "quote": "Beyond its headquarters in London, Balfour Beatty has recorded locations in United Kingdom, Australia, Brazil, Canada, France, Hungary, India, Malaysia and 1 other country.",
+    "source_url": "https://graphiq.ai/dossier/balfour-beatty",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Balfour Beatty has recorded locations in the United Kingdom, Australia, Brazil, Canada, France, Hungary, India, Malaysia and one other country, which matches the claimed countries list and refers to the company's own locations rather than customers or partners."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "field": "industry",
+    "value": "Activities of insurance agents and brokers (SIC 66220)",
+    "quote": "66220 - Activities of insurance agents and brokers",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/01324965",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the SIC code 66220 with the description 'Activities of insurance agents and brokers', which matches the claimed industry value, and the source is the company's own page."
+  },
+  {
+    "field": "parent_company",
+    "value": "Ageas (UK) Limited",
+    "quote": "Ageas (Uk) Limited Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/01324965/persons-with-significant-control",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote lists 'Ageas (Uk) Limited Active' as a name, which may be a registered entity, but it does not state that Ageas (UK) Limited owns Ageas Retail, so it does not directly establish a parent-company relationship."
+  },
+  {
+    "field": "parent_company",
+    "value": "Ageas",
+    "quote": "Ageas\u2019 wholly owned broking subsidiary Ageas Retail",
+    "source_url": "https://www.insuranceage.co.uk/insight/7955368/ageas-retail-revenue-ticks-up-as-profit-rebounds",
+    "source_date": "29 Aug 2024",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Ageas Retail is Ageas' wholly owned broking subsidiary, which directly establishes Ageas as the company that owns Ageas Retail."
+  },
+  {
+    "field": "industry",
+    "value": "Home, motor and travel insurance broker",
+    "quote": "the home, motor and travel insurance broker",
+    "source_url": "https://www.insuranceage.co.uk/insight/7955368/ageas-retail-revenue-ticks-up-as-profit-rebounds",
+    "source_date": "29 Aug 2024",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote describes Ageas Retail itself as 'the home, motor and travel insurance broker', which directly states its industry as home, motor and travel insurance brokering."
+  }
+]

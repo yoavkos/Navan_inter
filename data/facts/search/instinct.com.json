@@ -1,0 +1,112 @@
+[
+  {
+    "field": "employees",
+    "value": "14",
+    "quote": "The company has just 14 employees, according to Seeking Alpha.",
+    "source_url": "https://www.citybiz.co/article/910159/instinct-raises-1-billion-at-10-billion-valuation-with-14-employees/",
+    "source_date": "September 28, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has just 14 employees, attributed to Seeking Alpha, and refers to the company itself, so the claimed employee count of 14 is directly supported."
+  },
+  {
+    "field": "funding",
+    "value": "$1 billion Series C at $10 billion valuation",
+    "quote": "has raised $1 billion in a Series C round , valuing the company at $10 billion.",
+    "source_url": "https://www.citybiz.co/article/910159/instinct-raises-1-billion-at-10-billion-valuation-with-14-employees/",
+    "source_date": "September 28, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has raised $1 billion in a Series C round valuing it at $10 billion, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "14",
+    "quote": "Employees 14",
+    "source_url": "https://pitchbook.com/profiles/company/1388308-78",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 14' with no qualifier, and since it comes from a page about Instinct (instinct.com), it directly gives the company's employee count as 14, matching the claimed value."
+  },
+  {
+    "field": "industry",
+    "value": "Application Software",
+    "quote": "Primary Industry Application Software",
+    "source_url": "https://pitchbook.com/profiles/company/1388308-78",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly labels the company's primary industry as Application Software, directly stating the claimed value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United States",
+    "quote": "Corporate Office 505 Montgomery Street Suite 2000 San Francisco, CA 94111 United States",
+    "source_url": "https://pitchbook.com/profiles/company/1388308-78",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's Corporate Office address in San Francisco, United States, which directly places the company's own office in the United States."
+  },
+  {
+    "field": "industry",
+    "value": "AI agent startup",
+    "quote": "Instinct is an AI agent startup headquartered in San Francisco.",
+    "source_url": "https://baike.baidu.com/en/item/Instinct/6089139",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Instinct is an AI agent startup headquartered in San Francisco, which describes what the company itself is, matching the claimed industry value."
+  },
+  {
+    "field": "funding",
+    "value": "$1 billion Series C at $10 billion valuation",
+    "quote": "In September 2026, Instinct announced that it had completed a US$1 billion Series C funding at a US$10 billion valuation",
+    "source_url": "https://baike.baidu.com/en/item/Instinct/6089139",
+    "source_date": "September 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Instinct completed a US$1 billion Series C funding at a US$10 billion valuation, which directly matches the claimed funding value for the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "14",
+    "quote": "the company has about 14 employees",
+    "source_url": "https://multiples.vc/private-comps/instinct",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has about 14 employees, which directly matches the claimed employee count of 14 for the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United States",
+    "quote": "Instinct is headquartered in San Francisco, CA, United States.",
+    "source_url": "https://multiples.vc/private-comps/instinct",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Instinct is headquartered in San Francisco, CA, United States, which directly places the company's headquarters (its own offices) in the United States."
+  },
+  {
+    "field": "funding",
+    "value": "$250 million Series B at $2.5 billion valuation",
+    "quote": "Instinct raised a $250 million Series B in August 2026, co-led by Index Ventures and Benchmark, at a post-money valuation of $2.5 billion.",
+    "source_url": "https://multiples.vc/private-comps/instinct",
+    "source_date": "August 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Instinct raised a $250 million Series B in August 2026 at a $2.5 billion post-money valuation, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Seed round at $50 million valuation",
+    "quote": "Instinct raised a seed round in April 2026 from Conviction, represented by Pranav Reddy, and Greenoaks, represented by Neil Mehta, at a valuation of $50 million.",
+    "source_url": "https://multiples.vc/private-comps/instinct",
+    "source_date": "April 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Instinct raised a seed round in April 2026 at a valuation of $50 million, directly matching the claimed seed round at $50 million valuation about the company itself."
+  }
+]

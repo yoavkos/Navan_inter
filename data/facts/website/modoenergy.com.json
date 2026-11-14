@@ -1,0 +1,42 @@
+[
+  {
+    "field": "employees",
+    "value": "more than 70",
+    "quote": "Our team is made up of more than 70 power market analysts, data scientists, and engineers.",
+    "source_url": "https://modoenergy.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Modo Energy's own team is made up of more than 70 power market analysts, data scientists, and engineers, which directly supports the claim that the company has more than 70 employees."
+  },
+  {
+    "field": "industry",
+    "value": "Energy market intelligence and AI analyst for energy investment decisions",
+    "quote": "Energy Market Intelligence for Investors",
+    "source_url": "https://modoenergy.com",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote 'Energy Market Intelligence for Investors' indicates the company provides energy market intelligence aimed at investors, which partially matches the claimed industry, but it does not state the 'AI analyst' aspect and is only a short tagline, so it does not fully and directly state the claimed value."
+  },
+  {
+    "field": "countries",
+    "value": "United States, United Kingdom, Spain, Australia",
+    "quote": "Americas New York City Speak to a local expert GB & Europe London / Madrid Speak to a local expert Asia-Pacific Sydney",
+    "source_url": "https://modoenergy.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote lists the company's regional offices in New York City, London, Madrid and Sydney, which directly places its offices in the United States, United Kingdom, Spain and Australia."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles listed on the careers page",
+    "quote": "See open roles",
+    "source_url": "https://modoenergy.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote 'See open roles' is a call-to-action pointing to open job listings, which directly indicates the company is recruiting and has open roles on its careers page."
+  }
+]

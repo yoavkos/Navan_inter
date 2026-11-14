@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Immune-powered precision medicine using high-definition immunology to predict immune system responses",
+    "quote": "We read the immune system in high definition, to help predict what it's going to do next.",
+    "source_url": "https://imubiosciences.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company reads the immune system in high definition to predict its next response, which aligns with high-definition immunology predicting immune responses, though it does not explicitly say 'precision medicine'; it is a direct self-description of what the company does."
+  },
+  {
+    "field": "hiring",
+    "value": "Open positions, including Corporate Counsel (Hybrid, Full-time)",
+    "quote": "To apply for an open position, please visit the relevant job posting and submit your application through the application form.",
+    "source_url": "https://imubiosciences.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote says to apply for an open position via the relevant job posting, which indicates the company is recruiting, but it does not mention Corporate Counsel or the hybrid full-time details claimed, so the specific claimed value is not directly stated."
+  },
+  {
+    "field": "funding",
+    "value": "UK Sovereign AI grant funding the first 10,000 UK Biobank samples",
+    "quote": "The first 10,000 of those UK Biobank samples are being funded through a UK Sovereign AI grant.",
+    "source_url": "https://imubiosciences.com/news/bringing-hd-immunology-to-uk-biobank",
+    "source_date": "October 19, 2026",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that the first 10,000 UK Biobank samples are being funded through a UK Sovereign AI grant, which matches the claimed funding value, and it is presented as the company's own project on its own website, though it does not explicitly say the company itself received the grant."
+  }
+]

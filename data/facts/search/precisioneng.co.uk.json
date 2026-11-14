@@ -1,0 +1,52 @@
+[
+  {
+    "field": "industry",
+    "value": "Manufacture of other special-purpose machinery not elsewhere classified (SIC 28990)",
+    "quote": "Nature of business (SIC) 28990 - Manufacture of other special-purpose machinery not elsewhere classified",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/00682262",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's nature of business as SIC 28990, 'Manufacture of other special-purpose machinery not elsewhere classified', which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "15",
+    "quote": "Employees 15 (2025 accounts)",
+    "source_url": "https://www.companiesintheuk.co.uk/ltd/precision-engineers(pontefract)limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 15 (2025 accounts)' with no indication it refers to a different company, so it directly supports the claimed employee count of 15 for Precision Engineers (Pontefract) Ltd."
+  },
+  {
+    "field": "parent_company",
+    "value": "P&M PRECISION HOLDINGS LIMITED",
+    "quote": "Controlled by P&M PRECISION HOLDINGS LIMITED \u2014 since 2025-11-25",
+    "source_url": "https://www.companiesintheuk.co.uk/ltd/precision-engineers(pontefract)limited",
+    "source_date": "2025-11-25",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is controlled by P&M PRECISION HOLDINGS LIMITED since 2025-11-25, which directly indicates the parent company relationship for Precision Engineers (Pontefract) Ltd."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Registered address: South Baileygate Pontefract , WF8 2JL , United Kingdom",
+    "source_url": "https://uk.globaldatabase.com/company/precision-engineers-pontefract-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives the company's own registered address as being in the United Kingdom, which places its office in the UK and so directly supports the claimed country."
+  },
+  {
+    "field": "employees",
+    "value": "15",
+    "quote": "currently employs 15 people.",
+    "source_url": "https://uk.globaldatabase.com/company/precision-engineers-pontefract-limited",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company currently employs 15 people, which directly matches the claimed employee count of 15 for the company itself."
+  }
+]

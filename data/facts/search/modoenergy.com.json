@@ -1,0 +1,62 @@
+[
+  {
+    "field": "employees",
+    "value": "98",
+    "quote": "Employee Count 98 as on Sep 30, 2026",
+    "source_url": "https://tracxn.com/d/companies/modo-energy/__x87KBchHZ2qOnbkEizPznopcILxl8itvaY7Zka-fvA4",
+    "source_date": "Sep 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employee Count 98 as on Sep 30, 2026' without naming another company, so it directly gives the company's employee count as 98."
+  },
+  {
+    "field": "industry",
+    "value": "Platform for battery energy storage analysts",
+    "quote": "Platform for battery energy storage analysts.",
+    "source_url": "https://tracxn.com/d/companies/modo-energy/__x87KBchHZ2qOnbkEizPznopcILxl8itvaY7Zka-fvA4",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly describes Modo Energy as a platform for battery energy storage analysts, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Modo Energy is headquartered in Birmingham, United Kingdom",
+    "source_url": "https://tracxn.com/d/companies/modo-energy/__x87KBchHZ2qOnbkEizPznopcILxl8itvaY7Zka-fvA4",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Modo Energy is headquartered in Birmingham, United Kingdom, which directly places the company's own headquarters (and thus staff/offices) in the UK."
+  },
+  {
+    "field": "countries",
+    "value": "United States",
+    "quote": "The team has just opened their first US office in Austin, Texas",
+    "source_url": "https://mmc.vc/the-bloomberg-of-energy-why-we-invested-in-modo-energy/",
+    "source_date": "30.11.23",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Modo Energy's team has just opened its first US office in Austin, Texas, which directly establishes the company itself has an office (and thus staff) in the United States."
+  },
+  {
+    "field": "funding",
+    "value": "$53.3M total funding",
+    "quote": "Modo Energy has raised $53.3M in funding",
+    "source_url": "https://tracxn.com/d/companies/modo-energy/__x87KBchHZ2qOnbkEizPznopcILxl8itvaY7Zka-fvA4",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Modo Energy has raised $53.3M in funding, which directly matches the claimed total funding of $53.3M for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$15m Series A led by MMC Ventures",
+    "quote": "Now we\u2019re delighted to be leading its $15m Series A",
+    "source_url": "https://mmc.vc/the-bloomberg-of-energy-why-we-invested-in-modo-energy/",
+    "source_date": "30.11.23",
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote mentions a $15m Series A but never names MMC Ventures; the speaker only says \"we\" are leading it, so the lead investor's identity is not directly stated."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Design and manufacture of special purpose machines, jigs, fixtures, gauges and precision tooling assemblies",
+    "quote": "DESIGN AND MANUFACTURE OF SPECIAL PURPOSE MACHINES, JIGS, FIXTURES, GAUGES AND PRECISION TOOLING ASSEMBLIES",
+    "source_url": "https://precisioneng.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote is the company's own website text stating it designs and manufactures special purpose machines, jigs, fixtures, gauges and precision tooling assemblies, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "South Baileygate, Pontefract, West Yorkshire, WF8 2JL.",
+    "source_url": "https://precisioneng.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote gives a postal address in Pontefract, West Yorkshire, WF8 2JL, which is a UK address, so it indicates the company has an office in the United Kingdom."
+  }
+]

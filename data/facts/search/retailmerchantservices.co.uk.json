@@ -1,0 +1,72 @@
+[
+  {
+    "field": "parent_company",
+    "value": "Teya Europe Ltd. (owns 75% or more of shares and voting rights)",
+    "quote": "Teya Europe Ltd.",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06079704/persons-with-significant-control",
+    "source_date": "20 December 2024",
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote only names 'Teya Europe Ltd.' without stating any ownership relationship or the 75% or greater shareholding, so it does not directly establish that Teya Europe Ltd. is the parent company of Retail Merchant Services."
+  },
+  {
+    "field": "parent_company",
+    "value": "Teya",
+    "quote": "Parent Company Teya",
+    "source_url": "https://pitchbook.com/profiles/company/171001-99",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Parent Company Teya' on a page about Retail Merchant Services, which directly identifies Teya as the company's parent, matching the claimed value."
+  },
+  {
+    "field": "industry",
+    "value": "Card payment services for small businesses",
+    "quote": "Provider of card payment services intended to provide care and technology that help small businesses automate and grow.",
+    "source_url": "https://pitchbook.com/profiles/company/171001-99",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a provider of card payment services intended to help small businesses automate and grow, which directly describes what the company itself does, matching the claimed industry."
+  },
+  {
+    "field": "industry",
+    "value": "Other Financial Services",
+    "quote": "Primary Industry Other Financial Services",
+    "source_url": "https://pitchbook.com/profiles/company/171001-99",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's primary industry as Other Financial Services, directly stating the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "333",
+    "quote": "Employees 333",
+    "source_url": "https://pitchbook.com/profiles/company/171001-99",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 333' on a page about Retail Merchant Services, which directly gives the company's employee count as 333 without referring to customers or partners."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office Matrix House North Fourth Street Milton Keynes MK9 1NJ England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/171001-99",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's Corporate Office address in Milton Keynes, England, United Kingdom, which directly states the company has an office in the UK."
+  },
+  {
+    "field": "funding",
+    "value": "Investment from TCV",
+    "quote": "TCV has invested in Retail Merchant Services.",
+    "source_url": "https://pitchbook.com/profiles/company/171001-99",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that TCV has invested in Retail Merchant Services, which directly describes money the company itself received from an investor, matching the claimed funding value of investment from TCV."
+  }
+]

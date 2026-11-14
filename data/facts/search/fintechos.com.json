@@ -1,0 +1,122 @@
+[
+  {
+    "field": "employees",
+    "value": "350",
+    "quote": "Employees 350",
+    "source_url": "https://pitchbook.com/profiles/company/234727-48",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 350' without naming another company or context, and the page is the company's own site, so it directly gives the company's headcount as 350."
+  },
+  {
+    "field": "industry",
+    "value": "Financial Software",
+    "quote": "Primary Industry Financial Software",
+    "source_url": "https://pitchbook.com/profiles/company/234727-48",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly states the company's primary industry is Financial Software, which directly matches the claimed industry value for FintechOS."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office Devonshire House 60 Goswell Road London EC4N 5AF England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/234727-48",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's Corporate Office address in London, England, United Kingdom, which directly states the company itself has an office in the UK."
+  },
+  {
+    "field": "funding",
+    "value": "$166M",
+    "quote": "FintechOS has raised $166M.",
+    "source_url": "https://pitchbook.com/profiles/company/234727-48",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that FintechOS has raised $166M, which directly describes money the company itself raised, matching the claimed funding value of $166M."
+  },
+  {
+    "field": "industry",
+    "value": "Provider of AI-based software suite for the banking and insurance industry",
+    "quote": "It operates as a Provider of AI-based software suite for the banking and insurance industry",
+    "source_url": "https://tracxn.com/d/companies/fintechos/___bIdiqfH1qyHy9mYOzCK8zTEHBM7n_Y8jEwKiQ5_R1s",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that the company operates as a provider of an AI-based software suite for the banking and insurance industry, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$174M",
+    "quote": "FintechOS has raised $174M in funding from investors like Gapminder , BlackRock and Earlybird",
+    "source_url": "https://tracxn.com/d/companies/fintechos/___bIdiqfH1qyHy9mYOzCK8zTEHBM7n_Y8jEwKiQ5_R1s",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that FintechOS has raised $174M in funding from investors such as Gapminder, BlackRock and Earlybird, which directly reports the company's own funding amount."
+  },
+  {
+    "field": "employees",
+    "value": "225",
+    "quote": "Employee Count 225 as on Oct 31, 2026",
+    "source_url": "https://tracxn.com/d/companies/fintechos/___bIdiqfH1qyHy9mYOzCK8zTEHBM7n_Y8jEwKiQ5_R1s",
+    "source_date": "Oct 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employee Count 225 as on Oct 31, 2026' with no indication it refers to a different company, so it directly supports the claimed employee count of 225 for FintechOS itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Location London, United Kingdom",
+    "source_url": "https://tracxn.com/d/companies/fintechos/___bIdiqfH1qyHy9mYOzCK8zTEHBM7n_Y8jEwKiQ5_R1s",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote gives the company's own location as London, United Kingdom, which on a company page indicates where it has an office or staff."
+  },
+  {
+    "field": "countries",
+    "value": "Romania",
+    "quote": "Based in Bucharest, Romania",
+    "source_url": "https://startupintros.com/orgs/fintechos",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is based in Bucharest, Romania, which directly places the company itself in Romania and supports the countries field value Romania."
+  },
+  {
+    "field": "employees",
+    "value": "350",
+    "quote": "currently employs a global workforce of over 350 people",
+    "source_url": "https://startupintros.com/orgs/fintechos",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company currently employs a global workforce of over 350 people, which directly describes the company's own staff; the claimed value of 350 matches the stated 'over 350' figure."
+  },
+  {
+    "field": "funding",
+    "value": "$60M Series B+",
+    "quote": "FintechOS secured a $60 million Series B+ funding round backed by BlackRock, Molten Ventures, and Earlybird VC",
+    "source_url": "https://startupintros.com/orgs/fintechos",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that FintechOS itself secured a $60 million Series B+ funding round, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$75.2M",
+    "quote": "FintechOS has raised $75.2M across 3 funding rounds",
+    "source_url": "https://startupintros.com/orgs/fintechos",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that FintechOS has raised $75.2M across 3 funding rounds, which is money the company itself raised, matching the claimed funding value."
+  }
+]

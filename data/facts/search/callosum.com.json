@@ -1,0 +1,92 @@
+[
+  {
+    "field": "employees",
+    "value": "29",
+    "quote": "Callosum has 29 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/1083571-03",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Callosum has 29 total employees, directly matching the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Developer of AI-oriented compute-infrastructure technology",
+    "quote": "Developer of AI-oriented compute-infrastructure technology intended to co-evolve specialized chips and intelligence systems.",
+    "source_url": "https://pitchbook.com/profiles/company/1083571-03",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a developer of AI-oriented compute-infrastructure technology, directly matching the claimed industry value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Software that orchestrates AI workloads across different chip types",
+    "quote": "which is building software that orchestrates AI workloads across a mix of different chip types",
+    "source_url": "https://finance.yahoo.com/news/exclusive-startup-aiming-break-nvidia-050100984.html",
+    "source_date": "February 26, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is building software that orchestrates AI workloads across a mix of different chip types, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Callosum is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/1083571-03",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Callosum is headquartered in London, United Kingdom, which directly places the company's headquarters (its own offices/staff) in the UK."
+  },
+  {
+    "field": "funding",
+    "value": "$110M raised in total",
+    "quote": "Callosum has raised $110M.",
+    "source_url": "https://pitchbook.com/profiles/company/1083571-03",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Callosum has raised $110M, which directly matches the claimed total funding of $110M raised by the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "$10.25 million",
+    "quote": "has raised $10.25 million for their startup Callosum",
+    "source_url": "https://finance.yahoo.com/news/exclusive-startup-aiming-break-nvidia-050100984.html",
+    "source_date": "February 26, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that someone has raised $10.25 million for their startup Callosum, which directly describes money the company itself raised, matching the claimed funding value."
+  },
+  {
+    "field": "funding",
+    "value": "$100 million seed financing",
+    "quote": "raised $100 million in seed financing on Thursday",
+    "source_url": "https://www.techtimes.com/articles/325093/20260820/callosum-lands-100m-seed-route-ai-tasks-across-any-chip-bypassing-nvidia-monoculture.htm",
+    "source_date": "Aug 20 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company raised $100 million in seed financing, and it does not name a different company, so it refers to Callosum as the external page is about this company."
+  },
+  {
+    "field": "funding",
+    "value": "Approximately $110 million raised in total",
+    "quote": "Callosum has now raised approximately $110 million in total",
+    "source_url": "https://www.techtimes.com/articles/325093/20260820/callosum-lands-100m-seed-route-ai-tasks-across-any-chip-bypassing-nvidia-monoculture.htm",
+    "source_date": "Aug 20 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Callosum has raised approximately $110 million in total, which directly matches the claimed funding value and refers to the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "UK government research funding (grant)",
+    "quote": "The company also announced it is receiving research funding from the U.K. government",
+    "source_url": "https://finance.yahoo.com/news/exclusive-startup-aiming-break-nvidia-050100984.html",
+    "source_date": "February 26, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company announced it is receiving research funding from the U.K. government, which directly matches the claimed grant-type funding for the company itself."
+  }
+]

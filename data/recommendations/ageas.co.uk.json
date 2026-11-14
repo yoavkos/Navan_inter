@@ -1,0 +1,28 @@
+{
+  "company": "Ageas Retail",
+  "current_tier": 2,
+  "final": "yellow",
+  "priority": "normal",
+  "agreement": false,
+  "note": {
+    "headline": "🟡 Review needed",
+    "text": "Ageas Retail is part of the Ageas Group, so the declared $140,000 GBV may cover only this UK entity (ageas.co.uk). Evidence is mixed, and the employee count is unknown; check whether group-wide spend is included.",
+    "numbers_checked": true,
+    "unsupported_numbers": []
+  },
+  "rules": {
+    "color": "yellow",
+    "flags": [
+      "HAS_PARENT_COMPANY"
+    ],
+    "reasons": [
+      "Part of Ageas (insuranceage.co.uk) - declared GBV may cover only this entity."
+    ],
+    "notes": []
+  },
+  "ai": {
+    "reason": "The declared annual GBV of $140,000 falls within the Tier 2 range ($100K-$500K), and nothing in the verified research points to Tier 1 spend. The research is consistent: SIC 66220 and the insuranceage.co.uk report of 29 Aug 2024 both describe a UK home, motor and travel insurance broker, and ageas.co.uk confirms UK-only operations under the Ageas Group parent. No dated evidence shows rapid growth or a travel profile that would justify a higher tier, though the employee count is unknown.",
+    "color": "green",
+    "priority": "normal"
+  }
+}

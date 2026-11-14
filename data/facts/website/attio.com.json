@@ -1,0 +1,42 @@
+[
+  {
+    "field": "employees",
+    "value": "190+ team members",
+    "quote": "190+ team members.",
+    "source_url": "https://attio.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states '190+ team members' with no ambiguity about referring to the company's own staff, matching the claimed employee count of 190+."
+  },
+  {
+    "field": "industry",
+    "value": "CRM platform for agentic revenue",
+    "quote": "Attio: The CRM for agentic revenue",
+    "source_url": "https://attio.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Attio is 'The CRM for agentic revenue', which directly describes what the company itself sells, matching the claimed industry value of a CRM platform for agentic revenue."
+  },
+  {
+    "field": "countries",
+    "value": "London HQ, plus Europe and the US",
+    "quote": "Building from our HQ in London, and across Europe and the US.",
+    "source_url": "https://attio.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is building from its London HQ and across Europe and the US, which directly indicates the company's own offices/staff are in London, Europe and the US, matching the claimed countries value."
+  },
+  {
+    "field": "hiring",
+    "value": "24 open positions",
+    "quote": "24 open positions match the current filters.",
+    "source_url": "https://attio.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that 24 open positions match the current filters on what appears to be a careers or job listing page, which directly indicates the company is recruiting with 24 open roles, though the filter context is slightly ambiguous."
+  }
+]

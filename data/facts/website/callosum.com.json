@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "AI and compute infrastructure (intelligent systems company building infrastructure where heterogeneous chips and intelligence co-evolve)",
+    "quote": "Callosum is the Intelligent Systems Company.",
+    "source_url": "https://callosum.com",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote only states that Callosum is 'the Intelligent Systems Company', which matches the start of the claimed value but does not mention AI and compute infrastructure, heterogeneous chips, or co-evolving hardware and intelligence, so the claimed industry is not directly stated."
+  },
+  {
+    "field": "industry",
+    "value": "AI and compute company offering tailored inference APIs",
+    "quote": "Access Tailored Inference. Frontier speed, cost efficiency and performance through our APIs.",
+    "source_url": "https://callosum.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote describes offering tailored inference through APIs with frontier speed and cost efficiency, which directly implies the company sells inference API services; however it does not explicitly say 'AI and compute company', so the claimed industry is a reasonable but slightly broader paraphrase of what the company itself offers."
+  }
+]

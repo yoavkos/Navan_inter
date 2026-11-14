@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Biomaterial (VIVOMER) made through natural fermentation using plant waste",
+    "quote": "VIVOMER is a revolutionary biomaterial crafted through a natural fermentation process using plant waste.",
+    "source_url": "https://shellworks.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote describes VIVOMER, a biomaterial made by natural fermentation of plant waste, which is a product of the company; it does not explicitly state that the company itself is a biomaterial maker, but the claimed industry value closely mirrors the quote's content about the company's product."
+  },
+  {
+    "field": "countries",
+    "value": "UK, EU, US (manufacturing sites)",
+    "quote": "We\u00e2ve shipped over 8 million parts and counting, across our manufacturing sites in the UK, the EU and the US.",
+    "source_url": "https://shellworks.com",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "quote not found in source page"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Non-life insurance products for customers within the UK",
+    "quote": "Ageas UK provides non-life insurance products to customers within the UK.",
+    "source_url": "https://www.ageas.co.uk/important-information/modern-slavery-statement/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Ageas UK (a name variant of Ageas Retail) provides non-life insurance products to customers within the UK, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "parent_company",
+    "value": "Ageas Group",
+    "quote": "Ageas UK is part of the Ageas Group",
+    "source_url": "https://www.ageas.co.uk/important-information/modern-slavery-statement/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Ageas UK, a name variant of Ageas Retail on the company's own website, is part of the Ageas Group, which directly identifies the owning parent company."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "All Ageas UK staff are based in the UK",
+    "source_url": "https://www.ageas.co.uk/important-information/modern-slavery-statement/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that all Ageas UK staff are based in the UK, which directly indicates the company's own staff location is the United Kingdom, matching the claimed countries value."
+  }
+]

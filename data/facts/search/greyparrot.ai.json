@@ -1,0 +1,92 @@
+[
+  {
+    "field": "employees",
+    "value": "63",
+    "quote": "Greyparrot has 63 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/279739-00",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Greyparrot has 63 total employees, which matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "AI-powered waste analytics platform developer",
+    "quote": "Developer of an AI-powered waste analytics platform designed to enhance recycling efficiency and support circular economy initiatives.",
+    "source_url": "https://pitchbook.com/profiles/company/279739-00",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a developer of an AI-powered waste analytics platform, which directly describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "industry",
+    "value": "AI waste analytics (computer vision)",
+    "quote": "which uses computer vision for waste analytics",
+    "source_url": "https://techcrunch.com/?p=2661506",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company uses computer vision for waste analytics, which directly describes what the company itself does, matching the claimed industry of AI waste analytics using computer vision."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/279739-00",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote is only a bare location string ('England, United Kingdom') with no indication that it refers to an office or staff of the company itself, so it does not directly state the claimed value."
+  },
+  {
+    "field": "countries",
+    "value": "Netherlands",
+    "quote": "The personnel it's acquiring will remain in the Netherlands \u2014 where the U.K. startup will also (therefore) be opening its first office in mainland Europe.",
+    "source_url": "https://techcrunch.com/?p=2661506",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says the U.K. startup, which is Greyparrot, will open its first mainland European office in the Netherlands, where the acquired personnel will also remain, so it directly states the company's office location."
+  },
+  {
+    "field": "funding",
+    "value": "$62.2M total raised",
+    "quote": "Greyparrot has raised $62.2M.",
+    "source_url": "https://pitchbook.com/profiles/company/279739-00",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Greyparrot has raised $62.2M, which directly matches the claimed total funding of $62.2M for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Series B, $32.5M",
+    "quote": "Later Stage VC (Series B) 28-Jul-2026 $32.5M Completed Generating Revenue",
+    "source_url": "https://pitchbook.com/profiles/company/279739-00",
+    "source_date": "28-Jul-2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote is a funding-round entry for the company, listing a Series B round of $32.5M marked as Completed, which directly states the claimed funding value for Greyparrot itself."
+  },
+  {
+    "field": "funding",
+    "value": "$12.8M strategic investment from Bollegraaf",
+    "quote": "AI team transfer as part of $12.8M strategic investment",
+    "source_url": "https://techcrunch.com/?p=2661506",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote states a $12.8M strategic investment tied to an AI team transfer, but it does not name Bollegraaf as the investor, so the claimed source of the funding is not directly stated."
+  },
+  {
+    "field": "funding",
+    "value": "$11M Series A round, May 2022",
+    "quote": "The startup last raised a $11 million Series A round back in May 2022",
+    "source_url": "https://techcrunch.com/?p=2661506",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the startup last raised an $11 million Series A round in May 2022, which directly matches the claimed funding value for the company itself."
+  }
+]

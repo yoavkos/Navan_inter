@@ -1,0 +1,142 @@
+[
+  {
+    "field": "funding",
+    "value": "Series A round of \u00a339.4m led by IQ Capital and Molten Ventures",
+    "quote": "has closed a series A funding round of \u00a339.4m in an oversubscribed financing led by IQ Capital and Molten Ventures",
+    "source_url": "https://www.startupmag.co.uk/funding/imu-bioscience-2026-series-a-funding/",
+    "source_date": "02/06/2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company closed a series A funding round of \u00a339.4m led by IQ Capital and Molten Ventures, directly matching the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "About \u00a344.6m raised to date",
+    "quote": "To date IMU has raised about \u00a344.6m.",
+    "source_url": "https://www.startupmag.co.uk/funding/imu-bioscience-2026-series-a-funding/",
+    "source_date": "02/06/2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that IMU has raised about \u00a344.6m to date, which directly matches the claimed funding value for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Latest deal amount $53.9M (Series A)",
+    "quote": "Latest Deal Amount $53.9M",
+    "source_url": "https://pitchbook.com/profiles/company/432627-67",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote gives a latest deal amount of $53.9M for the company, but it does not mention a Series A round, so the claimed value is only partly stated."
+  },
+  {
+    "field": "funding",
+    "value": "Total raised $54.6M",
+    "quote": "IMU Biosciences has raised $54.6M.",
+    "source_url": "https://pitchbook.com/profiles/company/432627-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that IMU Biosciences has raised $54.6M, which directly matches the claimed total funding of $54.6M for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Seed round of $672K on 15-May-2019",
+    "quote": "2. Seed Round 15-May-2019 $672K $672K",
+    "source_url": "https://pitchbook.com/profiles/company/432627-67",
+    "source_date": "15-May-2019",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists a 'Seed Round' dated 15-May-2019 for $672K, which directly matches the claimed funding value and date, and it appears to be the company's own funding table."
+  },
+  {
+    "field": "funding",
+    "value": "Series A close of $53M",
+    "quote": "following our recent $53M Series A close",
+    "source_url": "https://uk.linkedin.com/company/imubiosciences",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company made a recent $53M Series A close, which directly indicates money the company itself raised, matching the claimed Series A close of $53M."
+  },
+  {
+    "field": "employees",
+    "value": "25 total employees",
+    "quote": "IMU Biosciences has 25 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/432627-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that IMU Biosciences has 25 total employees, which matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "85 employees",
+    "quote": "View 85 employees at IMU Biosciences",
+    "source_url": "https://uk.linkedin.com/company/imubiosciences",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'View 85 employees at IMU Biosciences', which directly gives the employee count of the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "Company size 11-50 employees",
+    "quote": "Company size 11-50 employees",
+    "source_url": "https://uk.linkedin.com/company/imubiosciences",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Company size 11-50 employees' with no qualifier, and since it comes from the company's own page, it directly gives the company's employee count as the claimed 11-50 range."
+  },
+  {
+    "field": "industry",
+    "value": "Online health diagnostic platform providing medical consultancy and advice",
+    "quote": "Operator of an online health diagnostic platform intended to provide medical consultancy and advice to people.",
+    "source_url": "https://pitchbook.com/profiles/company/432627-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company operates an online health diagnostic platform intended to provide medical consultancy and advice to people, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Biotechnology Research",
+    "quote": "Industry Biotechnology Research",
+    "source_url": "https://uk.linkedin.com/company/imubiosciences",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote explicitly lists the company's industry as Biotechnology Research, directly matching the claimed value for the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Corporate Office 20 Water Street Wood Wharf London E14 5GX England, United Kingdom",
+    "source_url": "https://pitchbook.com/profiles/company/432627-67",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's Corporate Office address in London, England, United Kingdom, which directly states the company itself has an office in the United Kingdom."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (London)",
+    "quote": "Primary London, GB",
+    "source_url": "https://uk.linkedin.com/company/imubiosciences",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote 'Primary London, GB' indicates the company's primary location is London, Great Britain (United Kingdom), which directly states the company's own office location, matching the claimed countries value of United Kingdom (London)."
+  },
+  {
+    "field": "hiring",
+    "value": "Hiring a Senior Software Engineer in London",
+    "quote": "We\u2019re excited to be #hiring a Senior Software Engineer",
+    "source_url": "https://uk.linkedin.com/company/imubiosciences",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote confirms IMU Biosciences is hiring a Senior Software Engineer, but it does not mention London, so the claimed location is unsupported."
+  }
+]

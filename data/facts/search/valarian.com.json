@@ -1,0 +1,102 @@
+[
+  {
+    "field": "employees",
+    "value": "32",
+    "quote": "Valarian has 32 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/459532-54",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Valarian has 32 total employees, which directly gives the claimed employee count for the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "31",
+    "quote": "Valarian has 31 employees and is headquartered in London.",
+    "source_url": "https://techfundingnews.com/every-ai-startup-in-europe-is-selling-sovereignty-valarian-just-raised-50m-to-prove-infrastructure-governance-is-different/",
+    "source_date": "July 14, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Valarian has 31 employees, which is a statement about the company itself, matching the claimed value of 31."
+  },
+  {
+    "field": "industry",
+    "value": "Network Management Software",
+    "quote": "Valarian\u2019s primary industry is Network Management Software.",
+    "source_url": "https://pitchbook.com/profiles/company/459532-54",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Valarian's primary industry is Network Management Software, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "sovereign digital infrastructure",
+    "quote": "Valarian delivers sovereign digital infrastructure that enables organisations to retain control over their data and AI.",
+    "source_url": "https://businesscloud.co.uk/news/valarian-raises-37m-to-build-uk-sovereign-ai-infrastructure/",
+    "source_date": "July 14, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Valarian itself delivers sovereign digital infrastructure, directly describing what the company does, so the claimed industry value is directly supported."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Valarian is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/459532-54",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Valarian is headquartered in London, United Kingdom, which directly places the company's headquarters (its own offices/staff) in the United Kingdom."
+  },
+  {
+    "field": "funding",
+    "value": "$50M Series A; $70M total funding",
+    "quote": "has raised $50 million in a Series A led by New Enterprise Associates, bringing total funding to $70 million.",
+    "source_url": "https://techfundingnews.com/every-ai-startup-in-europe-is-selling-sovereignty-valarian-just-raised-50m-to-prove-infrastructure-governance-is-different/",
+    "source_date": "July 14, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company raised $50 million in a Series A led by New Enterprise Associates and that total funding reached $70 million, directly matching the claimed funding values for the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "\u00a337m (US$50m) Series A",
+    "quote": "closed a \u00a337m (US$50m) funding round.",
+    "source_url": "https://cybermagazine.com/news/how-valarians-us-50m-funding-promises-sovereign-ai-for-uk",
+    "source_date": "July 20, 2026",
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote confirms a \u00a337m (US$50m) funding round closed by the company, but it does not mention a Series A round, so the claimed round type is unsupported."
+  },
+  {
+    "field": "funding",
+    "value": "\u00a337 million Series A; total investment $70m (\u00a352m)",
+    "quote": "secured a \u00a337 million Series A investment, led by US venture capital firm New Enterprise Associates (NEA).",
+    "source_url": "https://businesscloud.co.uk/news/valarian-raises-37m-to-build-uk-sovereign-ai-infrastructure/",
+    "source_date": "July 14, 2026",
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote supports the \u00a337 million Series A led by NEA, but it does not state the claimed total investment of $70m (\u00a352m), so the full claimed value is not supported."
+  },
+  {
+    "field": "funding",
+    "value": "$71.7M total raised",
+    "quote": "Valarian has raised $71.7M.",
+    "source_url": "https://pitchbook.com/profiles/company/459532-54",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Valarian has raised $71.7M, which directly describes money the company itself raised and matches the claimed total of $71.7M raised."
+  },
+  {
+    "field": "funding",
+    "value": "$7 million seed",
+    "quote": "a $7 million seed co-led by Artis Ventures, an early Palantir backer, and Scout Ventures \u2014 closed in May 2025.",
+    "source_url": "https://techfundingnews.com/every-ai-startup-in-europe-is-selling-sovereignty-valarian-just-raised-50m-to-prove-infrastructure-governance-is-different/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Valarian's (implied company's) $7 million seed round, co-led by Artis Ventures and Scout Ventures and closed in May 2025, which is a funding round the company itself raised, matching the claimed value."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "field": "employees",
+    "value": "23",
+    "quote": "Gaussion has 23 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/519075-37",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Gaussion has 23 total employees, matching the claimed employee count for the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "about 19",
+    "quote": "Gaussion is based in London and had about 19 employees as of June 2025, according to PitchBook.",
+    "source_url": "https://techfundingnews.com/gaussion-28m-tesla-investor-battery-startup/",
+    "source_date": "June 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Gaussion had about 19 employees as of June 2025, attributed to PitchBook, which matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Electrical Equipment",
+    "quote": "Gaussion\u2019s primary industry is Electrical Equipment.",
+    "source_url": "https://pitchbook.com/profiles/company/519075-37",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Gaussion's primary industry is Electrical Equipment, which matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Battery technology: charging lithium-ion batteries with an external magnetic field",
+    "quote": "The company develops technology that uses an external magnetic field to charge lithium-ion batteries faster and extend their lifespan.",
+    "source_url": "https://techfundingnews.com/gaussion-28m-tesla-investor-battery-startup/",
+    "source_date": "June 29, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company develops technology that uses an external magnetic field to charge lithium-ion batteries faster and extend their lifespan, which directly matches the claimed industry of battery technology about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Gaussion is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/519075-37",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Gaussion is headquartered in London, United Kingdom, which directly places the company's own headquarters (and thus staff/offices) in the UK."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "a London, UK-based deep tech company",
+    "source_url": "https://www.finsmes.com/2026/06/gaussion-raises-28m-in-funding.html",
+    "source_date": "June 29, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says Gaussion is a \"London, UK-based deep tech company\", which directly places the company itself in the United Kingdom and implies it has an office or staff there."
+  },
+  {
+    "field": "funding",
+    "value": "$28 million round (Series A2)",
+    "quote": "closed a $28m funding round.",
+    "source_url": "https://www.finsmes.com/2026/06/gaussion-raises-28m-in-funding.html",
+    "source_date": "June 29, 2026",
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote confirms a $28m funding round closed by the company, but it does not mention the claimed Series A2 designation, so the full claimed value is not directly stated."
+  },
+  {
+    "field": "funding",
+    "value": "$28 million",
+    "quote": "has raised $28 million to scale its battery performance technology.",
+    "source_url": "https://www.mercomindia.com/battery-tech-company-gaussion-raises-28-million-in-funding",
+    "source_date": "June 30, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company has raised $28 million to scale its battery performance technology, which directly describes money the company itself raised, matching the claimed funding value of $28 million."
+  },
+  {
+    "field": "funding",
+    "value": "more than $44 million total raised",
+    "quote": "bringing its total funding to more than $44 million.",
+    "source_url": "https://techfundingnews.com/gaussion-28m-tesla-investor-battery-startup/",
+    "source_date": "June 29, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company's total funding has been brought to more than $44 million, and since it has no other company named, it refers to Gaussion itself."
+  }
+]

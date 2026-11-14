@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Bespoke design and manufacturing solutions, including machining, fabrication, 3D printing, laser etching, CNC routing, resin casting, composite components and joinery manufacture",
+    "quote": "Creiform Ltd design and manufacture solutions located in Rotherham, south yorkshire and covering the uk provide quality, creative, individually engineered and manufactured products and solutions",
+    "source_url": "https://creiform.com",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote supports that Creiform designs and manufactures bespoke, individually engineered products, but it does not mention the specific processes claimed (machining, fabrication, 3D printing, laser etching, CNC routing, resin casting, composites, joinery)."
+  },
+  {
+    "field": "industry",
+    "value": "Bespoke design and manufacturing solutions",
+    "quote": "Creiform Ltd provide bespoke design and manufacturing solutions, we are a small family run business located in Rotherham in South Yorkshire.",
+    "source_url": "https://www.creiform.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Creiform Ltd provides bespoke design and manufacturing solutions, which directly describes what the company itself does."
+  }
+]

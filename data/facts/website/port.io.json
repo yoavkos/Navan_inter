@@ -1,0 +1,52 @@
+[
+  {
+    "field": "funding",
+    "value": "Total investment of $158M from world-leading VCs",
+    "quote": "$158M Total investment from world-leading VCs.",
+    "source_url": "https://port.io/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states '$158M Total investment from world-leading VCs' on the company's own website, which directly describes money the company itself raised, matching the claimed funding value."
+  },
+  {
+    "field": "funding",
+    "value": "$100M funding round at $800M valuation",
+    "quote": "Celebrating Our $100M Funding Round and $800M Valuation",
+    "source_url": "https://port.io/company/news",
+    "source_date": "December 11, 2025",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company celebrated a $100M funding round and $800M valuation, which directly refers to the company itself (Port) and matches the claimed funding value."
+  },
+  {
+    "field": "countries",
+    "value": "Offices in New York, Boston, San Francisco, Austin, London, Tel Aviv and Sydney (United States, United Kingdom, Israel, Australia)",
+    "quote": "7 Offices Located in New York, Boston, San Francisco, Austin, London, Tel Aviv & Sydney.",
+    "source_url": "https://port.io/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company has 7 offices located in New York, Boston, San Francisco, Austin, London, Tel Aviv and Sydney, which directly supports the claimed office locations and the countries they map to (United States, United Kingdom, Israel, Australia)."
+  },
+  {
+    "field": "industry",
+    "value": "Platform to build, govern and operate the Agentic SDLC",
+    "quote": "The platform to build, govern and operate the Agentic SDLC.",
+    "source_url": "https://port.io",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote from Port's own website states that Port is the platform to build, govern and operate the Agentic SDLC, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "hiring",
+    "value": "Actively recruiting for open positions",
+    "quote": "We\u2019re looking for bold, creative minds who move fast, challenge norms, and want to build something that matters.",
+    "source_url": "https://port.io/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote says the company is 'looking for bold, creative minds', which is recruiting language about the company itself, though it does not explicitly mention open positions."
+  }
+]

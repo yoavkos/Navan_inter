@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Recruitment business",
+    "quote": "Kellan Group is a market leading recruitment business operating across a wide range of functional disciplines and industry sectors.",
+    "source_url": "https://kellangroup.com/about-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Kellan Group is a market leading recruitment business, directly describing what the company itself does, so the claimed industry is supported."
+  },
+  {
+    "field": "hiring",
+    "value": "Company lists open vacancies including Administrator (Recruitment) and Recruitment Consultant roles",
+    "quote": "Kellan Group Vacancies Administrator (Recruitment) Permanent Recruitment Consultant, London",
+    "source_url": "https://kellangroup.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote is titled 'Kellan Group Vacancies' and lists an Administrator (Recruitment) role and a Permanent Recruitment Consultant role in London, directly showing the company itself is recruiting for these open positions."
+  },
+  {
+    "field": "hiring",
+    "value": "Company states it is committed to recruiting talented people",
+    "quote": "We are committed to recruiting talented people who can positively contribute towards the goals",
+    "source_url": "https://kellangroup.com/careers/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is committed to recruiting talented people who can contribute to its goals, which directly matches the claimed value about the company's own recruiting commitment."
+  }
+]

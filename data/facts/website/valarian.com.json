@@ -1,0 +1,52 @@
+[
+  {
+    "field": "industry",
+    "value": "Control infrastructure for high-consequence systems",
+    "quote": "Control infrastructure for high-consequence systems.",
+    "source_url": "https://valarian.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company's own industry as 'Control infrastructure for high-consequence systems,' matching the claimed value directly and without attributing it to customers or partners."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (London HQ)",
+    "quote": "Valarian HQ \u00b7 London",
+    "source_url": "https://valarian.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Valarian's headquarters is in London, which directly establishes the company's office location in the UK, supporting the claimed countries value of United Kingdom (London HQ)."
+  },
+  {
+    "field": "funding",
+    "value": "$70M raised to date",
+    "quote": "$70M Raised to date",
+    "source_url": "https://valarian.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states \"$70M Raised to date\" on the company's own website, which directly matches the claimed funding value of $70M raised to date for Valarian itself."
+  },
+  {
+    "field": "funding",
+    "value": "Series A led by NEA",
+    "quote": "a Series A led by NEA",
+    "source_url": "https://valarian.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company had 'a Series A led by NEA', which directly matches the claimed funding round led by NEA and refers to the company's own investment."
+  },
+  {
+    "field": "hiring",
+    "value": "Hiring engineers and operators",
+    "quote": "We\u2019re hiring engineers and operators.",
+    "source_url": "https://valarian.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is hiring engineers and operators, directly matching the claimed hiring value about the company itself on its own website."
+  }
+]

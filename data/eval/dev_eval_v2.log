@@ -1,0 +1,36 @@
+﻿  Attio: expected red, got red/yellow/red
+  IMU Biosciences: expected yellow, got yellow/yellow/yellow
+  NexGen Cloud: expected yellow, got yellow/yellow/yellow
+  Recraft: expected green, got green/green/green
+  Valarian: expected yellow, got yellow/yellow/yellow
+  Greyparrot: expected yellow, got yellow/yellow/yellow
+  Balfour Beatty: expected green, got green/green/green
+  Ageas Retail: expected yellow, got yellow/yellow/yellow
+  Dalkia Facilities: expected yellow, got yellow/yellow/yellow
+  Thomas Brown Engineering Ltd: expected green, got green/green/green
+  Instinct: expected yellow, got yellow/yellow/yellow
+
+=== Results (majority of 3 runs) ===
+                     company expected    got                 runs  stable
+                       Attio      red    red       red/yellow/red   False
+             IMU Biosciences   yellow yellow yellow/yellow/yellow    True
+                NexGen Cloud   yellow yellow yellow/yellow/yellow    True
+                     Recraft    green  green    green/green/green    True
+                    Valarian   yellow yellow yellow/yellow/yellow    True
+                  Greyparrot   yellow yellow yellow/yellow/yellow    True
+              Balfour Beatty    green  green    green/green/green    True
+                Ageas Retail   yellow yellow yellow/yellow/yellow    True
+           Dalkia Facilities   yellow yellow yellow/yellow/yellow    True
+Thomas Brown Engineering Ltd    green  green    green/green/green    True
+                    Instinct   yellow yellow yellow/yellow/yellow    True
+
+=== Metrics ===
+Exact color match:        100%
+False positives (unneeded flags):  0 of 3 expected green
+False negatives (missed flags):    0 of 8 expected flagged
+Red precision:            1 of 1 reds correct
+Stable across runs:       91%
+Rules-AI agreement:       82%
+Priority correct:         97%
+Notes with only supported numbers: 100%
+Unsupported facts rejected by checks: 13 of 140 (9%)

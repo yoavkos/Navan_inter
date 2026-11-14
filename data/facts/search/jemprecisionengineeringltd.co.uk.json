@@ -1,0 +1,32 @@
+[
+  {
+    "field": "employees",
+    "value": "6",
+    "quote": "Employees 6 (2026 accounts)",
+    "source_url": "https://www.companiesintheuk.co.uk/ltd/jem-precision-engineering",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 6 (2026 accounts)' for the company, directly giving the employee count as 6 for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "engineering",
+    "quote": "The principal activity of the company is engineering",
+    "source_url": "https://www.companiesintheuk.co.uk/ltd/jem-precision-engineering",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's principal activity is engineering, which directly describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "industry",
+    "value": "Machining",
+    "quote": "Nature of business (SIC) 25620 Machining",
+    "source_url": "https://www.companiesintheuk.co.uk/ltd/jem-precision-engineering",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's nature of business as SIC code 25620 Machining, which directly states the company's industry as machining."
+  }
+]

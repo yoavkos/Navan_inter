@@ -1,0 +1,52 @@
+[
+  {
+    "field": "employees",
+    "value": "around 5,300 people",
+    "quote": "Dalkia UK employs around 5,300 people across business units based solely within the United Kingdom",
+    "source_url": "https://dalkia.co.uk/information-legal/modern-slavery/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Dalkia UK, a name variant of Dalkia Facilities, employs around 5,300 people across its business units in the United Kingdom, which directly matches the claimed employee count for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Technical and energy services company in the UK",
+    "quote": "We\u2019re Dalkia, a leading technical and energy services company in the UK.",
+    "source_url": "https://dalkia.co.uk/about-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Dalkia is a leading technical and energy services company in the UK, directly describing the company's own industry and location."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "We have offices throughout the UK.",
+    "source_url": "https://dalkia.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states Dalkia has offices throughout the UK, which directly places the company's own offices in the United Kingdom."
+  },
+  {
+    "field": "parent_company",
+    "value": "EDF Group",
+    "quote": "Dalkia, a subsidiary of the EDF Group, supports its clients on their journey to net zero",
+    "source_url": "https://dalkia.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Dalkia is a subsidiary of the EDF Group, which directly identifies the company's parent company as EDF Group."
+  },
+  {
+    "field": "hiring",
+    "value": "Actively recruiting talented people",
+    "quote": "At Dalkia we are always looking for talented people, and we are committed developing our team.",
+    "source_url": "https://dalkia.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Dalkia is always looking for talented people, which directly indicates the company is actively recruiting, and it refers to the company itself."
+  }
+]

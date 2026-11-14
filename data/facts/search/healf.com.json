@@ -1,0 +1,132 @@
+[
+  {
+    "field": "industry",
+    "value": "personalized wellbeing platform",
+    "quote": "a London, UK-based provider of a personalized wellbeing platform for consumers to make informed decisions about their health and long-term wellbeing",
+    "source_url": "https://www.finsmes.com/2026/08/healf-raises-funding.html",
+    "source_date": "August 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Healf is a London-based provider of a personalized wellbeing platform, directly describing what the company itself does, which matches the claimed industry value."
+  },
+  {
+    "field": "funding",
+    "value": "undisclosed amount",
+    "quote": "raised an undisclosed amount of funding",
+    "source_url": "https://www.finsmes.com/2026/08/healf-raises-funding.html",
+    "source_date": "August 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that the company raised an undisclosed amount of funding, which directly matches the claimed funding value of an undisclosed amount for Healf itself."
+  },
+  {
+    "field": "employees",
+    "value": "fewer than 100",
+    "quote": "a team of fewer than 100 people",
+    "source_url": "https://www.finsmes.com/2026/08/healf-raises-funding.html",
+    "source_date": "August 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has 'a team of fewer than 100 people', which directly describes the size of the company's own workforce, matching the claimed value of fewer than 100 employees."
+  },
+  {
+    "field": "countries",
+    "value": "UK",
+    "quote": "a London, UK-based provider",
+    "source_url": "https://www.finsmes.com/2026/08/healf-raises-funding.html",
+    "source_date": "August 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote says Healf is a London, UK-based provider, which directly states the company's location and therefore that it has its base and staff in the UK, supporting the countries value UK."
+  },
+  {
+    "field": "funding",
+    "value": "undisclosed minority investment led by SEMCAP Beauty & Wellness",
+    "quote": "has secured an undisclosed minority investment led by SEMCAP Beauty & Wellness",
+    "source_url": "https://www.eu.vc/p/healf-undisclosed-minority-investment-personalised-wellbeing",
+    "source_date": "Aug 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Healf has secured an undisclosed minority investment led by SEMCAP Beauty & Wellness, which directly matches the claimed funding value about the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "personalised wellbeing platform",
+    "quote": "London-based personalised wellbeing platform",
+    "source_url": "https://www.eu.vc/p/healf-undisclosed-minority-investment-personalised-wellbeing",
+    "source_date": "Aug 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote describes Healf as a London-based personalised wellbeing platform, which directly states the claimed industry value about the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "fewer than 100",
+    "quote": "with fewer than 100 employees",
+    "source_url": "https://www.eu.vc/p/healf-undisclosed-minority-investment-personalised-wellbeing",
+    "source_date": "Aug 31, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company has fewer than 100 employees, and since it names no other company, the default rule attributes it to Healf, though it is a bare fragment with no explicit subject."
+  },
+  {
+    "field": "industry",
+    "value": "curated wellness marketplace",
+    "quote": "Healf is a UK-based curated wellness marketplace",
+    "source_url": "https://techround.co.uk/startups/startup-of-the-week-healf/",
+    "source_date": "August 25, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Healf is a UK-based curated wellness marketplace, directly describing what the company itself is, which matches the claimed industry value."
+  },
+  {
+    "field": "industry",
+    "value": "Specialty Retail",
+    "quote": "Healf\u2019s primary industry is Specialty Retail.",
+    "source_url": "https://pitchbook.com/profiles/company/489713-68",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Healf's primary industry is Specialty Retail, which is a statement about the company itself rather than its customers or market."
+  },
+  {
+    "field": "employees",
+    "value": "100",
+    "quote": "Healf has 100 total employees.",
+    "source_url": "https://pitchbook.com/profiles/company/489713-68",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Healf has 100 total employees, which directly matches the claimed employee count of 100 for the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom (London headquarters)",
+    "quote": "Healf is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/489713-68",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Healf is headquartered in London, United Kingdom, which directly places the company's headquarters (and thus its offices/staff) in the UK, matching the claimed value."
+  },
+  {
+    "field": "funding",
+    "value": "Series B, 31-Aug-2026",
+    "quote": "5. Later Stage VC (Series B) 31-Aug-2026",
+    "source_url": "https://pitchbook.com/profiles/company/489713-68",
+    "source_date": "31-Aug-2026",
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote is a fragmentary list item reading 'Later Stage VC (Series B) 31-Aug-2026' that does not name Healf or clearly state that the company itself raised a Series B round, so it does not directly support the claim."
+  },
+  {
+    "field": "funding",
+    "value": "$4.55M total raised",
+    "quote": "Healf has raised $4.55M.",
+    "source_url": "https://pitchbook.com/profiles/company/489713-68",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Healf has raised $4.55M, which directly matches the claimed total funding of $4.55M for the company itself."
+  }
+]

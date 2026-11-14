@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Assignment files (not ours to publish)
+*.csv
+*.pdf
+
+# Full copies of web pages
+data/pages/
+data/search_pages/
+
+# Local secrets
+.env
+
+# Personal drafts
+notes

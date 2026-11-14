@@ -1,0 +1,22 @@
+[
+  {
+    "field": "industry",
+    "value": "Sub-contract precision machining (machine shop producing precision machined components)",
+    "quote": "We specialise in producing 1 offs and small batch work of high quality precision machined components.",
+    "source_url": "https://jemprecisionengineeringltd.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company specialises in producing one-off and small batch precision machined components, which directly describes it as a precision machining business, matching the claimed sub-contract machining industry."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "We are a small sub-contract machine shop based in Taunton, Somerset, UK.",
+    "source_url": "https://jemprecisionengineeringltd.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is based in Taunton, Somerset, UK, which directly places the company's own operations in the United Kingdom."
+  }
+]

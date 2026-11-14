@@ -1,0 +1,52 @@
+[
+  {
+    "field": "industry",
+    "value": "Full-stack AI cloud platform providing sustainable AI solutions at scale",
+    "quote": "we\u2019re the full-stack AI cloud platform, providing sustainable AI solutions at scale.",
+    "source_url": "https://www.nexgencloud.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that NexGen Cloud is the full-stack AI cloud platform providing sustainable AI solutions at scale, directly describing what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom, Spain",
+    "quote": "NexGen Cloud\u2019s headquarters are in London, UK, with a second office in Marbella, Spain.",
+    "source_url": "https://www.nexgencloud.com/careers",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states NexGen Cloud's headquarters are in London, UK, and a second office is in Marbella, Spain, which directly describes the company's own office locations matching the claimed countries United Kingdom and Spain."
+  },
+  {
+    "field": "funding",
+    "value": "$45 million Series A round",
+    "quote": "has closed its Series A round, raising $45 ...",
+    "source_url": "https://www.nexgencloud.com/news",
+    "source_date": "April 8, 2025",
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote is truncated at \"$45 ...\", so it does not show whether the amount is $45 million, and it is not clearly the company's own round."
+  },
+  {
+    "field": "funding",
+    "value": "$34M three-year non-recourse facility to finance GPU fleet",
+    "quote": "USD.AI Provides $34M Facility to Finance NexGen Cloud's GPU ...",
+    "source_url": "https://www.nexgencloud.com/news",
+    "source_date": "June 25, 2026",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that USD.AI provides a $34M facility to finance NexGen Cloud's GPU fleet, which matches the claimed amount and is money the company itself obtained, though the 'three-year non-recourse' terms are cut off and not visible in the quote."
+  },
+  {
+    "field": "hiring",
+    "value": "Company is recruiting, with open career opportunities",
+    "quote": "We\u2019re Hiring!",
+    "source_url": "https://www.nexgencloud.com/about",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote \"We're Hiring!\" is a direct statement from the company's own website that it is currently recruiting, which matches the claimed value of open career opportunities."
+  }
+]

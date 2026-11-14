@@ -1,0 +1,52 @@
+[
+  {
+    "field": "industry",
+    "value": "AI platform for financial product operations",
+    "quote": "FintechOS is the AI platform for financial product operations.",
+    "source_url": "https://fintechos.com/in-the-news/fintechos-launches-the-customer-technology-preview-of-fintechos-8-bringing-governed-ai-into-financial-product-operations/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that FintechOS is the AI platform for financial product operations, which directly describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom, United States",
+    "quote": "FintechOS is headquartered in London with offices in New York, Bucharest and Amsterdam.",
+    "source_url": "https://fintechos.com/in-the-news/fintechos-launches-the-customer-technology-preview-of-fintechos-8-bringing-governed-ai-into-financial-product-operations/",
+    "source_date": "Thu, 9 Apr 2026 6:09 AM",
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that FintechOS is headquartered in London and has an office in New York, confirming the United Kingdom and United States as countries where the company itself has offices, though it also lists Bucharest and Amsterdam, which the claimed value omits."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom, United States",
+    "quote": "Headquartered in New York and London",
+    "source_url": "https://fintechos.com/about-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company is headquartered in New York and London, which directly places its offices in the United States and United Kingdom."
+  },
+  {
+    "field": "funding",
+    "value": "$28M in combined equity and debt financing",
+    "quote": "FintechOS Secures $28M in Combined Equity and Debt Financing",
+    "source_url": "https://fintechos.com/about-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that FintechOS secured $28M in combined equity and debt financing, which is a funding round raised by the company itself and matches the claimed value."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles, including Sales Operations Lead, Director of Analyst Relations, and Account Manager",
+    "quote": "We are looking for a Sales Operations Lead who wants to build, influence, and leave a visible mark.",
+    "source_url": "https://fintechos.com/careers/",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote shows the company is recruiting for a Sales Operations Lead, which supports hiring, but it does not mention a Director of Analyst Relations or an Account Manager, so the full claimed value is not directly stated."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "field": "industry",
+    "value": "Subcontract precision sheet metal work and light fabrications",
+    "quote": "Subcontract Precision Sheet Metal Work & Light Fabrications",
+    "source_url": "https://ackermanengineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states the company's offering as subcontract precision sheet metal work and light fabrications, which directly matches the claimed industry value and is about what the company itself does."
+  },
+  {
+    "field": "hiring",
+    "value": "Currently recruiting",
+    "quote": "WE'RE RECRUITING! CLICK HERE FOR DETAILS OF OUR CURRENT VACANCIES",
+    "source_url": "https://ackermanengineering.co.uk",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote from the company's own website states 'WE'RE RECRUITING!' and points to current vacancies, directly supporting that Ackerman Engineering Ltd is currently recruiting."
+  },
+  {
+    "field": "hiring",
+    "value": "Open role: Welder Fabricator",
+    "quote": "CURRENT VACANCIES Welder Fabricator",
+    "source_url": "https://ackermanengineering.co.uk/careers/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote lists 'CURRENT VACANCIES' followed by 'Welder Fabricator' on the company's own website, which directly indicates an open role for that position at the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "UK",
+    "quote": "Ackerman Engineering Ltd Corbin Way Gore Cross Business Park Bridport Dorset DT6 3UX",
+    "source_url": "https://ackermanengineering.co.uk/contact-us/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote gives the company's registered business address in Bridport, Dorset (DT postcode), which is in the United Kingdom, so it directly indicates the company has an office in the UK."
+  }
+]

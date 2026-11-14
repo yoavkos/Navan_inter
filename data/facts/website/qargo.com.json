@@ -1,0 +1,32 @@
+[
+  {
+    "field": "industry",
+    "value": "Intelligent transport management platform",
+    "quote": "Qargo is the intelligent transport management platform",
+    "source_url": "https://qargo.com",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote directly states that Qargo is the intelligent transport management platform, which describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "London, Ghent, Chicago (office locations)",
+    "quote": "with offices in London, Ghent and Chicago",
+    "source_url": "https://qargo.com/contact/",
+    "source_date": null,
+    "source": "website",
+    "status": "verified",
+    "reason": "The quote states that Qargo has offices in London, Ghent and Chicago, which directly describes the company's own office locations, matching the claimed countries field value."
+  },
+  {
+    "field": "hiring",
+    "value": "Open roles listed on the about page",
+    "quote": "View open roles",
+    "source_url": "https://qargo.com/resources/about/",
+    "source_date": null,
+    "source": "website",
+    "status": "rejected",
+    "reason": "The quote 'View open roles' shows the company has open positions, but it does not say those roles are listed on the about page, which is a specific part of the claimed value."
+  }
+]

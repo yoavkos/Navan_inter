@@ -1,0 +1,52 @@
+[
+  {
+    "field": "industry",
+    "value": "Manufacture of other general-purpose machinery not elsewhere classified (SIC 28290)",
+    "quote": "28290 - Manufacture of other general-purpose machinery not elsewhere classified",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/05083015",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists SIC code 28290 with the description 'Manufacture of other general-purpose machinery not elsewhere classified', which matches the claimed industry value, and it is presented as the classification of the company's own activity from its page about this company."
+  },
+  {
+    "field": "employees",
+    "value": "16",
+    "quote": "Latest Employee Count 16 as on Mar 31, 2025",
+    "source_url": "https://tracxn.com/d/legal-entities/united-kingdom/thomas-brown-engineering-limited/__Y_3v6s8eApUQe6ds9cP0Cp38mhd9ZM1CLosNac8w2MU",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's latest employee count is 16 as of Mar 31, 2025, which directly matches the claimed value for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Manufacturer of precision-machined components for diverse industries",
+    "quote": "Manufacturer of precision-machined components for diverse industries",
+    "source_url": "https://tracxn.com/d/legal-entities/united-kingdom/thomas-brown-engineering-limited/__Y_3v6s8eApUQe6ds9cP0Cp38mhd9ZM1CLosNac8w2MU",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company is a manufacturer of precision-machined components for diverse industries, which directly describes what the company itself does and matches the claimed industry value."
+  },
+  {
+    "field": "funding",
+    "value": "Unfunded",
+    "quote": "Unfunded",
+    "source_url": "https://tracxn.com/d/legal-entities/united-kingdom/thomas-brown-engineering-limited/__Y_3v6s8eApUQe6ds9cP0Cp38mhd9ZM1CLosNac8w2MU",
+    "source_date": null,
+    "source": "search",
+    "status": "rejected",
+    "reason": "The quote consists only of the word 'Unfunded' with no indication it refers to Thomas Brown Engineering Ltd or its own funding history, so it does not clearly state the company itself is unfunded."
+  },
+  {
+    "field": "industry",
+    "value": "Manufacture of high quality, precision made components for food & drink, oil & gas, medical, aerospace and industrial sectors",
+    "quote": "We manufacture high quality, precision made components to food & drink, oil & gas, medical, aerospace and industrial sectors in the UK and abroad.",
+    "source_url": "https://btma.org/supplier-profile.php?id=122",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company itself manufactures high quality, precision made components for food & drink, oil & gas, medical, aerospace and industrial sectors, which directly matches the claimed industry value."
+  }
+]

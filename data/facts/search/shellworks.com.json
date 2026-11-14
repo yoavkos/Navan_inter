@@ -1,0 +1,152 @@
+[
+  {
+    "field": "employees",
+    "value": "41",
+    "quote": "Employees 41",
+    "source_url": "https://pitchbook.com/profiles/company/437793-31",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 41' on a page about Shellworks itself, directly giving the company's employee count as 41, which matches the claimed value."
+  },
+  {
+    "field": "industry",
+    "value": "Biotechnology",
+    "quote": "Primary Industry Biotechnology",
+    "source_url": "https://pitchbook.com/profiles/company/437793-31",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's primary industry is Biotechnology, which directly matches the claimed industry value about the company itself."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Shellworks is headquartered in London, United Kingdom.",
+    "source_url": "https://pitchbook.com/profiles/company/437793-31",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Shellworks is headquartered in London, United Kingdom, which directly places the company's headquarters (its own offices/staff) in the UK."
+  },
+  {
+    "field": "funding",
+    "value": "Series A, $15M",
+    "quote": "7. Later Stage VC (Series A) 09-Mar-2026 $15M Completed Generating Revenue",
+    "source_url": "https://pitchbook.com/profiles/company/437793-31",
+    "source_date": "09-Mar-2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists a completed Later Stage VC (Series A) round of $15M dated 09-Mar-2026, and since it carries no other company name it is taken to describe Shellworks, though the list context is somewhat ambiguous."
+  },
+  {
+    "field": "funding",
+    "value": "$22.1M raised in total",
+    "quote": "Shellworks has raised $22.1M.",
+    "source_url": "https://pitchbook.com/profiles/company/437793-31",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states Shellworks has raised $22.1M, which directly matches the claimed total funding of $22.1M raised by the company itself."
+  },
+  {
+    "field": "employees",
+    "value": "22",
+    "quote": "Employee Count 22 as on Dec 31, 2025",
+    "source_url": "https://tracxn.com/d/companies/shellworks/__xN0TgRd678-iXqcZH1XenZ0k8iD4IfnSXYzYCvmkzrg",
+    "source_date": "Dec 31, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's employee count is 22 as of Dec 31, 2025, which directly gives the claimed value for the company itself."
+  },
+  {
+    "field": "industry",
+    "value": "Manufacturer of plastic-free packaging and consumer goods made from biomaterials",
+    "quote": "It operates as a Manufacturer of plastic-free packaging and consumer goods made from biomaterials",
+    "source_url": "https://tracxn.com/d/companies/shellworks/__xN0TgRd678-iXqcZH1XenZ0k8iD4IfnSXYzYCvmkzrg",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Shellworks operates as a manufacturer of plastic-free packaging and consumer goods made from biomaterials, directly describing what the company itself does, which matches the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Location London, United Kingdom",
+    "source_url": "https://tracxn.com/d/companies/shellworks/__xN0TgRd678-iXqcZH1XenZ0k8iD4IfnSXYzYCvmkzrg",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's location as London, United Kingdom, which directly indicates the company itself has an office or base in the United Kingdom, matching the claimed countries value."
+  },
+  {
+    "field": "funding",
+    "value": "$22.1M raised in total",
+    "quote": "Shellworks has raised $22.1M in funding from Alter Equity and LocalGlobe",
+    "source_url": "https://tracxn.com/d/companies/shellworks/__xN0TgRd678-iXqcZH1XenZ0k8iD4IfnSXYzYCvmkzrg",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Shellworks has raised $22.1M in funding from Alter Equity and LocalGlobe, which directly describes the company's own fundraising and matches the claimed total of $22.1M raised."
+  },
+  {
+    "field": "funding",
+    "value": "Series A round on Oct 13, 2025",
+    "quote": "Latest Funding Round Series A, Oct 13, 2025",
+    "source_url": "https://tracxn.com/d/companies/shellworks/__xN0TgRd678-iXqcZH1XenZ0k8iD4IfnSXYzYCvmkzrg",
+    "source_date": "Oct 13, 2025",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states the company's latest funding round was Series A on Oct 13, 2025, which directly matches the claimed funding value for Shellworks itself."
+  },
+  {
+    "field": "employees",
+    "value": "11-50",
+    "quote": "Employees 11-50",
+    "source_url": "https://o.parsers.vc/startup/theshellworks.com/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states 'Employees 11-50' with no qualifier, and per the instructions, statements without a company name refer to Shellworks, so it directly gives the company's employee count as the claimed range."
+  },
+  {
+    "field": "industry",
+    "value": "Sustainable alternatives to plastic packaging",
+    "quote": "The Shellworks creates truly sustainable alternatives to plastic packaging.",
+    "source_url": "https://o.parsers.vc/startup/theshellworks.com/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Shellworks creates sustainable alternatives to plastic packaging, which directly describes what the company itself does, matching the claimed industry value."
+  },
+  {
+    "field": "countries",
+    "value": "United Kingdom",
+    "quote": "Location United Kingdom, England, London",
+    "source_url": "https://o.parsers.vc/startup/theshellworks.com/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote lists the company's location as United Kingdom, England, London, which directly states the company itself is located in the UK, supporting the countries field claim."
+  },
+  {
+    "field": "funding",
+    "value": "$21.31M raised in total across 2 rounds",
+    "quote": "Shellworks has raised $21.31M in total across 2 funding rounds.",
+    "source_url": "https://o.parsers.vc/startup/theshellworks.com/",
+    "source_date": null,
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote directly states that Shellworks has raised $21.31M in total across 2 funding rounds, matching the claimed funding value about the company itself."
+  },
+  {
+    "field": "funding",
+    "value": "Series A of $15 million",
+    "quote": "Shellworks has raised $15 million in a Series A funding round led by Paris-based impact investment fund alter equity.",
+    "source_url": "https://o.parsers.vc/startup/theshellworks.com/",
+    "source_date": "Mar 4, 2026",
+    "source": "search",
+    "status": "verified",
+    "reason": "The quote states that Shellworks raised $15 million in a Series A funding round, which directly matches the claimed funding value about the company itself."
+  }
+]
